@@ -73,6 +73,10 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/alanjui/.local/share/nvim/site/pack/packer/start/LuaSnip"
   },
+  ["auto-pairs"] = {
+    loaded = true,
+    path = "/home/alanjui/.local/share/nvim/site/pack/packer/start/auto-pairs"
+  },
   ["cmp-nvim-lsp"] = {
     loaded = true,
     path = "/home/alanjui/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp"
@@ -85,6 +89,10 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/alanjui/.local/share/nvim/site/pack/packer/start/nvim-cmp"
   },
+  ["nvim-comment"] = {
+    loaded = true,
+    path = "/home/alanjui/.local/share/nvim/site/pack/packer/start/nvim-comment"
+  },
   ["nvim-lspconfig"] = {
     loaded = true,
     path = "/home/alanjui/.local/share/nvim/site/pack/packer/start/nvim-lspconfig"
@@ -92,6 +100,10 @@ _G.packer_plugins = {
   ["packer.nvim"] = {
     loaded = true,
     path = "/home/alanjui/.local/share/nvim/site/pack/packer/start/packer.nvim"
+  },
+  ["vim-better-whitespace"] = {
+    loaded = true,
+    path = "/home/alanjui/.local/share/nvim/site/pack/packer/start/vim-better-whitespace"
   }
 }
 

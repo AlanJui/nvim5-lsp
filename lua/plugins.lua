@@ -11,11 +11,23 @@ return require('packer').startup(function(use)
   -- Packer can manage itself
   use 'wbthomason/packer.nvim'
 
-  use 'neovim/nvim-lspconfig' -- Collection of configurations for built-in LSP client
-  use 'hrsh7th/nvim-cmp' -- Autocompletion plugin
-  use 'hrsh7th/cmp-nvim-lsp' -- LSP source for nvim-cmp
-  use 'saadparwaiz1/cmp_luasnip' -- Snippets source for nvim-cmp
-  use 'L3MON4D3/LuaSnip' -- Snippets plugin
+  -- Collection of configurations for built-in LSP client
+  use 'neovim/nvim-lspconfig'
+  -- Autocompletion plugin
+  use 'hrsh7th/nvim-cmp'
+  -- LSP source for nvim-cmp
+  use 'hrsh7th/cmp-nvim-lsp'
+  -- Snippets source for nvim-cmp
+  use 'saadparwaiz1/cmp_luasnip'
+  -- Snippets plugin
+  use 'L3MON4D3/LuaSnip'
+
+  -- Toggle comments in Neovim
+  use 'terrortylor/nvim-comment'
+  -- causes all trailing whitespace characters to be highlighted
+  use 'ntpeters/vim-better-whitespace'
+  -- Auto close parentheses and repeat by dot dot dot...
+  use 'jiangmiao/auto-pairs'
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins

@@ -1,0 +1,11 @@
+{
+  "myClass": {
+    "prefix": "myClass",
+    "body": [
+      "class ${1:ClassName}(${2:Parameter}):",
+      "\t\t$3",
+      "\tpass"
+    ],
+    "description": "宣告類別"
+  }
+}
