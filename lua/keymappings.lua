@@ -16,7 +16,8 @@ map('n', 'X',     'd$',    opts)
 map('n', 'Y',     'y$',    opts)
 
 map('n', '<LocalLeader>ci', ':e ~/.config/nvim/init.lua<CR>', opts)
-map('n', '<LocalLeader>cI', ':e ~/.config/nvim/lua/plugins.lua<CR>', opts)
+map('n', '<LocalLeader>cl', ':e ~/.config/nvim/lua/lsp/init.lua<CR>', opts)
+map('n', '<LocalLeader>cp', ':e ~/.config/nvim/lua/plugins.lua<CR>', opts)
 map('n', '<LocalLeader>ck', ':e ~/.config/nvim/lua/keymappings.lua<CR>',opts)
 map('n', '<LocalLeader>w',  ':w<CR>', opts)
 map('n', '<C-s>',           ':w<CR>', opts)
@@ -56,7 +57,6 @@ nmap <S-right> <C-w>>
 nmap <S-up>    <C-w>+
 nmap <S-down>  <C-w>-
 ]])
-
 
 -- 調整視窗的寬度／高度
 -- 指令：resize (res)
