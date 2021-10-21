@@ -77,13 +77,29 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/alanjui/.local/share/nvim/site/pack/packer/start/auto-pairs"
   },
+  ["cmp-buffer"] = {
+    loaded = true,
+    path = "/home/alanjui/.local/share/nvim/site/pack/packer/start/cmp-buffer"
+  },
   ["cmp-nvim-lsp"] = {
     loaded = true,
     path = "/home/alanjui/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp"
   },
+  ["cmp-vsnip"] = {
+    loaded = true,
+    path = "/home/alanjui/.local/share/nvim/site/pack/packer/start/cmp-vsnip"
+  },
   cmp_luasnip = {
     loaded = true,
     path = "/home/alanjui/.local/share/nvim/site/pack/packer/start/cmp_luasnip"
+  },
+  ["friendly-snippets"] = {
+    loaded = true,
+    path = "/home/alanjui/.local/share/nvim/site/pack/packer/start/friendly-snippets"
+  },
+  ["lightline.vim"] = {
+    loaded = true,
+    path = "/home/alanjui/.local/share/nvim/site/pack/packer/start/lightline.vim"
   },
   ["nvim-cmp"] = {
     loaded = true,
@@ -97,6 +113,14 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/alanjui/.local/share/nvim/site/pack/packer/start/nvim-lspconfig"
   },
+  ["nvim-treesitter"] = {
+    loaded = true,
+    path = "/home/alanjui/.local/share/nvim/site/pack/packer/start/nvim-treesitter"
+  },
+  ["nvim-treesitter-textobjects"] = {
+    loaded = true,
+    path = "/home/alanjui/.local/share/nvim/site/pack/packer/start/nvim-treesitter-textobjects"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/home/alanjui/.local/share/nvim/site/pack/packer/start/packer.nvim"
@@ -104,6 +128,14 @@ _G.packer_plugins = {
   ["vim-better-whitespace"] = {
     loaded = true,
     path = "/home/alanjui/.local/share/nvim/site/pack/packer/start/vim-better-whitespace"
+  },
+  ["vim-vsnip"] = {
+    loaded = true,
+    path = "/home/alanjui/.local/share/nvim/site/pack/packer/start/vim-vsnip"
+  },
+  ["vim-vsnip-integ"] = {
+    loaded = true,
+    path = "/home/alanjui/.local/share/nvim/site/pack/packer/start/vim-vsnip-integ"
   }
 }
 

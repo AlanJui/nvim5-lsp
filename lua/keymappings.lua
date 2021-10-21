@@ -22,6 +22,8 @@ map('n', '<LocalLeader>ck', ':e ~/.config/nvim/lua/keymappings.lua<CR>',opts)
 map('n', '<LocalLeader>w',  ':w<CR>', opts)
 map('n', '<C-s>',           ':w<CR>', opts)
 map('n', '<C-q>',           ':q!<CR>', opts)
+map('n', '\\',              ':Explore<CR>', opts)
+map('n', '<LocalLeader>f',  ':!ls<CR>:e', opts)
 
 -- 搬移整行文字
 -- map('n', '<A-j>', ':m .+1<CR>', { noremap=true })

@@ -8,6 +8,9 @@ if fn.empty(fn.glob(install_path)) > 0 then
 end
 
 return require('packer').startup(function(use)
+  -- ===========================================================
+  -- Essential
+  -- ===========================================================
   -- Packer can manage itself
   use 'wbthomason/packer.nvim'
 
@@ -15,19 +18,34 @@ return require('packer').startup(function(use)
   use 'neovim/nvim-lspconfig'
   -- Autocompletion plugin
   use 'hrsh7th/nvim-cmp'
-  -- LSP source for nvim-cmp
+  use 'hrsh7th/cmp-buffer'
   use 'hrsh7th/cmp-nvim-lsp'
-  -- Snippets source for nvim-cmp
-  use 'saadparwaiz1/cmp_luasnip'
-  -- Snippets plugin
+	-- Snippet for vim-vsnip
+  use 'hrsh7th/vim-vsnip'
+	use 'hrsh7th/vim-vsnip-integ'
+  use 'hrsh7th/cmp-vsnip'
+	use 'rafamadriz/friendly-snippets'
+  -- Snippet for LuaSnip
   use 'L3MON4D3/LuaSnip'
+  use 'saadparwaiz1/cmp_luasnip'
 
+  -- Highlight, edit, and navigate code using a fast incremental parsing library
+  use 'nvim-treesitter/nvim-treesitter'
+  -- Additional textobjects for treesitter
+  use 'nvim-treesitter/nvim-treesitter-textobjects'
   -- Toggle comments in Neovim
   use 'terrortylor/nvim-comment'
   -- causes all trailing whitespace characters to be highlighted
   use 'ntpeters/vim-better-whitespace'
   -- Auto close parentheses and repeat by dot dot dot...
   use 'jiangmiao/auto-pairs'
+
+  -- ===========================================================
+  -- User Interface
+  -- ===========================================================
+  -- Status Line
+  use 'itchyny/lightline.vim' -- Fancier statusline
+
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
