@@ -101,6 +101,10 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/alanjui/.local/share/nvim/site/pack/packer/start/lightline.vim"
   },
+  ["lspsaga.nvim"] = {
+    loaded = true,
+    path = "/home/alanjui/.local/share/nvim/site/pack/packer/start/lspsaga.nvim"
+  },
   ["nvim-cmp"] = {
     loaded = true,
     path = "/home/alanjui/.local/share/nvim/site/pack/packer/start/nvim-cmp"

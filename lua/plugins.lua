@@ -28,6 +28,8 @@ return require('packer').startup(function(use)
   -- Snippet for LuaSnip
   use 'L3MON4D3/LuaSnip'
   use 'saadparwaiz1/cmp_luasnip'
+	-- LSP UI Tools
+	use 'glepnir/lspsaga.nvim'
 
   -- Highlight, edit, and navigate code using a fast incremental parsing library
   use 'nvim-treesitter/nvim-treesitter'
