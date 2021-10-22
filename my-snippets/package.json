@@ -1,0 +1,48 @@
+{
+  "name": "ccc-snippets",
+  "engines": {
+    "vscode": "^1.11.0"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": [
+          "plaintext",
+          "django",
+          "htmldjango",
+          "html",
+          "global"
+        ],
+        "path": "./global.json"
+      },
+      {
+        "language": "html",
+        "path": "./ccc_html.json"
+      },
+      {
+				"language": [
+					"html",
+					"htmldjango"
+				] ,
+        "path": "./htmldjango.json"
+      },
+      {
+        "language": [
+          "javascript",
+          "typescript",
+          "javascriptreact",
+          "typescriptreact"
+        ],
+        "path": "./javascript.json"
+      },
+      {
+        "language": "python",
+        "path": "./django.json"
+      },
+      {
+        "language": "python",
+        "path": "./python.json"
+      }
+    ]
+  }
+}

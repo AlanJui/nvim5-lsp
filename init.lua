@@ -32,10 +32,6 @@ require('lsp')
 -- path: ~/.config/nvim/after/plugin/<PluginName>.rc.vim
 -- path: ~/.config/nvim/after/plugin/<PluginName>.lua
 
--- Snippets
--- require('snippet/LuaSnip')
-require('snippet/vim-vsnip')
-
 -- =======================================================================
 -- Keymappings
 -- =======================================================================
@@ -47,8 +43,8 @@ require('keymappings')
 
 -- Themes
 vim.o.termguicolors = true
--- vim.cmd([[ run time ./colors/NeoSolarized.vim ]])
-vim.cmd([[ run time ./colors/solarized_true.vim ]])
+vim.cmd([[ run time ./colors/NeoSolarized.vim ]])
+-- vim.cmd([[ run time ./colors/solarized_true.vim ]])
 
 -- Display Line Number
 vim.cmd([[ set number relativenumber ]])

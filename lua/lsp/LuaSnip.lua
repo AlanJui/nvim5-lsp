@@ -72,7 +72,7 @@ cmp.setup {
 -- 	)
 -- }
 local servers = {
-	'clangd', 'rust_analyzer', 'pyright', 'tsserver', 'html', 'emmet_ls', 'jsonls'
+	'clangd', 'rust_analyzer', 'pyright', 'tsserver', 'emmet_ls', 'jsonls'
 }
 for _, lsp in ipairs(servers) do
   nvim_lsp[lsp].setup {
@@ -82,10 +82,33 @@ for _, lsp in ipairs(servers) do
   }
 end
 
--- Load snippets from my-snippets folder
-require("luasnip/loaders/from_vscode").load(
-	{
-		paths = { "/home/alanjui/.config/nvim/my-snippets" }
-	}
-)
+--[[
+-- Beside defining your own snippets you can also load snippets from "vscode-like" packages
+-- that expose snippets in json files, for example <https://github.com/rafamadriz/friendly-snippets>.
+-- Mind that this will extend  `ls.snippets` so you need to do it after your own snippets or you
+-- will need to extend the table yourself instead of setting a new one.
+--
+-- paths = { "/home/alanjui/.config/nvim/my-snippets" }
+]]
+-- [Method 1]
+-- require("luasnip/loaders/from_vscode").lazy_load()
 
+-- [Method 2]
+-- require("luasnip/loaders/from_vscode").lazy_load({ path = "./my-snippets" })
+
+-- [Method 3]
+-- require("luasnip/loaders/from_vscode").load({
+--   paths = {
+-- 		"~/.local/share/nvim/site/pack/packer/start/friendly-snippets",
+--     "./my-snippets",
+--   }
+-- })
+
+-- [Method 4]
+require("luasnip/loaders/from_vscode").load({
+  include = {"python", "django", "html", "htmldjango", "javascript", "typescript"},
+  paths = {
+		"~/.config/nvim/my-snippets",
+		"~/.local/share/nvim/site/pack/packer/start/friendly-snippets",
+  }
+})
