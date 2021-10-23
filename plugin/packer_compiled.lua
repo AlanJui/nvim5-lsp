@@ -97,13 +97,13 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/alanjui/.local/share/nvim/site/pack/packer/start/friendly-snippets"
   },
-  ["lightline.vim"] = {
-    loaded = true,
-    path = "/home/alanjui/.local/share/nvim/site/pack/packer/start/lightline.vim"
-  },
   ["lspsaga.nvim"] = {
     loaded = true,
     path = "/home/alanjui/.local/share/nvim/site/pack/packer/start/lspsaga.nvim"
+  },
+  ["lualine.nvim"] = {
+    loaded = true,
+    path = "/home/alanjui/.local/share/nvim/site/pack/packer/start/lualine.nvim"
   },
   ["nvim-cmp"] = {
     loaded = true,
@@ -117,6 +117,10 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/alanjui/.local/share/nvim/site/pack/packer/start/nvim-lspconfig"
   },
+  ["nvim-lspinstall"] = {
+    loaded = true,
+    path = "/home/alanjui/.local/share/nvim/site/pack/packer/start/nvim-lspinstall"
+  },
   ["nvim-treesitter"] = {
     loaded = true,
     path = "/home/alanjui/.local/share/nvim/site/pack/packer/start/nvim-treesitter"
@@ -124,6 +128,10 @@ _G.packer_plugins = {
   ["nvim-treesitter-textobjects"] = {
     loaded = true,
     path = "/home/alanjui/.local/share/nvim/site/pack/packer/start/nvim-treesitter-textobjects"
+  },
+  ["nvim-web-devicons"] = {
+    loaded = true,
+    path = "/home/alanjui/.local/share/nvim/site/pack/packer/start/nvim-web-devicons"
   },
   ["packer.nvim"] = {
     loaded = true,

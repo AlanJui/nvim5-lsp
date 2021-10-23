@@ -15,7 +15,7 @@ else
     print("Unsupported system for sumneko")
 end
 
-require'lspconfig'.sumneko_lua.setup {
+require'lspconfig'.sumneko_lua.setup({
     cmd = {sumneko_binary, "-E", sumneko_root_path .. "/main.lua"},
     settings = {
         Lua = {
@@ -35,4 +35,4 @@ require'lspconfig'.sumneko_lua.setup {
             }
         }
     }
-}
+})

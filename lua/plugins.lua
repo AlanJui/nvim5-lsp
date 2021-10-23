@@ -16,6 +16,7 @@ return require('packer').startup(function(use)
 
   -- Collection of configurations for built-in LSP client
   use 'neovim/nvim-lspconfig'
+	use 'kabouzeid/nvim-lspinstall'
   -- Autocompletion plugin
   use 'hrsh7th/nvim-cmp'
   use 'hrsh7th/cmp-buffer'
@@ -46,7 +47,11 @@ return require('packer').startup(function(use)
   -- User Interface
   -- ===========================================================
   -- Status Line
-  use 'itchyny/lightline.vim' -- Fancier statusline
+  -- use 'itchyny/lightline.vim' -- Fancier statusline
+	use {
+		'nvim-lualine/lualine.nvim',
+		requires = {'kyazdani42/nvim-web-devicons', opt = true}
+	}
 
 
   -- Automatically set up your configuration after cloning packer.nvim

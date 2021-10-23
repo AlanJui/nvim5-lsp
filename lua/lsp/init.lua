@@ -2,6 +2,7 @@
 -- Language Server Configuration
 -- =======================================================================
 
+
 -- Language Server Setup
 --------------------------------------------------------------------------
 
@@ -13,6 +14,9 @@ require('lsp/lua')
 
 -- Setup LS for Python / TypeScript / C && C++
 require('/lsp/misc-ls')
+
+-- Diagnostic Language Server
+require('lsp/diagnostic-languageserver')
 
 -- Snippets
 --------------------------------------------------------------------------
