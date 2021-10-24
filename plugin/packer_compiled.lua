@@ -145,6 +145,14 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/alanjui/.local/share/nvim/site/pack/packer/start/packer.nvim"
   },
+  ["plenary.nvim"] = {
+    loaded = true,
+    path = "/home/alanjui/.local/share/nvim/site/pack/packer/start/plenary.nvim"
+  },
+  ["telescope.nvim"] = {
+    loaded = true,
+    path = "/home/alanjui/.local/share/nvim/site/pack/packer/start/telescope.nvim"
+  },
   ["vim-better-whitespace"] = {
     loaded = true,
     path = "/home/alanjui/.local/share/nvim/site/pack/packer/start/vim-better-whitespace"

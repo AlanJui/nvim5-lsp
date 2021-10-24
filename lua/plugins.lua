@@ -45,6 +45,12 @@ return require('packer').startup(function(use)
   -- Auto close parentheses and repeat by dot dot dot...
   use 'jiangmiao/auto-pairs'
 
+	-- Fuzzy file finder
+	use {
+		'nvim-telescope/telescope.nvim',
+		requires = { {'nvim-lua/plenary.nvim'} }
+	}
+
   -- ===========================================================
   -- User Interface
   -- ===========================================================
