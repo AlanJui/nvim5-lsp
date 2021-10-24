@@ -149,6 +149,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/alanjui/.local/share/nvim/site/pack/packer/start/plenary.nvim"
   },
+  ["tabline.nvim"] = {
+    config = { "\27LJ\1\2D\0\0\2\0\4\0\a4\0\0\0%\1\1\0>\0\2\0027\0\2\0003\1\3\0>\0\2\1G\0\1\0\1\0\1\venable\1\nsetup\ftabline\frequire\0" },
+    loaded = true,
+    path = "/home/alanjui/.local/share/nvim/site/pack/packer/start/tabline.nvim"
+  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/home/alanjui/.local/share/nvim/site/pack/packer/start/telescope.nvim"
@@ -168,6 +173,10 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
+-- Config for: tabline.nvim
+time([[Config for tabline.nvim]], true)
+try_loadstring("\27LJ\1\2D\0\0\2\0\4\0\a4\0\0\0%\1\1\0>\0\2\0027\0\2\0003\1\3\0>\0\2\1G\0\1\0\1\0\1\venable\1\nsetup\ftabline\frequire\0", "config", "tabline.nvim")
+time([[Config for tabline.nvim]], false)
 if should_profile then save_profiles() end
 
 end)

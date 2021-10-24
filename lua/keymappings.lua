@@ -4,30 +4,31 @@
 
 -- 個人用
 -- --------------------------------------------------------------
-local map = vim.api.nvim_set_keymap
-local opts = {silent=true, noremap=true}
+-- local map = vim.api.nvim_set_keymap
+local keymap = require('utils.set_keymap')
+local opts = { silent=true, noremap=true }
 
 vim.g.maplocalleader = ','
 
-map('i', 'jj',    '<Esc>', opts)
-map('n', 'H',     '0',     opts)
-map('n', 'L',     '$',     opts)
-map('n', 'X',     'd$',    opts)
-map('n', 'Y',     'y$',    opts)
+keymap('i', 'jj',    '<Esc>', opts)
+keymap('n', 'H',     '0',     opts)
+keymap('n', 'L',     '$',     opts)
+keymap('n', 'X',     'd$',    opts)
+keymap('n', 'Y',     'y$',    opts)
 
-map('n', '<LocalLeader>cci', ':e ~/.config/nvim/init.lua<CR>', opts)
-map('n', '<LocalLeader>ccl', ':e ~/.config/nvim/lua/lsp/init.lua<CR>', opts)
-map('n', '<LocalLeader>ccp', ':e ~/.config/nvim/lua/plugins.lua<CR>', opts)
-map('n', '<LocalLeader>cck', ':e ~/.config/nvim/lua/keymappings.lua<CR>',opts)
-map('n', '<LocalLeader>w',  ':w<CR>', opts)
-map('n', '<C-s>',           ':w<CR>', opts)
-map('n', '<C-q>',           ':q!<CR>', opts)
-map('n', '\\',              ':Explore<CR>', opts)
-map('n', '<LocalLeader>f',  ':!ls<CR>:e', opts)
+keymap('n', '<LocalLeader>cci', ':e ~/.config/nvim/init.lua<CR>', opts)
+keymap('n', '<LocalLeader>ccl', ':e ~/.config/nvim/lua/lsp/init.lua<CR>', opts)
+keymap('n', '<LocalLeader>ccp', ':e ~/.config/nvim/lua/plugins.lua<CR>', opts)
+keymap('n', '<LocalLeader>cck', ':e ~/.config/nvim/lua/keymappings.lua<CR>',opts)
+keymap('n', '<LocalLeader>w',  ':w<CR>', opts)
+keymap('n', '<C-s>',           ':w<CR>', opts)
+keymap('n', '<C-q>',           ':q!<CR>', opts)
+keymap('n', '\\',              ':Explore<CR>', opts)
+keymap('n', '<LocalLeader>f',  ':!ls<CR>:e', opts)
 
 -- 搬移整行文字
--- map('n', '<A-j>', ':m .+1<CR>', { noremap=true })
--- map('n', '<A-k>', ':m .-2<CR>', { noremap=true })
+-- keymap('n', '<A-j>', ':m .+1<CR>', { noremap=true })
+-- keymap('n', '<A-k>', ':m .-2<CR>', { noremap=true })
 vim.cmd([[
 nmap <A-j> :m .+1<CR>
 nmap <A-k> :m .-2<CR>
@@ -92,17 +93,22 @@ nmap <LocalLeader>n <esc>:tabnext<CR>
 
 -- Cursor movement
 -- --------------------------------------------------------------
-map('n', '<up>',   'gk',           {silent = true, noremap = true})
-map('n', '<down>', 'gj',           {silent = true, noremap = true})
-map('n', '<home>', 'g<Home>',      {silent = true, noremap = true})
-map('n', '<end>',  'g<End>',       {silent = true, noremap = true})
-map('i', '<up>',   '<C-o>gk',      {silent = true, noremap = true})
-map('i', '<down>', '<C-o>gj',      {silent = true, noremap = true})
-map('i', '<home>', '<C-o>g<Home>', {silent = true, noremap = true})
-map('i', '<end>',  '<C-o>g<End>',  {silent = true, noremap = true})
+keymap('n', '<up>',   'gk',           opts)
+keymap('n', '<down>', 'gj',           opts)
+keymap('n', '<home>', 'g<Home>',      opts)
+keymap('n', '<end>',  'g<End>',       opts)
+keymap('i', '<up>',   '<C-o>gk',      opts)
+keymap('i', '<down>', '<C-o>gj',      opts)
+keymap('i', '<home>', '<C-o>g<Home>', opts)
+keymap('i', '<end>',  '<C-o>g<End>',  opts)
 
 -- Comment
 -- --------------------------------------------------------------
-map('n', '<C-\\>', ':CommentToggle<CR>', { noremap=true })
-map('v', '<C-\\>', ':CommentToggle<CR>', { noremap=true })
+keymap('n', '<C-\\>', ':CommentToggle<CR>', { noremap=true })
+keymap('v', '<C-\\>', ':CommentToggle<CR>', { noremap=true })
 
+-- Tab navigation
+keymap('n', '<C-S-tab>',  ':TablineBufferPrevious<CR>',  opts)
+keymap('n', '<C-tab>',  	':TablineBufferNext<CR>',      opts)
+keymap('n', 'gT',  				':TablineBufferPrevious<CR>',  opts)
+keymap('n', 'gt',  				':TablineBufferNext<CR>',      opts)
