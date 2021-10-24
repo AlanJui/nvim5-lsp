@@ -17,6 +17,8 @@ return require('packer').startup(function(use)
   -- Collection of configurations for built-in LSP client
   use 'neovim/nvim-lspconfig'
 	use 'kabouzeid/nvim-lspinstall'
+	use 'onsails/lspkind-nvim'
+	use 'onsails/diaglist.nvim'
   -- Autocompletion plugin
   use 'hrsh7th/nvim-cmp'
   use 'hrsh7th/cmp-buffer'

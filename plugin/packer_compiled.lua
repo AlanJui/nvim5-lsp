@@ -93,9 +93,17 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/alanjui/.local/share/nvim/site/pack/packer/start/cmp_luasnip"
   },
+  ["diaglist.nvim"] = {
+    loaded = true,
+    path = "/home/alanjui/.local/share/nvim/site/pack/packer/start/diaglist.nvim"
+  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/home/alanjui/.local/share/nvim/site/pack/packer/start/friendly-snippets"
+  },
+  ["lspkind-nvim"] = {
+    loaded = true,
+    path = "/home/alanjui/.local/share/nvim/site/pack/packer/start/lspkind-nvim"
   },
   ["lspsaga.nvim"] = {
     loaded = true,

@@ -1,6 +1,7 @@
 -- nvim-cmp
 local nvim_lsp = require('lspconfig')
 local cmp = require('cmp')
+local lspkind = require('lspkind')
 
 local has_words_before = function ()
 	local line, col = unpack(vim.api.nvim_win_get_cursor(0))
@@ -12,6 +13,10 @@ local feedkey = function (key, mode)
 end
 
 cmp.setup {
+	formatting = {
+		format = lspkind.cmp_format(),
+	},
+
 	snippet = {
   	expand = function(args)
 			-- You must install `vim-vsnip` if you use the following as-is.

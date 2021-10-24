@@ -1,26 +1,27 @@
--- require 'nvim-treesitter.configs'.setup {
---   ensure_installed = {
---     'comment',
---     'html',
---     'lua',
---     'julia'
---   },
---   highlight = {
---     enable = true
---   }
--- }
-
+-- nvim-treesitter
 
 -- Treesitter configuration
 -- Parsers must be installed manually via :TSInstall
-require('nvim-treesitter.configs').setup {
-    ensure_installed = {
-        'comment',
-        'html',
-        'lua'
-    },
+require('nvim-treesitter.configs').setup({
+	ensure_installed = {
+		'tsx',
+		'toml',
+		'yaml',
+		'bash',
+		'json',
+		'comment',
+		'html',
+		'css',
+		'scss',
+		'lua',
+		'python',
+	},
   highlight = {
     enable = true, -- false will disable the whole extension
+		disable = {},
+  },
+  indent = {
+    enable = true,
   },
   incremental_selection = {
     enable = true,
@@ -30,9 +31,6 @@ require('nvim-treesitter.configs').setup {
       scope_incremental = 'grc',
       node_decremental = 'grm',
     },
-  },
-  indent = {
-    enable = true,
   },
   textobjects = {
     select = {
@@ -67,5 +65,7 @@ require('nvim-treesitter.configs').setup {
       },
     },
   },
-}
+})
 
+local parser_config = require('nvim-treesitter.parsers').get_parser_configs()
+parser_config.tsx.used_by = { 'javascript', 'typescript.tsx' }

@@ -68,7 +68,7 @@ vim.lsp.handlers['textDocument/publishDiagnostics'] = vim.lsp.with(
 		-- This sets the spacing and the prefix, obviously.
 		virtual_text = {
 			spacing = 4,
-			prefix = '⍻'
+			prefix = '',
 		}
 	}
 )
@@ -82,4 +82,3 @@ map("n", "<leader>cp", ":Lspsaga diagnostic_jump_prev<CR>", { silent = true })
 keymap('n', '<C-j>l', ':Lspsaga show_line_diagnostics<CR>', { silent = true })
 keymap('n', '<C-j>n', ':Lspsaga diagnostic_jump_next<CR>', { silent = true })
 keymap('n', '<C-j>p', ':Lspsaga diagnostic_jump_prev<CR>', { silent = true })
-

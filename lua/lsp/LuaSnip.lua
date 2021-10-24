@@ -1,17 +1,8 @@
 -- nvim-cmp
-
--- Set completeopt to have a better completion experience
--- vim.cmd([[
--- 	set completeopt=menu,menuone,noselect
--- ]])
--- vim.o.completeopt = 'menu,menuone,noselect'
-vim.o.completeopt = 'menuone,noselect'
-
-
--- Setup nvim-cmp
 local nvim_lsp = require('lspconfig')
 local cmp = require('cmp')
 local luasnip = require('luasnip')
+local lspkind = require('lspkind')
 
 -- Snippets
 local has_words_before = function ()
@@ -19,7 +10,14 @@ local has_words_before = function ()
 	return col ~= 0 and vim.api.nvim_buf_get_lines(0, line - 1, line, true)[1]:sub(col, col):match("%s") == nil
 end
 
+-- Setup nvim-cmp
 cmp.setup {
+  formatting = {
+    format = lspkind.cmp_format({
+  			with_text = true,
+  			maxwidth = 50
+  		})
+  },
   snippet = {
     expand = function(args)
       require('luasnip').lsp_expand(args.body)
@@ -112,3 +110,15 @@ require("luasnip/loaders/from_vscode").load({
 		"~/.local/share/nvim/site/pack/packer/start/friendly-snippets",
   }
 })
+
+-- Set completeopt to have a better completion experience
+-- vim.cmd([[
+-- 	set completeopt=menu,menuone,noselect
+-- ]])
+-- vim.o.completeopt = 'menu,menuone,noselect'
+vim.o.completeopt = 'menuone,noselect'
+
+-- Tells LuaSnip that for a buffer with ft=filetype, snippets from extend_filetypes should be searched as well.
+-- filetype_extend(filetype, extend_filetypes)
+-- Example: luasnip.filetype_extend("lua", {"c", "cpp"})
+luasnip.filetype_extend('htmldjango', {'html', 'htmldjango'})
