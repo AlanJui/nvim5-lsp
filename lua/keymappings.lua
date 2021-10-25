@@ -112,3 +112,18 @@ keymap('n', '<C-S-tab>',  ':TablineBufferPrevious<CR>',  opts)
 keymap('n', '<C-tab>',  	':TablineBufferNext<CR>',      opts)
 keymap('n', 'gT',  				':TablineBufferPrevious<CR>',  opts)
 keymap('n', 'gt',  				':TablineBufferNext<CR>',      opts)
+
+-- lspsaga
+-- --------------------------------------------------------------
+-- Hover Doc
+keymap("n", "K", 			":Lspsaga hover_doc<CR>", 			{silent = true})
+-- Signature Help
+keymap("n", "<C-k>", 	":Lspsaga signature_help<CR>",  {silent = true})
+-- Rename
+keymap("n", "gr", 	 	":Lspsaga rename<CR>",  				{silent = true})
+-- Jump Diagnostic and Show Diagnostics
+keymap("n", "]]", 	 	":Lspsaga diagnostic_jump_next<CR>",	{silent = true})
+keymap("n", "[[", 	 	":Lspsaga diagnostic_jump_prev<CR>",	{silent = true})
+-- Float Terminal
+keymap("n", "<C-f>", 	":Lspsaga open_floaterm<CR>",  {silent = true})
+keymap("t", "<C-f>", 	"<C-\\><C-n>:Lspsaga close_floaterm<CR>",  {silent = true})
