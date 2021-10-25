@@ -5,7 +5,7 @@
 -- | A | B | C                             X | Y | Z |
 -- +-------------------------------------------------+
 
-require('lualine').setup{
+require('lualine').setup({
 	-- options = { theme = 'jellybeans' }
   options = {
     icons_enabled = true,
@@ -21,8 +21,30 @@ require('lualine').setup{
     lualine_x = {
       {
 				'diagnostics',
-				sources = {"nvim_lsp"},
-				symbols = {error = ' ', warn = ' ', info = ' ', hint = ' '}
+				-- table of diagnostic sources, available sources:
+				-- 'nvim_lsp', 'nvim', 'coc', 'ale', 'vim_lsp'
+				-- Or a function that returns a table like:
+				-- {error=error_cnt, warn=warn_cnt, info=info_cnt, hint=hint_cnt}
+				sources = {'nvim_lsp', 'coc'},
+				-- displays diagnostics from defined severity
+				sections = {'error', 'warn', 'info', 'hint'},
+				-- all colors are in format #rrggbb
+				diagnostic_color = {
+					error = nil,
+					warn  = nil,
+					info  = nil,
+					hint  = nil,
+				},
+				symbols = {
+					error = ' ',
+					warn  = ' ',
+					info  = ' ',
+					hint  = ' ',
+				},
+				-- Update diagnostics in insert mode
+				update_in_insert = false,
+				-- Show diagnostics even if count is 0
+				alwayw_visible = false,
 			},
       'encoding',
       'filetype'
@@ -44,49 +66,8 @@ require('lualine').setup{
     lualine_c = { require('tabline').tabline_buffers },
     lualine_x = { require('tabline').tabline_tabs },
     lualine_y = {},
-    lualine_z = {}
+    lualine_z = {},
 	},
   extensions = {'fugitive'}
-}
+})
 
--- vim.cmd([[
--- function MyTabLine()
---   let s = ''
---   for i in range(tabpagenr('$'))
---     " select the highlighting
---     if i + 1 == tabpagenr()
---       let s .= '%#TabLineSel#'
---     else
---       let s .= '%#TabLine#'
---     endif
---     " set the tab page number (for mouse clicks)
---     let s .= '%' . (i + 1) . 'T'
---     " the label is made by MyTabLabel()
---     let s .= ' %{MyTabLabel(' . (i + 1) . ')} '
---     if i + 1 == tabpagenr()
---       let s .= '%#TabLineSep#ÓÇ∞'
---     elseif i + 2 == tabpagenr()
---       let s .= '%#TabLineSep2#ÓÇ∞'
---     else
---       let s .= 'ÓÇ±'
---     endif
---   endfor
---   " after the last tab fill with TabLineFill and reset tab page nr
---   let s .= '%#TabLineFill#%T'
---   " right-align the label to close the current tab page
---   if tabpagenr('$') > 1
---     let s .= '%=%#TabLine#%999X'
---   endif
---   return s
--- endfunction
---
--- function MyTabLabel(n)
---   let buflist = tabpagebuflist(a:n)
---   let winnr = tabpagewinnr(a:n)
---   let name = bufname(buflist[winnr - 1])
---   let label = fnamemodify(name, ':t')
---   return len(label) == 0 ? '[No Name]' : label
--- endfunction
---
--- set tabline=%!MyTabLine()
--- ]])
