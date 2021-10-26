@@ -101,6 +101,10 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/alanjui/.local/share/nvim/site/pack/packer/start/friendly-snippets"
   },
+  ["indent-blankline.nvim"] = {
+    loaded = true,
+    path = "/home/alanjui/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim"
+  },
   ["lspkind-nvim"] = {
     loaded = true,
     path = "/home/alanjui/.local/share/nvim/site/pack/packer/start/lspkind-nvim"
@@ -169,6 +173,10 @@ _G.packer_plugins = {
   ["vim-vsnip-integ"] = {
     loaded = true,
     path = "/home/alanjui/.local/share/nvim/site/pack/packer/start/vim-vsnip-integ"
+  },
+  ["vim-which-key"] = {
+    loaded = true,
+    path = "/home/alanjui/.local/share/nvim/site/pack/packer/start/vim-which-key"
   }
 }
 

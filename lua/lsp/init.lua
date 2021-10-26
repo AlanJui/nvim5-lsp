@@ -6,8 +6,8 @@
 -- Language Server Setup
 --------------------------------------------------------------------------
 
--- Diagnostic Language Server
-require('lsp.diagnostic-languageserver')
+-- Setup LS for Python / TypeScript / C && C++
+require('lsp.misc-ls')
 
 -- Setup Language Server for Bash
 require('lspconfig').bashls.setup{}
@@ -15,11 +15,14 @@ require('lspconfig').bashls.setup{}
 -- Setup Language Server for Lua
 require('lsp.lua')
 
--- Setup LS for Python / TypeScript / C && C++
-require('lsp.misc-ls')
-
 -- TypeScript
 -- require('lsp.typescript-ls')
+
+-- Python
+-- require('lsp.python-diagnostic-ls')
+
+-- Diagnostic Language Server
+-- require('lsp.diagnostic-languageserver')
 
 -- Snippets
 --------------------------------------------------------------------------

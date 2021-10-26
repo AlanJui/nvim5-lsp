@@ -7,7 +7,16 @@ if fn.empty(fn.glob(install_path)) > 0 then
   packer_bootstrap = fn.system({'git', 'clone', '--depth', '1', 'https://github.com/wbthomason/packer.nvim', install_path})
 end
 
-return require('packer').startup(function(use)
+-- Auto compile when there are changes in `plugins.lua`.
+vim.cmd([[
+  augroup packer_user_config
+    autocmd!
+    autocmd BufWritePost plugins.lua source <afile> | PackerCompile
+  augroup end
+]])
+
+local use = require('packer').use
+require('packer').startup(function()
   -- ===========================================================
   -- Essential
   -- ===========================================================
@@ -70,6 +79,11 @@ return require('packer').startup(function(use)
 			'kyazdani42/nvim-web-devicons'
 		}
 	}
+  -- Screnn Navigation
+  -- use 'glepnir/dashboard-nvim'
+  use 'liuchengxu/vim-which-key'
+	-- Add indentation quides even on blank lines
+	use 'lukas-reineke/indent-blankline.nvim'
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins

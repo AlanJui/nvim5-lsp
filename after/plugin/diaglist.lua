@@ -20,7 +20,7 @@ diaglist.init({
 -- nmap <space>dw <cmd>lua require('diaglist').open_all_diagnostics()<CR>
 -- nmap <space>d0 <cmd>lua require('diaglist').open_buffer_diagnostics()<CR>
 -- ]])
-local opts = { silent = true }
-keymap("n", "<SPACE>dw", ":lua require('diaglist').open_all_diagnostics()<CR>", opts)
-keymap("n", "<SPACE>d0", ":lua require('diaglist').open_buffer_diagnostics()<CR>", opts)
+-- local opts = { silent = true }
+-- keymap("n", "<SPACE>dw", ":lua require('diaglist').open_all_diagnostics()<CR>", opts)
+-- keymap("n", "<SPACE>d0", ":lua require('diaglist').open_buffer_diagnostics()<CR>", opts)
 
