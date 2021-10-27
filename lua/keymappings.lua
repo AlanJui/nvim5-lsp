@@ -257,6 +257,7 @@ vim.g.which_key_leader = {
     ['b']    = {':Telescope marks', 'Bookmarks'},
     ['f']    = {':Telescope find_files', 'Find files'},
     ['h']    = {':Telescope oldfiles', 'History'},
+    ['r']    = {':FloatermNew ranger', 'Picture Viewer'},
     ['v']    = {':FloatermNew vifm', 'ViFm'},
   },
 

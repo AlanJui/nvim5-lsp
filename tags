@@ -258,10 +258,6 @@ S	/home/alanjui/.config/nvim/after/plugin/vim-vsnip.rc.vim	/^xmap        S   <Pl
 \\"	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "\\"": {$/;"	o
 _G.load_config	/home/alanjui/.config/nvim/docs/nvim-lspconfig_minimal_configuration.lua	/^_G.load_config = function()$/;"	f
 _G.load_config	/home/alanjui/.config/nvim/docs/pyright.lua	/^_G.load_config = function()$/;"	f
-_G.s_tab_complete	/home/alanjui/.config/nvim/lua/config/LuaSnip/init.lua	/^_G.s_tab_complete = function()$/;"	f
-_G.s_tab_complete	/home/alanjui/.config/nvim/lua/config/vim-vsnip/init.lua	/^_G.s_tab_complete = function()$/;"	f
-_G.tab_complete	/home/alanjui/.config/nvim/lua/config/LuaSnip/init.lua	/^_G.tab_complete = function()$/;"	f
-_G.tab_complete	/home/alanjui/.config/nvim/lua/config/vim-vsnip/init.lua	/^_G.tab_complete = function()$/;"	f
 __init__	/home/alanjui/.config/nvim/test/pylint.py	/^    def __init__(self, color):$/;"	m	class:car
 aae	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "aae": {$/;"	o
 adminview	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "adminview": {$/;"	o
@@ -447,8 +443,6 @@ buf_set_option	/home/alanjui/.config/nvim/docs/pyright.lua	/^    local function 
 buf_set_option	/home/alanjui/.config/nvim/lua/lsp/on_attach.lua	/^  local function buf_set_option(...) vim.api.nvim_buf_set_option(bufnr, ...) end$/;"	f
 buf_set_option	/home/alanjui/.config/nvim/lua/lsp/typescript-ls.lua	/^  local function buf_set_option(...) vim.api.nvim_buf_set_option(bufnr, ...) end$/;"	f
 car	/home/alanjui/.config/nvim/test/pylint.py	/^class car():$/;"	c
-check_back_space	/home/alanjui/.config/nvim/lua/config/LuaSnip/init.lua	/^local check_back_space = function()$/;"	f
-check_back_space	/home/alanjui/.config/nvim/lua/config/vim-vsnip/init.lua	/^local check_back_space = function()$/;"	f
 class	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "class": {$/;"	o
 cmp	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "cmp": {$/;"	o
 colors_name	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^let colors_name = "NeoSolarized"$/;"	v
@@ -847,6 +841,9 @@ g:terminal_color_9	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let g:termi
 g:terminal_color_9	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^let g:terminal_color_9 = s:gui_orange$/;"	v
 g:terminal_color_background	/home/alanjui/.config/nvim/colors/OceanicNext.vim	/^  let g:terminal_color_background=s:base00[0]$/;"	v
 g:terminal_color_foreground	/home/alanjui/.config/nvim/colors/OceanicNext.vim	/^  let g:terminal_color_foreground=s:white[0]$/;"	v
+g:user_emmet_install_global	/home/alanjui/.config/nvim/_archived/emmet-vim.rc.vim	/^let g:user_emmet_install_global = 0$/;"	v
+g:user_emmet_leader_key	/home/alanjui/.config/nvim/_archived/emmet-vim.rc.vim	/^let g:user_emmet_leader_key = '<C-Y>'$/;"	v
+g:user_emmet_mode	/home/alanjui/.config/nvim/_archived/emmet-vim.rc.vim	/^let g:user_emmet_mode='a'$/;"	v
 g:vimshell_escape_colors	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let g:vimshell_escape_colors = [$/;"	v
 g:vista#renderer#enable_icon	/home/alanjui/.config/nvim/after/plugin/vista.rc.vim	/^let g:vista#renderer#enable_icon = 1$/;"	v
 g:vista#renderer#icons	/home/alanjui/.config/nvim/after/plugin/vista.rc.vim	/^let g:vista#renderer#icons = {$/;"	v
@@ -1121,7 +1118,8 @@ pylint log format	/home/alanjui/.config/nvim/README.md	/^# pylint log format$/;"
 rec_ls	/home/alanjui/.config/nvim/_archived/LuaSnip.lua	/^rec_ls = function()$/;"	f
 rec_ls	/home/alanjui/.config/nvim/lua/lsp/test_snippets.lua	/^rec_ls = function()$/;"	f
 repr	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "repr": {$/;"	o
-root_dir	/home/alanjui/.config/nvim/after/plugin/emment-ls.lua	/^			root_dir = function (fname)$/;"	f
+root_dir	/home/alanjui/.config/nvim/_archived/emment-ls.lua	/^			root_dir = function (fname)$/;"	f
+root_dir	/home/alanjui/.config/nvim/after/plugin/emmet-ls.lua	/^      root_dir = function(fname)$/;"	f
 root_dir	/home/alanjui/.config/nvim/lua/lsp/pyright-ls.lua	/^	root_dir = function (fname)$/;"	f
 roprop	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "roprop": {$/;"	o
 rwprop	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "rwprop": {$/;"	o
@@ -1536,8 +1534,6 @@ setup_servers	/home/alanjui/.config/nvim/lua/lsp/misc-ls.lua	/^local function se
 slotclass	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "slotclass": {$/;"	o
 snippets	/home/alanjui/.config/nvim/my-snippets/package.json	/^    "snippets": [$/;"	a	object:contributes
 stackedinline	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "stackedinline": {$/;"	o
-t	/home/alanjui/.config/nvim/lua/config/LuaSnip/init.lua	/^local t = function(str)$/;"	f
-t	/home/alanjui/.config/nvim/lua/config/vim-vsnip/init.lua	/^local t = function(str)$/;"	f
 tabularinline	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "tabularinline": {$/;"	o
 templateview	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "templateview": {$/;"	o
 testcase	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "testcase": {$/;"	o
