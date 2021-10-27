@@ -1,0 +1,1557 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/alanjui/.config/my-nvim-lspconfig/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20210905.0/
+#!	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "#!": {$/;"	o
+'	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "'": {$/;"	o
+/(^|(?<=\\\\W))\\\\./	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "\/(^|(?<=\\\\W))\\\\.\/": {$/;"	o
+0	/home/alanjui/.config/nvim/my-snippets/ccc_html.json	/^      "<div class=\\"$1\\">",$/;"	s	array:myDivClass.body
+0	/home/alanjui/.config/nvim/my-snippets/ccc_html.json	/^      "<div class=\\"form-group\\">",$/;"	s	array:myFormGroup.body
+0	/home/alanjui/.config/nvim/my-snippets/ccc_html.json	/^      "<div id=\\"$1\\">",$/;"	s	array:myDivID.body
+0	/home/alanjui/.config/nvim/my-snippets/ccc_html.json	/^      "<form method=\\"$1\\">",$/;"	s	array:myform.body
+0	/home/alanjui/.config/nvim/my-snippets/ccc_html.json	/^      "<label for=\\"\\" class=\\"col-md-5 control-label\\" >",$/;"	s	array:myLabel.body
+0	/home/alanjui/.config/nvim/my-snippets/ccc_html.json	/^      "{% block comment \\"Optional note\\" %}",$/;"	s	array:myComment.body
+0	/home/alanjui/.config/nvim/my-snippets/ccc_html.json	/^    "body": ["<link rel=\\"stylesheet\\" href=\\"$1\\">"],$/;"	s	array:myLinkHref.body
+0	/home/alanjui/.config/nvim/my-snippets/ccc_html.json	/^    "body": ["<script src=\\"$1\\"><\/script>"],$/;"	s	array:myScriptSrc.body
+0	/home/alanjui/.config/nvim/my-snippets/ccc_html.json	/^    "body": ["{# comment-out a line #}"],$/;"	s	array:myCommentLine.body
+0	/home/alanjui/.config/nvim/my-snippets/ccc_html.json	/^    "body": ["{% block title %}{% endblock %}"],$/;"	s	array:myTitle.body
+0	/home/alanjui/.config/nvim/my-snippets/ccc_html.json	/^    "body": ["{% extends \\"base.html\\" %}"],$/;"	s	array:myExtends.body
+0	/home/alanjui/.config/nvim/my-snippets/django.json	/^      "class ${1:ClassName}(${2:Parameter}):",$/;"	s	array:myClass.body
+0	/home/alanjui/.config/nvim/my-snippets/html.json	/^      "<div class=\\"$1\\">",$/;"	s	array:myDivClass.body
+0	/home/alanjui/.config/nvim/my-snippets/html.json	/^      "<div class=\\"form-group\\">",$/;"	s	array:myFormGroup.body
+0	/home/alanjui/.config/nvim/my-snippets/html.json	/^      "<div id=\\"$1\\">",$/;"	s	array:myDivID.body
+0	/home/alanjui/.config/nvim/my-snippets/html.json	/^      "<form method=\\"$1\\">",$/;"	s	array:myform.body
+0	/home/alanjui/.config/nvim/my-snippets/html.json	/^      "<label for=\\"\\" class=\\"col-md-5 control-label\\" >",$/;"	s	array:myLabel.body
+0	/home/alanjui/.config/nvim/my-snippets/html.json	/^      "{% block comment \\"Optional note\\" %}",$/;"	s	array:myComment.body
+0	/home/alanjui/.config/nvim/my-snippets/html.json	/^    "body": ["<link rel=\\"stylesheet\\" href=\\"$1\\">"],$/;"	s	array:myLinkHref.body
+0	/home/alanjui/.config/nvim/my-snippets/html.json	/^    "body": ["<script src=\\"$1\\"><\/script>"],$/;"	s	array:myScriptSrc.body
+0	/home/alanjui/.config/nvim/my-snippets/html.json	/^    "body": ["{# comment-out a line #}"],$/;"	s	array:myCommentLine.body
+0	/home/alanjui/.config/nvim/my-snippets/html.json	/^    "body": ["{% block title %}{% endblock %}"],$/;"	s	array:myTitle.body
+0	/home/alanjui/.config/nvim/my-snippets/html.json	/^    "body": ["{% extends \\"base.html\\" %}"],$/;"	s	array:myExtends.body
+0	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "<div class=\\"form-group\\">",$/;"	s	array:dj_fld.body
+0	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "<div class=\\"row text-center vertical-middle-sm\\">",$/;"	s	array:dj_div.body
+0	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "<div class=\\"row\\">",$/;"	s	array:dj_fld-01.body
+0	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "<form method=\\"post\\" class=\\"${1:form-horizontal}\\">",$/;"	s	array:dj_form_asp.body
+0	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "<form method=\\"post\\" class=\\"${1:form-horizontal}\\">",$/;"	s	array:dj_form_new.body
+0	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "<label for=\\"{{ form.${1:LABEL}.id_for_label }}\\" class=\\"col-md-5 control-label\\" >"/;"	s	array:dj_label.body
+0	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "{% block content %}",$/;"	s	array:dj_blk_div.body
+0	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "{% block javascript %}",$/;"	s	array:dj_blk_src.body
+0	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "{% block javascript %}",$/;"	s	array:dj_blksrc.body
+0	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "{% block styles %}",$/;"	s	array:dj_blk_styles.body
+0	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "{% extends 'base.html' %}",$/;"	s	array:dj_view.body
+0	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "{% extends \\"base.html\\" %}",$/;"	s	array:djextlayout.body
+0	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "{% load static %}",$/;"	s	array:dj_base.body
+0	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "body": ["<a href=\\"{% url '$1' %}\\" $2>$3<\/a>"],$/;"	s	array:dj_a_href.body
+0	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "body": ["<img src=\\"{% static '$1' %}\\" \/>"],$/;"	s	array:dj_img_src.body
+0	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "body": ["<link rel=\\"stylesheet\\" href=\\"{% static '$1.css' %}\\" \/>"],$/;"	s	array:dj_link_href.body
+0	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "body": ["<script src=\\"{% static '$1.js' %}\\"><\/script>"],$/;"	s	array:dj_script_src.body
+0	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "body": ["{% block $1 %}", "$2", "{% endblock $1 %}"],$/;"	s	array:dj_block.body
+0	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "body": ["{% block $1 %}{% endblock $1 %}"],$/;"	s	array:dj_blk.body
+0	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "body": ["{% block content %}", "$1", "{% endblock content %}"],$/;"	s	array:dj_blkc.body
+0	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "body": ["{% block title %}$1{% endblock %}"],$/;"	s	array:dj_blkt.body
+0	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "body": ["{% else %}", "  $1"],$/;"	s	array:dj_else.body
+0	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "body": ["{% extends '${1:base.html}' %}", ""],$/;"	s	array:dj_extends.body
+0	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "body": ["{% for $1 in $2 %}", "  $3", "{% empty %}", "", "{% endfor %}"],$/;"	s	array:dj_for.body
+0	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "body": ["{% if $1 %}", "  $2", "{% endif %}"],$/;"	s	array:dj_if.body
+0	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "body": ["{% include '$1' %}", ""],$/;"	s	array:dj_include.body
+0	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "body": ["{% load $1 %}", ""],$/;"	s	array:dj_load.body
+0	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "body": ["{% load static %}", ""],$/;"	s	array:dj_load_static.body
+0	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "body": ["{% load static %}"],$/;"	s	array:dj_loads.body
+0	/home/alanjui/.config/nvim/my-snippets/javascript.json	/^			"\/**",$/;"	s	array:Class.body
+0	/home/alanjui/.config/nvim/my-snippets/javascript.json	/^		"prefix": ["class"],$/;"	s	array:Class.prefix
+0	/home/alanjui/.config/nvim/my-snippets/package.json	/^					"html",$/;"	s	array:contributes.snippets.2.language
+0	/home/alanjui/.config/nvim/my-snippets/package.json	/^          "javascript",$/;"	s	array:contributes.snippets.3.language
+0	/home/alanjui/.config/nvim/my-snippets/package.json	/^          "plaintext",$/;"	s	array:contributes.snippets.0.language
+0	/home/alanjui/.config/nvim/my-snippets/package.json	/^      {$/;"	o	array:contributes.snippets
+0	/home/alanjui/.config/nvim/my-snippets/python.json	/^      "class ${1:ClassName}(${2:Parameter}):",$/;"	s	array:myClass.body
+1	/home/alanjui/.config/nvim/my-snippets/ccc_html.json	/^      "  $1",$/;"	s	array:myFormGroup.body
+1	/home/alanjui/.config/nvim/my-snippets/ccc_html.json	/^      "  $2",$/;"	s	array:myDivClass.body
+1	/home/alanjui/.config/nvim/my-snippets/ccc_html.json	/^      "  $2",$/;"	s	array:myDivID.body
+1	/home/alanjui/.config/nvim/my-snippets/ccc_html.json	/^      "  $2",$/;"	s	array:myform.body
+1	/home/alanjui/.config/nvim/my-snippets/ccc_html.json	/^      "$1",$/;"	s	array:myComment.body
+1	/home/alanjui/.config/nvim/my-snippets/ccc_html.json	/^      "\\t${1:LABEL}"$/;"	s	array:myLabel.body
+1	/home/alanjui/.config/nvim/my-snippets/django.json	/^      "\\t\\t$3",$/;"	s	array:myClass.body
+1	/home/alanjui/.config/nvim/my-snippets/html.json	/^      "  $1",$/;"	s	array:myFormGroup.body
+1	/home/alanjui/.config/nvim/my-snippets/html.json	/^      "  $2",$/;"	s	array:myDivClass.body
+1	/home/alanjui/.config/nvim/my-snippets/html.json	/^      "  $2",$/;"	s	array:myDivID.body
+1	/home/alanjui/.config/nvim/my-snippets/html.json	/^      "  $2",$/;"	s	array:myform.body
+1	/home/alanjui/.config/nvim/my-snippets/html.json	/^      "$1",$/;"	s	array:myComment.body
+1	/home/alanjui/.config/nvim/my-snippets/html.json	/^      "\\t${1:LABEL}"$/;"	s	array:myLabel.body
+1	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "  <div class=\\"col-md-4 text-right\\">",$/;"	s	array:dj_fld-01.body
+1	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "  <label for=\\"{{ form.${1:LABEL}.id_for_label }}\\" class=\\"col-md-5 control-label\\">/;"	s	array:dj_fld.body
+1	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "  {% csrf_token %}",$/;"	s	array:dj_form_asp.body
+1	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "  {% csrf_token %}",$/;"	s	array:dj_form_new.body
+1	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "",$/;"	s	array:dj_view.body
+1	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "",$/;"	s	array:djextlayout.body
+1	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "<!DOCTYPE html>",$/;"	s	array:dj_base.body
+1	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "<div class=\\"row text-center vertical-middle-sm\\">",$/;"	s	array:dj_blk_div.body
+1	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "<link rel=\\"stylesheet\\" href=\\"{% static '$1\/${2:site}.css' %}\\" \/>",$/;"	s	array:dj_blk_styles.body
+1	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "<script src=\\"$1\\"><\/script>",$/;"	s	array:dj_blksrc.body
+1	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "<script src={% static \\"$1\\" %}><\/script>",$/;"	s	array:dj_blk_src.body
+1	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "\\t$1",$/;"	s	array:dj_div.body
+1	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "\\t$1",$/;"	s	array:dj_label.body
+1	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "body": ["{% block $1 %}", "$2", "{% endblock $1 %}"],$/;"	s	array:dj_block.body
+1	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "body": ["{% block content %}", "$1", "{% endblock content %}"],$/;"	s	array:dj_blkc.body
+1	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "body": ["{% else %}", "  $1"],$/;"	s	array:dj_else.body
+1	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "body": ["{% extends '${1:base.html}' %}", ""],$/;"	s	array:dj_extends.body
+1	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "body": ["{% for $1 in $2 %}", "  $3", "{% empty %}", "", "{% endfor %}"],$/;"	s	array:dj_for.body
+1	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "body": ["{% if $1 %}", "  $2", "{% endif %}"],$/;"	s	array:dj_if.body
+1	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "body": ["{% include '$1' %}", ""],$/;"	s	array:dj_include.body
+1	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "body": ["{% load $1 %}", ""],$/;"	s	array:dj_load.body
+1	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "body": ["{% load static %}", ""],$/;"	s	array:dj_load_static.body
+1	/home/alanjui/.config/nvim/my-snippets/javascript.json	/^			" * @author ${VIM:\\\\$USER}",$/;"	s	array:Class.body
+1	/home/alanjui/.config/nvim/my-snippets/package.json	/^					"htmldjango"$/;"	s	array:contributes.snippets.2.language
+1	/home/alanjui/.config/nvim/my-snippets/package.json	/^          "django",$/;"	s	array:contributes.snippets.0.language
+1	/home/alanjui/.config/nvim/my-snippets/package.json	/^          "typescript",$/;"	s	array:contributes.snippets.3.language
+1	/home/alanjui/.config/nvim/my-snippets/package.json	/^      {$/;"	o	array:contributes.snippets
+1	/home/alanjui/.config/nvim/my-snippets/python.json	/^      "\\t\\t$3",$/;"	s	array:myClass.body
+10	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "<body>",$/;"	s	array:dj_base.body
+10	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "{% block javascript %}",$/;"	s	array:dj_view.body
+11	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "    <div class=\\"container\\">",$/;"	s	array:dj_base.body
+11	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "<script>",$/;"	s	array:dj_view.body
+12	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "      {% include 'article\/header.html' %}",$/;"	s	array:dj_base.body
+12	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "  ",$/;"	s	array:dj_view.body
+13	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "      <div class=\\"col-md-2\\">",$/;"	s	array:dj_base.body
+13	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "<\/script>",$/;"	s	array:dj_view.body
+14	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "        {% include 'article\/sidebar.html' %}",$/;"	s	array:dj_base.body
+14	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "{% endblock javascript %}",$/;"	s	array:dj_view.body
+15	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "      <\/div>",$/;"	s	array:dj_base.body
+15	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      ""$/;"	s	array:dj_view.body
+16	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "      <div class=\\"col-md-10\\">",$/;"	s	array:dj_base.body
+17	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "        {% block content %}{% endblock %}",$/;"	s	array:dj_base.body
+18	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "      <\/div>",$/;"	s	array:dj_base.body
+19	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "      {% include 'article\/footer.html' %}",$/;"	s	array:dj_base.body
+2	/home/alanjui/.config/nvim/my-snippets/ccc_html.json	/^      "<\/div>"$/;"	s	array:myDivClass.body
+2	/home/alanjui/.config/nvim/my-snippets/ccc_html.json	/^      "<\/div>"$/;"	s	array:myDivID.body
+2	/home/alanjui/.config/nvim/my-snippets/ccc_html.json	/^      "<\/div>"$/;"	s	array:myFormGroup.body
+2	/home/alanjui/.config/nvim/my-snippets/ccc_html.json	/^      "<\/form>"$/;"	s	array:myform.body
+2	/home/alanjui/.config/nvim/my-snippets/ccc_html.json	/^      "{% endcomment %}"$/;"	s	array:myComment.body
+2	/home/alanjui/.config/nvim/my-snippets/django.json	/^      "\\tpass"$/;"	s	array:myClass.body
+2	/home/alanjui/.config/nvim/my-snippets/html.json	/^      "<\/div>"$/;"	s	array:myDivClass.body
+2	/home/alanjui/.config/nvim/my-snippets/html.json	/^      "<\/div>"$/;"	s	array:myDivID.body
+2	/home/alanjui/.config/nvim/my-snippets/html.json	/^      "<\/div>"$/;"	s	array:myFormGroup.body
+2	/home/alanjui/.config/nvim/my-snippets/html.json	/^      "<\/form>"$/;"	s	array:myform.body
+2	/home/alanjui/.config/nvim/my-snippets/html.json	/^      "{% endcomment %}"$/;"	s	array:myComment.body
+2	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "    $1",$/;"	s	array:dj_fld.body
+2	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "    <span>$1：<\/span>",$/;"	s	array:dj_fld-01.body
+2	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "  $3",$/;"	s	array:dj_form_new.body
+2	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "  {{ form.as_p }}",$/;"	s	array:dj_form_asp.body
+2	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "",$/;"	s	array:dj_blk_src.body
+2	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "",$/;"	s	array:dj_blksrc.body
+2	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "<\/div>"$/;"	s	array:dj_div.body
+2	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "<\/label>"$/;"	s	array:dj_label.body
+2	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "<html lang=\\"zh-tw\\">",$/;"	s	array:dj_base.body
+2	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "\\t$1",$/;"	s	array:dj_blk_div.body
+2	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "{% block title %}$1{% endblock title %}",$/;"	s	array:djextlayout.body
+2	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "{% endblock styles %}",$/;"	s	array:dj_blk_styles.body
+2	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "{% load static %}",$/;"	s	array:dj_view.body
+2	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "body": ["{% block $1 %}", "$2", "{% endblock $1 %}"],$/;"	s	array:dj_block.body
+2	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "body": ["{% block content %}", "$1", "{% endblock content %}"],$/;"	s	array:dj_blkc.body
+2	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "body": ["{% for $1 in $2 %}", "  $3", "{% empty %}", "", "{% endfor %}"],$/;"	s	array:dj_for.body
+2	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "body": ["{% if $1 %}", "  $2", "{% endif %}"],$/;"	s	array:dj_if.body
+2	/home/alanjui/.config/nvim/my-snippets/javascript.json	/^			" *\/",$/;"	s	array:Class.body
+2	/home/alanjui/.config/nvim/my-snippets/package.json	/^          "htmldjango",$/;"	s	array:contributes.snippets.0.language
+2	/home/alanjui/.config/nvim/my-snippets/package.json	/^          "javascriptreact",$/;"	s	array:contributes.snippets.3.language
+2	/home/alanjui/.config/nvim/my-snippets/package.json	/^      {$/;"	o	array:contributes.snippets
+2	/home/alanjui/.config/nvim/my-snippets/python.json	/^      "\\tpass"$/;"	s	array:myClass.body
+20	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "    <\/div>",$/;"	s	array:dj_base.body
+21	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "",$/;"	s	array:dj_base.body
+22	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "    <script src=\\"{% static 'js\/jquery.min.js' %}\\"><\/script>",$/;"	s	array:dj_base.body
+23	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "    <script src=\\"{% static 'js\/bootstrap.js' %}\\"><\/script>",$/;"	s	array:dj_base.body
+24	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "    <script src=\\"{% static 'js\/layer.js' %}\\"><\/script>",$/;"	s	array:dj_base.body
+25	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "",$/;"	s	array:dj_base.body
+26	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "    {% block javascript %}{% endblock %}",$/;"	s	array:dj_base.body
+27	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "<\/html>",$/;"	s	array:dj_base.body
+28	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      ""$/;"	s	array:dj_base.body
+3	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "  <\/div>",$/;"	s	array:dj_fld-01.body
+3	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "  <\/label>",$/;"	s	array:dj_fld.body
+3	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "  <button type=\\"submit\\" class=\\"btn btn-primary\\">$2<\/button>",$/;"	s	array:dj_form_asp.body
+3	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "  <button type=\\"submit\\" class=\\"btn btn-primary\\">$2<\/button>",$/;"	s	array:dj_form_new.body
+3	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      ""$/;"	s	array:dj_blk_styles.body
+3	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "",$/;"	s	array:dj_view.body
+3	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "",$/;"	s	array:djextlayout.body
+3	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "<\/div>",$/;"	s	array:dj_blk_div.body
+3	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "<head>",$/;"	s	array:dj_base.body
+3	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "<script>",$/;"	s	array:dj_blk_src.body
+3	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "<script>",$/;"	s	array:dj_blksrc.body
+3	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "body": ["{% for $1 in $2 %}", "  $3", "{% empty %}", "", "{% endfor %}"],$/;"	s	array:dj_for.body
+3	/home/alanjui/.config/nvim/my-snippets/javascript.json	/^			"class $ ${2:extends ${3:Parent}} {",$/;"	s	array:Class.body
+3	/home/alanjui/.config/nvim/my-snippets/package.json	/^          "html",$/;"	s	array:contributes.snippets.0.language
+3	/home/alanjui/.config/nvim/my-snippets/package.json	/^          "typescriptreact"$/;"	s	array:contributes.snippets.3.language
+3	/home/alanjui/.config/nvim/my-snippets/package.json	/^      {$/;"	o	array:contributes.snippets
+4	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "    <meta http-equiv=\\"X-UA-Compatible\\" content=\\"IE=Edge\\">",$/;"	s	array:dj_base.body
+4	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "  $2",$/;"	s	array:dj_blk_src.body
+4	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "  $2",$/;"	s	array:dj_blksrc.body
+4	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "  <div class=\\"col-md-6 text-left\\">",$/;"	s	array:dj_fld.body
+4	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "  <div class=\\"col-md-8 text-left\\">",$/;"	s	array:dj_fld-01.body
+4	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "<\/form>"$/;"	s	array:dj_form_asp.body
+4	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "<\/form>"$/;"	s	array:dj_form_new.body
+4	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "{% block content %}",$/;"	s	array:djextlayout.body
+4	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "{% block title %}$1{% endblock %}",$/;"	s	array:dj_view.body
+4	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "{% endblock content %}"$/;"	s	array:dj_blk_div.body
+4	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "body": ["{% for $1 in $2 %}", "  $3", "{% empty %}", "", "{% endfor %}"],$/;"	s	array:dj_for.body
+4	/home/alanjui/.config/nvim/my-snippets/javascript.json	/^			"\\tconstructor() {",$/;"	s	array:Class.body
+4	/home/alanjui/.config/nvim/my-snippets/package.json	/^          "global"$/;"	s	array:contributes.snippets.0.language
+4	/home/alanjui/.config/nvim/my-snippets/package.json	/^      {$/;"	o	array:contributes.snippets
+5	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "    <meta charset=\\"UTF-8\\">",$/;"	s	array:dj_base.body
+5	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "    {{ $2 }}",$/;"	s	array:dj_fld-01.body
+5	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "    {{ form.$1 }}",$/;"	s	array:dj_fld.body
+5	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "",$/;"	s	array:dj_view.body
+5	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "$2",$/;"	s	array:djextlayout.body
+5	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "<\/script>",$/;"	s	array:dj_blk_src.body
+5	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "<\/script>",$/;"	s	array:dj_blksrc.body
+5	/home/alanjui/.config/nvim/my-snippets/javascript.json	/^			"\\t\\t$0",$/;"	s	array:Class.body
+5	/home/alanjui/.config/nvim/my-snippets/package.json	/^      {$/;"	o	array:contributes.snippets
+6	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "    <meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1\\">",$/;"	s	array:dj_base.body
+6	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "  <\/div>",$/;"	s	array:dj_fld-01.body
+6	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "  <\/div>",$/;"	s	array:dj_fld.body
+6	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "{% block content %}",$/;"	s	array:dj_view.body
+6	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "{% endblock content %}"$/;"	s	array:djextlayout.body
+6	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "{% endblock javascript %}",$/;"	s	array:dj_blk_src.body
+6	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "{% endblock javascript %}",$/;"	s	array:dj_blksrc.body
+6	/home/alanjui/.config/nvim/my-snippets/javascript.json	/^			"\\t}"$/;"	s	array:Class.body
+7	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "    <title>{% block title %}{% endblock%}<\/title>",$/;"	s	array:dj_base.body
+7	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "  $2",$/;"	s	array:dj_view.body
+7	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      ""$/;"	s	array:dj_blk_src.body
+7	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      ""$/;"	s	array:dj_blksrc.body
+7	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "<\/div>"$/;"	s	array:dj_fld-01.body
+7	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "<\/div>"$/;"	s	array:dj_fld.body
+8	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "    <link rel=\\"stylesheet\\" href=\\"{% static 'css\/bootstrap.css' %}\\">",$/;"	s	array:dj_base.body
+8	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "{% endblock content %}",$/;"	s	array:dj_view.body
+9	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "",$/;"	s	array:dj_view.body
+9	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^      "<\/head>",$/;"	s	array:dj_base.body
+<C-j>	/home/alanjui/.config/nvim/after/plugin/vim-vsnip.rc.vim	/^imap <expr> <C-j>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'$/;"	m
+<C-j>	/home/alanjui/.config/nvim/after/plugin/vim-vsnip.rc.vim	/^smap <expr> <C-j>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'$/;"	m
+<C-l>	/home/alanjui/.config/nvim/after/plugin/vim-vsnip.rc.vim	/^imap <expr> <C-l>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'$/;"	m
+<C-l>	/home/alanjui/.config/nvim/after/plugin/vim-vsnip.rc.vim	/^smap <expr> <C-l>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'$/;"	m
+<F10>	/home/alanjui/.config/nvim/after/plugin/ale.rc.vim	/^nmap <F10> :ALEFix<CR>$/;"	m
+<S-Tab>	/home/alanjui/.config/nvim/after/plugin/vim-vsnip.rc.vim	/^imap <expr> <S-Tab> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab>'$/;"	m
+<S-Tab>	/home/alanjui/.config/nvim/after/plugin/vim-vsnip.rc.vim	/^smap <expr> <S-Tab> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab>'$/;"	m
+<Tab>	/home/alanjui/.config/nvim/after/plugin/vim-vsnip.rc.vim	/^imap <expr> <Tab>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<Tab>'$/;"	m
+<Tab>	/home/alanjui/.config/nvim/after/plugin/vim-vsnip.rc.vim	/^smap <expr> <Tab>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<Tab>'$/;"	m
+Class	/home/alanjui/.config/nvim/my-snippets/javascript.json	/^	"Class": {$/;"	o
+GruvboxHlsHideCursor	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^function! GruvboxHlsHideCursor()$/;"	f
+GruvboxHlsShowCursor	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^function! GruvboxHlsShowCursor()$/;"	f
+LinterStatus	/home/alanjui/.config/nvim/after/plugin/ale.rc.vim	/^function! LinterStatus() abort$/;"	f
+NearestMethodOrFunction	/home/alanjui/.config/nvim/after/plugin/vista.rc.vim	/^function! NearestMethodOrFunction() abort$/;"	f
+S	/home/alanjui/.config/nvim/after/plugin/vim-vsnip.rc.vim	/^nmap        S   <Plug>(vsnip-cut-text)$/;"	m
+S	/home/alanjui/.config/nvim/after/plugin/vim-vsnip.rc.vim	/^xmap        S   <Plug>(vsnip-cut-text)$/;"	m
+['<S-Tab>']	/home/alanjui/.config/nvim/_archived/nvim-cmp.lua	/^		['<S-Tab>'] = cmp.mapping(function(fallback)$/;"	f
+['<S-Tab>']	/home/alanjui/.config/nvim/lua/lsp/LuaSnip.lua	/^		['<S-Tab>'] = cmp.mapping(function(fallback)$/;"	f
+['<S-Tab>']	/home/alanjui/.config/nvim/lua/lsp/vim-vsnip.lua	/^		['<S-Tab>'] = cmp.mapping(function(fallback)$/;"	f
+['<Tab>']	/home/alanjui/.config/nvim/_archived/nvim-cmp.lua	/^		['<Tab>'] = cmp.mapping(function(fallback)$/;"	f
+['<Tab>']	/home/alanjui/.config/nvim/lua/lsp/LuaSnip.lua	/^		['<Tab>'] = cmp.mapping(function(fallback)$/;"	f
+['<Tab>']	/home/alanjui/.config/nvim/lua/lsp/vim-vsnip.lua	/^		['<Tab>'] = cmp.mapping(function(fallback)$/;"	f
+['[M']	/home/alanjui/.config/nvim/after/plugin/nvim-treesitter.lua	/^        ['[M'] = '@function.outer',$/;"	f
+['[m']	/home/alanjui/.config/nvim/after/plugin/nvim-treesitter.lua	/^        ['[m'] = '@function.outer',$/;"	f
+[']M']	/home/alanjui/.config/nvim/after/plugin/nvim-treesitter.lua	/^        [']M'] = '@function.outer',$/;"	f
+[']m']	/home/alanjui/.config/nvim/after/plugin/nvim-treesitter.lua	/^        [']m'] = '@function.outer',$/;"	f
+['af']	/home/alanjui/.config/nvim/after/plugin/nvim-treesitter.lua	/^        ['af'] = '@function.outer',$/;"	f
+['if']	/home/alanjui/.config/nvim/after/plugin/nvim-treesitter.lua	/^        ['if'] = '@function.inner',$/;"	f
+\\"	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "\\"": {$/;"	o
+_G.load_config	/home/alanjui/.config/nvim/docs/nvim-lspconfig_minimal_configuration.lua	/^_G.load_config = function()$/;"	f
+_G.load_config	/home/alanjui/.config/nvim/docs/pyright.lua	/^_G.load_config = function()$/;"	f
+_G.s_tab_complete	/home/alanjui/.config/nvim/lua/config/LuaSnip/init.lua	/^_G.s_tab_complete = function()$/;"	f
+_G.s_tab_complete	/home/alanjui/.config/nvim/lua/config/vim-vsnip/init.lua	/^_G.s_tab_complete = function()$/;"	f
+_G.tab_complete	/home/alanjui/.config/nvim/lua/config/LuaSnip/init.lua	/^_G.tab_complete = function()$/;"	f
+_G.tab_complete	/home/alanjui/.config/nvim/lua/config/vim-vsnip/init.lua	/^_G.tab_complete = function()$/;"	f
+__init__	/home/alanjui/.config/nvim/test/pylint.py	/^    def __init__(self, color):$/;"	m	class:car
+aae	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "aae": {$/;"	o
+adminview	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "adminview": {$/;"	o
+ae	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "ae": {$/;"	o
+af	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "af": {$/;"	o
+an	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "an": {$/;"	o
+ann	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "ann": {$/;"	o
+ar	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "ar": {$/;"	o
+at	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "at": {$/;"	o
+attr	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "attr": {$/;"	o
+bash	/home/alanjui/.config/nvim/_archived/LuaSnip.lua	/^local function bash(_, command)$/;"	f
+bash	/home/alanjui/.config/nvim/lua/lsp/test_snippets.lua	/^local function bash(_, _, command)$/;"	f
+body	/home/alanjui/.config/nvim/my-snippets/ccc_html.json	/^    "body": ["<link rel=\\"stylesheet\\" href=\\"$1\\">"],$/;"	a	object:myLinkHref
+body	/home/alanjui/.config/nvim/my-snippets/ccc_html.json	/^    "body": ["<script src=\\"$1\\"><\/script>"],$/;"	a	object:myScriptSrc
+body	/home/alanjui/.config/nvim/my-snippets/ccc_html.json	/^    "body": ["{# comment-out a line #}"],$/;"	a	object:myCommentLine
+body	/home/alanjui/.config/nvim/my-snippets/ccc_html.json	/^    "body": ["{% block title %}{% endblock %}"],$/;"	a	object:myTitle
+body	/home/alanjui/.config/nvim/my-snippets/ccc_html.json	/^    "body": ["{% extends \\"base.html\\" %}"],$/;"	a	object:myExtends
+body	/home/alanjui/.config/nvim/my-snippets/ccc_html.json	/^    "body": [$/;"	a	object:myComment
+body	/home/alanjui/.config/nvim/my-snippets/ccc_html.json	/^    "body": [$/;"	a	object:myDivClass
+body	/home/alanjui/.config/nvim/my-snippets/ccc_html.json	/^    "body": [$/;"	a	object:myDivID
+body	/home/alanjui/.config/nvim/my-snippets/ccc_html.json	/^    "body": [$/;"	a	object:myFormGroup
+body	/home/alanjui/.config/nvim/my-snippets/ccc_html.json	/^    "body": [$/;"	a	object:myLabel
+body	/home/alanjui/.config/nvim/my-snippets/ccc_html.json	/^    "body": [$/;"	a	object:myform
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "# -*- coding: utf-8 -*-\\n\\"\\"\\"\\n\\t`!p snip.rv = get_dir_and_file_name(snip)`/;"	s	object:pmdoc
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "#!\/usr\/bin\/env python\\n$0",$/;"	s	object:#!
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "${1:FIELDNAME} = forms.BooleanField($2)",$/;"	s	object:fbool
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "${1:FIELDNAME} = forms.CharField($2)",$/;"	s	object:fchar
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "${1:FIELDNAME} = forms.ChoiceField($2)",$/;"	s	object:fchoice
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "${1:FIELDNAME} = forms.ComboField($2)",$/;"	s	object:fcombo
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "${1:FIELDNAME} = forms.DateField($2)",$/;"	s	object:fdate
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "${1:FIELDNAME} = forms.DateTimeField($2)",$/;"	s	object:fdatetime
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "${1:FIELDNAME} = forms.DecimalField($2)",$/;"	s	object:fdecimal
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "${1:FIELDNAME} = forms.EmailField($2)",$/;"	s	object:fmail
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "${1:FIELDNAME} = forms.FileField($2)",$/;"	s	object:ffile
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "${1:FIELDNAME} = forms.FilePathField($2)",$/;"	s	object:ffilepath
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "${1:FIELDNAME} = forms.FloatField($2)",$/;"	s	object:ffloat
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "${1:FIELDNAME} = forms.IPAddressField($2)",$/;"	s	object:fip
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "${1:FIELDNAME} = forms.ImageField($2)",$/;"	s	object:fimg
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "${1:FIELDNAME} = forms.IntegerField($2)",$/;"	s	object:fint
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "${1:FIELDNAME} = forms.ModelChoiceField($2)",$/;"	s	object:fmochoice
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "${1:FIELDNAME} = forms.ModelMultipleChoiceField($2)",$/;"	s	object:fmomuchoice
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "${1:FIELDNAME} = forms.MultiValueField($2)",$/;"	s	object:fmuval
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "${1:FIELDNAME} = forms.MultipleChoiceField($2)",$/;"	s	object:fmuchoice
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "${1:FIELDNAME} = forms.NullBooleanField($2)",$/;"	s	object:fnullbool
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "${1:FIELDNAME} = forms.RegexField($2)",$/;"	s	object:freg
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "${1:FIELDNAME} = forms.SlugField($2)",$/;"	s	object:fslug
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "${1:FIELDNAME} = forms.SplitDateTimeField($2)",$/;"	s	object:fsdatetime
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "${1:FIELDNAME} = forms.TimeField($2)",$/;"	s	object:ftime
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "${1:FIELDNAME} = forms.TypedChoiceField($2)",$/;"	s	object:ftchoice
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "${1:FIELDNAME} = forms.TypedMultipleChoiceField($2)",$/;"	s	object:ftmuchoice
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "${1:FIELDNAME} = forms.URLField($2)",$/;"	s	object:furl
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "${1:FIELDNAME} = models.AutoField($2)",$/;"	s	object:mauto
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "${1:FIELDNAME} = models.BigIntegerField($2)",$/;"	s	object:mbigint
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "${1:FIELDNAME} = models.BooleanField($2)",$/;"	s	object:mbool
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "${1:FIELDNAME} = models.CharField($2, max_length=${3:50})",$/;"	s	object:mchar
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "${1:FIELDNAME} = models.CommaSeparatedIntegerField($2)",$/;"	s	object:mcoseint
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "${1:FIELDNAME} = models.DateField($2)",$/;"	s	object:mdate
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "${1:FIELDNAME} = models.DateTimeField($2)",$/;"	s	object:mdatetime
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "${1:FIELDNAME} = models.DecimalField(max_digits=${2:10}, decimal_places=${3:2})",$/;"	s	object:mdecimal
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "${1:FIELDNAME} = models.EmailField($2)",$/;"	s	object:memail
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "${1:FIELDNAME} = models.FileField($2)",$/;"	s	object:mfile
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "${1:FIELDNAME} = models.FilePathField($2)",$/;"	s	object:mfilepath
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "${1:FIELDNAME} = models.FloatField($2)",$/;"	s	object:mfloat
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "${1:FIELDNAME} = models.ForeignKey($2)",$/;"	s	object:fk
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "${1:FIELDNAME} = models.IPAddressField($2)",$/;"	s	object:mip
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "${1:FIELDNAME} = models.ImageField($2)",$/;"	s	object:mimg
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "${1:FIELDNAME} = models.IntegerField($2)",$/;"	s	object:mint
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "${1:FIELDNAME} = models.ManyToManyField($2)",$/;"	s	object:m2m
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "${1:FIELDNAME} = models.NullBooleanField($2)",$/;"	s	object:mnullbool
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "${1:FIELDNAME} = models.OneToOneField($2)",$/;"	s	object:o2o
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "${1:FIELDNAME} = models.PhoneNumberField($2)",$/;"	s	object:mphone
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "${1:FIELDNAME} = models.PositiveIntegerField($2)",$/;"	s	object:mposint
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "${1:FIELDNAME} = models.PositiveSmallIntegerField($2)",$/;"	s	object:mpossmallint
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "${1:FIELDNAME} = models.SlugField($2)",$/;"	s	object:mslug
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "${1:FIELDNAME} = models.SmallIntegerField($2)",$/;"	s	object:msmallint
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "${1:FIELDNAME} = models.TextField($2)",$/;"	s	object:mtext
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "${1:FIELDNAME} = models.TimeField($2)",$/;"	s	object:mtime
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "${1:FIELDNAME} = models.URLField($2)",$/;"	s	object:murl
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "${1:FIELDNAME} = models.USStateField($2)",$/;"	s	object:musstate
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "${1:FIELDNAME} = models.XMLField($2)",$/;"	s	object:mxml
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "'''\\n${1:${VISUAL:doc}}\\n`!p triple_quotes_handle_trailing(snip, \\"'\\")`",$/;"	s	object:'
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "@classmethod\\ndef ${1:function}(`!p\\nif snip.indent:\\n\\tsnip.rv = 'cls' + (\\",/;"	s	object:defc
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "@property\\ndef ${1:name}(self):\\n\\t${2:return self._$1}$0",$/;"	s	object:roprop
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "@staticmethod\\ndef ${1:function}(${2:arg1}):\\n\\t`!p snip.rv = triple_quotes(snip/;"	s	object:defs
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "\\"\\"\\"\\n${1:${VISUAL:doc}}\\n`!p triple_quotes_handle_trailing(snip, '\\"')`",$/;"	s	object:\\"
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "`!p snip.rv = triple_quotes(snip)`\\n${1:${VISUAL:doc}}\\n`!p snip.rv = triple_quot/;"	s	object:doc
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "class $1Admin(admin.ModelAdmin):\\n\\t'''\\n\\t\\tAdmin View for $1\\n\\t'''\\n\\tl/;"	s	object:adminview
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "class $1Inline(admin.StackedInline):\\n\\t'''\\n\\tStacked Inline View for $1\\n\\t/;"	s	object:stackedinline
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "class $1Inline(admin.TabularInline):\\n\\t'''\\n\\tTabular Inline View for $1\\n\\t/;"	s	object:tabularinline
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "class ${1:CLASS_NAME}(TemplateView):\\n\\ttemplate_name = \\"${2:TEMPLATE_NAME}\\""/;"	s	object:templateview
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "class ${1:FORMNAME}(forms.Form):\\n\\n\\t${2:# TODO: Define form fields here}",$/;"	s	object:form
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "class ${1:MODELNAME}(models.Model):\\n\\t$0\\n\\tclass Meta:\\n\\t\\tverbose_name =/;"	s	object:model
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "class ${1:MODELNAME}(models.Model):\\n\\t${2:# TODO: Define fields here}\\n\\n\\tcl/;"	s	object:modelfull
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "class ${1:MODELNAME}Form(forms.ModelForm):\\n\\n\\tclass Meta:\\n\\t\\tmodel = $1",$/;"	s	object:modelform
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "class ${1:MODEL_NAME}CreateView(CreateView):\\n\\tmodel = $1\\n\\ttemplate_name = \\/;"	s	object:createview
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "class ${1:MODEL_NAME}DeleteView(DeleteView):\\n\\tmodel = $1\\n\\ttemplate_name = \\/;"	s	object:deleteview
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "class ${1:MODEL_NAME}DetailView(DetailView):\\n\\tmodel = $1\\n\\ttemplate_name = \\/;"	s	object:detailview
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "class ${1:MODEL_NAME}ListView(ListView):\\n\\tmodel = $1\\n\\ttemplate_name = \\"${/;"	s	object:dj-listview
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "class ${1:MODEL_NAME}ListView(ListView):\\n\\tmodel = $1\\n\\ttemplate_name = \\"${/;"	s	object:listview
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "class ${1:MODEL_NAME}UpdateView(UpdateView):\\n\\tmodel = $1\\n\\ttemplate_name = \\/;"	s	object:updateview
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "class ${1:MyClass}(${2:object}):\\n\\n\\t`!p snip.rv = triple_quotes(snip)`${3:Docs/;"	s	object:class
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "class ${1:MyClass}(${2:object}):\\n\\n\\t`!p snip.rv = triple_quotes(snip)`${3:Docs/;"	s	object:slotclass
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "class Test${1:Class}(${2:unittest.TestCase}):\\n\\n\\t`!p snip.rv = triple_quotes(s/;"	s	object:testcase
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "def ${1:fname}(`!p snip.rv = \\"self, \\" if snip.indent else \\"\\"`$2):\\n\\t$0",$/;"	s	object:deff
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "def ${1:function}(`!p\\nif snip.indent:\\n\\tsnip.rv = 'self' + (\\", \\" if len(t[/;"	s	object:def
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "def ${1:name}():\\n\\t`!p snip.rv = triple_quotes(snip) if t[2] else ''\\n`${2:TODO/;"	s	object:rwprop
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "def __add__(self, other):\\n\\t${1:pass}\\n\\ndef __sub__(self, other):\\n\\t${2:pa/;"	s	object:numeric
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "def __eq__(self, other):\\n\\t${1:pass}\\n\\ndef __ne__(self, other):\\n\\t${2:pass/;"	s	object:cmp
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "def __get__(self, instance, owner):\\n\\t${1:pass}\\n\\ndef __set__(self, instance,/;"	s	object:desc
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "def __getattr__(self, name):\\n\\t${1:pass}\\n\\ndef __setattr__(self, name, value)/;"	s	object:attr
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "def __len__(self):\\n\\t${1:pass}\\n\\ndef __getitem__(self, key):\\n\\t${2:pass}\\/;"	s	object:contain
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "def __repr__(self):\\n\\t${1:pass}\\n\\ndef __str__(self):\\n\\t${2:pass}\\n\\ndef /;"	s	object:repr
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "def dispatch(self, request, *args, **kwargs):\\n\\treturn super(${1:CLASS_NAME}, se/;"	s	object:dispatch
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "def get_context_data(self, **kwargs):\\n\\tkwargs['extra_context'] = ${1:'New Value/;"	s	object:context
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "for ${1:item} in ${2:iterable}:\\n\\t${3:${VISUAL:pass}}",$/;"	s	object:for
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "from ${1:module} import ${2:Stuff}",$/;"	s	object:from
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "if ${1:condition}:\\n\\t${2:${VISUAL:pass}}",$/;"	s	object:if
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "if ${1:condition}:\\n\\t${2:${VISUAL:pass}}\\nelif ${3:condition}:\\n\\t${4:pass}\\/;"	s	object:ifee
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "if ${1:condition}:\\n\\t${2:${VISUAL:pass}}\\nelse:\\n\\t${3:pass}",$/;"	s	object:ife
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "if __name__ == `!p snip.rv = get_quoting_style(snip)`__main__`!p snip.rv = get_quot/;"	s	object:ifmain
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "self.",$/;"	s	object:/(^|(?<=\\\\W))\\\\./
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "self.assertAlmostEqual(${1:${VISUAL:first}}, ${2:second})",$/;"	s	object:aae
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "self.assertEqual(${1:${VISUAL:first}}, ${2:second})",$/;"	s	object:ae
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "self.assertFalse(${1:${VISUAL:expression}})",$/;"	s	object:af
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "self.assertIsNone(${1:${VISUAL:expression}})",$/;"	s	object:an
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "self.assertIsNotNone(${1:${VISUAL:expression}})",$/;"	s	object:ann
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "self.assertRaises(${1:exception}, ${2:${VISUAL:func}}${3\/.+\/, \/}${3:arguments})"/;"	s	object:ar
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "self.assertTrue(${1:${VISUAL:expression}})",$/;"	s	object:at
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "try:\\n\\t${1:${VISUAL:pass}}\\nexcept ${2:Exception} as ${3:e}:\\n\\t${4:raise $3}/;"	s	object:try
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "try:\\n\\t${1:${VISUAL:pass}}\\nexcept ${2:Exception} as ${3:e}:\\n\\t${4:raise $3}/;"	s	object:trye
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "try:\\n\\t${1:${VISUAL:pass}}\\nexcept ${2:Exception} as ${3:e}:\\n\\t${4:raise $3}/;"	s	object:tryf
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "try:\\n\\t${1:${VISUAL:pass}}\\nexcept${2: ${3:Exception} as ${4:e}}:\\n\\t${5:rais/;"	s	object:tryef
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": "with ${1:expr}`!p snip.rv = \\" as \\" if t[2] else \\"\\"`${2:var}:\\n\\t${3:${VIS/;"	s	object:with
+body	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "body": [$/;"	a	object:myClass
+body	/home/alanjui/.config/nvim/my-snippets/html.json	/^    "body": ["<link rel=\\"stylesheet\\" href=\\"$1\\">"],$/;"	a	object:myLinkHref
+body	/home/alanjui/.config/nvim/my-snippets/html.json	/^    "body": ["<script src=\\"$1\\"><\/script>"],$/;"	a	object:myScriptSrc
+body	/home/alanjui/.config/nvim/my-snippets/html.json	/^    "body": ["{# comment-out a line #}"],$/;"	a	object:myCommentLine
+body	/home/alanjui/.config/nvim/my-snippets/html.json	/^    "body": ["{% block title %}{% endblock %}"],$/;"	a	object:myTitle
+body	/home/alanjui/.config/nvim/my-snippets/html.json	/^    "body": ["{% extends \\"base.html\\" %}"],$/;"	a	object:myExtends
+body	/home/alanjui/.config/nvim/my-snippets/html.json	/^    "body": [$/;"	a	object:myComment
+body	/home/alanjui/.config/nvim/my-snippets/html.json	/^    "body": [$/;"	a	object:myDivClass
+body	/home/alanjui/.config/nvim/my-snippets/html.json	/^    "body": [$/;"	a	object:myDivID
+body	/home/alanjui/.config/nvim/my-snippets/html.json	/^    "body": [$/;"	a	object:myFormGroup
+body	/home/alanjui/.config/nvim/my-snippets/html.json	/^    "body": [$/;"	a	object:myLabel
+body	/home/alanjui/.config/nvim/my-snippets/html.json	/^    "body": [$/;"	a	object:myform
+body	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "body": ["<a href=\\"{% url '$1' %}\\" $2>$3<\/a>"],$/;"	a	object:dj_a_href
+body	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "body": ["<img src=\\"{% static '$1' %}\\" \/>"],$/;"	a	object:dj_img_src
+body	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "body": ["<link rel=\\"stylesheet\\" href=\\"{% static '$1.css' %}\\" \/>"],$/;"	a	object:dj_link_href
+body	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "body": ["<script src=\\"{% static '$1.js' %}\\"><\/script>"],$/;"	a	object:dj_script_src
+body	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "body": ["{% block $1 %}", "$2", "{% endblock $1 %}"],$/;"	a	object:dj_block
+body	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "body": ["{% block $1 %}{% endblock $1 %}"],$/;"	a	object:dj_blk
+body	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "body": ["{% block content %}", "$1", "{% endblock content %}"],$/;"	a	object:dj_blkc
+body	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "body": ["{% block title %}$1{% endblock %}"],$/;"	a	object:dj_blkt
+body	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "body": ["{% else %}", "  $1"],$/;"	a	object:dj_else
+body	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "body": ["{% extends '${1:base.html}' %}", ""],$/;"	a	object:dj_extends
+body	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "body": ["{% for $1 in $2 %}", "  $3", "{% empty %}", "", "{% endfor %}"],$/;"	a	object:dj_for
+body	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "body": ["{% if $1 %}", "  $2", "{% endif %}"],$/;"	a	object:dj_if
+body	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "body": ["{% include '$1' %}", ""],$/;"	a	object:dj_include
+body	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "body": ["{% load $1 %}", ""],$/;"	a	object:dj_load
+body	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "body": ["{% load static %}", ""],$/;"	a	object:dj_load_static
+body	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "body": ["{% load static %}"],$/;"	a	object:dj_loads
+body	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "body": [$/;"	a	object:dj_base
+body	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "body": [$/;"	a	object:dj_blk_div
+body	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "body": [$/;"	a	object:dj_blk_src
+body	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "body": [$/;"	a	object:dj_blk_styles
+body	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "body": [$/;"	a	object:dj_blksrc
+body	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "body": [$/;"	a	object:dj_div
+body	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "body": [$/;"	a	object:dj_fld
+body	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "body": [$/;"	a	object:dj_fld-01
+body	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "body": [$/;"	a	object:dj_form_asp
+body	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "body": [$/;"	a	object:dj_form_new
+body	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "body": [$/;"	a	object:dj_label
+body	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "body": [$/;"	a	object:dj_view
+body	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "body": [$/;"	a	object:djextlayout
+body	/home/alanjui/.config/nvim/my-snippets/javascript.json	/^		"body": [$/;"	a	object:Class
+body	/home/alanjui/.config/nvim/my-snippets/python.json	/^    "body": [$/;"	a	object:myClass
+buf_set_keymap	/home/alanjui/.config/nvim/docs/nvim-lspconfig_minimal_configuration.lua	/^    local function buf_set_keymap(...)$/;"	f
+buf_set_keymap	/home/alanjui/.config/nvim/docs/pyright.lua	/^    local function buf_set_keymap(...)$/;"	f
+buf_set_keymap	/home/alanjui/.config/nvim/lua/lsp/on_attach.lua	/^  local function buf_set_keymap(...) vim.api.nvim_buf_set_keymap(bufnr, ...) end$/;"	f
+buf_set_keymap	/home/alanjui/.config/nvim/lua/lsp/typescript-ls.lua	/^  local function buf_set_keymap(...) vim.api.nvim_buf_set_keymap(bufnr, ...) end$/;"	f
+buf_set_option	/home/alanjui/.config/nvim/docs/nvim-lspconfig_minimal_configuration.lua	/^    local function buf_set_option(...)$/;"	f
+buf_set_option	/home/alanjui/.config/nvim/docs/pyright.lua	/^    local function buf_set_option(...)$/;"	f
+buf_set_option	/home/alanjui/.config/nvim/lua/lsp/on_attach.lua	/^  local function buf_set_option(...) vim.api.nvim_buf_set_option(bufnr, ...) end$/;"	f
+buf_set_option	/home/alanjui/.config/nvim/lua/lsp/typescript-ls.lua	/^  local function buf_set_option(...) vim.api.nvim_buf_set_option(bufnr, ...) end$/;"	f
+car	/home/alanjui/.config/nvim/test/pylint.py	/^class car():$/;"	c
+check_back_space	/home/alanjui/.config/nvim/lua/config/LuaSnip/init.lua	/^local check_back_space = function()$/;"	f
+check_back_space	/home/alanjui/.config/nvim/lua/config/vim-vsnip/init.lua	/^local check_back_space = function()$/;"	f
+class	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "class": {$/;"	o
+cmp	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "cmp": {$/;"	o
+colors_name	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^let colors_name = "NeoSolarized"$/;"	v
+colors_name	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^let colors_name = "NeoSolarized"$/;"	v
+condition	/home/alanjui/.config/nvim/lua/lsp/test_snippets.lua	/^			condition = function(line_to_cursor, matched_trigger, captures)$/;"	f
+config	/home/alanjui/.config/nvim/lua/plugins.lua	/^		config = function ()$/;"	f
+config	/home/alanjui/.config/nvim/lua/plugins.lua	/^    config = function() require'nvim-tree'.setup {} end$/;"	f
+contain	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "contain": {$/;"	o
+context	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "context": {$/;"	o
+contributes	/home/alanjui/.config/nvim/my-snippets/package.json	/^  "contributes": {$/;"	o
+copy	/home/alanjui/.config/nvim/_archived/LuaSnip.lua	/^local function copy(args)$/;"	f
+copy	/home/alanjui/.config/nvim/lua/lsp/test_snippets.lua	/^local function copy(args)$/;"	f
+crash	/home/alanjui/.config/nvim/test/pylint.py	/^def crash(car1, car2):$/;"	f
+createview	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "createview": {$/;"	o
+date_input	/home/alanjui/.config/nvim/_archived/LuaSnip.lua	/^local date_input = function(args, state, fmt)$/;"	f
+date_input	/home/alanjui/.config/nvim/lua/lsp/test_snippets.lua	/^local date_input = function(args, state, fmt)$/;"	f
+def	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "def": {$/;"	o
+defc	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "defc": {$/;"	o
+deff	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "deff": {$/;"	o
+defs	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "defs": {$/;"	o
+deleteview	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "deleteview": {$/;"	o
+desc	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "desc": {$/;"	o
+description	/home/alanjui/.config/nvim/my-snippets/ccc_html.json	/^    "description": "My form for myango Template"$/;"	s	object:myform
+description	/home/alanjui/.config/nvim/my-snippets/ccc_html.json	/^    "description": "block comment"$/;"	s	object:myComment
+description	/home/alanjui/.config/nvim/my-snippets/ccc_html.json	/^    "description": "block content"$/;"	s	object:myFormGroup
+description	/home/alanjui/.config/nvim/my-snippets/ccc_html.json	/^    "description": "block title"$/;"	s	object:myTitle
+description	/home/alanjui/.config/nvim/my-snippets/ccc_html.json	/^    "description": "comment out single line"$/;"	s	object:myCommentLine
+description	/home/alanjui/.config/nvim/my-snippets/ccc_html.json	/^    "description": "div with ID"$/;"	s	object:myDivID
+description	/home/alanjui/.config/nvim/my-snippets/ccc_html.json	/^    "description": "div with class"$/;"	s	object:myDivClass
+description	/home/alanjui/.config/nvim/my-snippets/ccc_html.json	/^    "description": "extends layout"$/;"	s	object:myExtends
+description	/home/alanjui/.config/nvim/my-snippets/ccc_html.json	/^    "description": "script source"$/;"	s	object:myScriptSrc
+description	/home/alanjui/.config/nvim/my-snippets/ccc_html.json	/^    "description": "stylesheet link ref"$/;"	s	object:myLinkHref
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "#!\/usr\/bin\/env python"$/;"	s	object:#!
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "Assert False"$/;"	s	object:af
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "Assert True"$/;"	s	object:at
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "Assert almost equal"$/;"	s	object:aae
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "Assert equal"$/;"	s	object:ae
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "Assert is None"$/;"	s	object:an
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "Assert is not None"$/;"	s	object:ann
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "Assert raises"$/;"	s	object:ar
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "AutoField"$/;"	s	object:mauto
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "BigIntegerField"$/;"	s	object:mbigint
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "BooleanField"$/;"	s	object:fbool
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "BooleanField"$/;"	s	object:mbool
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "CharField"$/;"	s	object:fchar
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "CharField"$/;"	s	object:mchar
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "ChoiceField"$/;"	s	object:fchoice
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "ComboField"$/;"	s	object:fcombo
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "CommaSeparatedIntegerField"$/;"	s	object:mcoseint
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "DateField"$/;"	s	object:fdate
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "DateField"$/;"	s	object:mdate
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "DateTimeField"$/;"	s	object:fdatetime
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "DateTimeField"$/;"	s	object:mdatetime
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "DecimalField"$/;"	s	object:fdecimal
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "DecimalField"$/;"	s	object:mdecimal
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "Dispatch View method"$/;"	s	object:dispatch
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "Django List View"$/;"	s	object:dj-listview
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "EmailField"$/;"	s	object:fmail
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "EmailField"$/;"	s	object:memail
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "FileField"$/;"	s	object:ffile
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "FileField"$/;"	s	object:mfile
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "FilePathField"$/;"	s	object:ffilepath
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "FilePathField"$/;"	s	object:mfilepath
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "FloatField"$/;"	s	object:ffloat
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "FloatField"$/;"	s	object:mfloat
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "ForeignKey"$/;"	s	object:fk
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "Form"$/;"	s	object:form
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "Generic Create View"$/;"	s	object:createview
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "Generic Delete View"$/;"	s	object:deleteview
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "Generic Detail View"$/;"	s	object:detailview
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "Generic List View"$/;"	s	object:listview
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "Generic Template View"$/;"	s	object:templateview
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "Generic Update View"$/;"	s	object:updateview
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "IPAddressField"$/;"	s	object:fip
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "IPAddressField"$/;"	s	object:mip
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "If \/ Elif \/ Else"$/;"	s	object:ifee
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "If \/ Else"$/;"	s	object:ife
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "If"$/;"	s	object:if
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "ImageField"$/;"	s	object:fimg
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "ImageField"$/;"	s	object:mimg
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "IntegerField"$/;"	s	object:fint
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "IntegerField"$/;"	s	object:mint
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "ManyToManyField"$/;"	s	object:m2m
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "Model Admin View"$/;"	s	object:adminview
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "Model"$/;"	s	object:model
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "Model"$/;"	s	object:modelfull
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "ModelChoiceField"$/;"	s	object:fmochoice
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "ModelForm"$/;"	s	object:modelform
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "ModelMultipleChoiceField"$/;"	s	object:fmomuchoice
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "MultiValueField"$/;"	s	object:fmuval
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "MultipleChoiceField"$/;"	s	object:fmuchoice
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "NullBooleanField"$/;"	s	object:fnullbool
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "NullBooleanField"$/;"	s	object:mnullbool
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "OneToOneField"$/;"	s	object:o2o
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "PhoneNumberField"$/;"	s	object:mphone
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "PositiveIntegerField"$/;"	s	object:mposint
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "PositiveSmallIntegerField"$/;"	s	object:mpossmallint
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "Read Only Property"$/;"	s	object:roprop
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "Read write property"$/;"	s	object:rwprop
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "RegexField"$/;"	s	object:freg
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "SlugField"$/;"	s	object:fslug
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "SlugField"$/;"	s	object:mslug
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "SmallIntegerField"$/;"	s	object:msmallint
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "SplitDateTimeField"$/;"	s	object:fsdatetime
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "Stacked Inline"$/;"	s	object:stackedinline
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "Tabular Inline"$/;"	s	object:tabularinline
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "TextField"$/;"	s	object:mtext
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "TimeField"$/;"	s	object:ftime
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "TimeField"$/;"	s	object:mtime
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "Try \/ Except \/ Else \/ Finally"$/;"	s	object:tryef
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "Try \/ Except \/ Else"$/;"	s	object:trye
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "Try \/ Except \/ Finally"$/;"	s	object:tryf
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "Try \/ Except"$/;"	s	object:try
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "TypedChoiceField"$/;"	s	object:ftchoice
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "TypedMultipleChoiceField"$/;"	s	object:ftmuchoice
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "URLField"$/;"	s	object:furl
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "URLField"$/;"	s	object:murl
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "USStateField"$/;"	s	object:musstate
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "XMLField"$/;"	s	object:mxml
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "class method with docstrings"$/;"	s	object:defc
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "class with docstrings"$/;"	s	object:class
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "class with slots and docstrings"$/;"	s	object:slotclass
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "doc block (triple quotes)"$/;"	s	object:doc
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "for loop"$/;"	s	object:for
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "from module import name"$/;"	s	object:from
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "function or class method"$/;"	s	object:deff
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "function with docstrings"$/;"	s	object:def
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "get_context_data view method"$/;"	s	object:context
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "ifmain"$/;"	s	object:ifmain
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "methods for customizing attribute access"$/;"	s	object:attr
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "methods for emulating a container type"$/;"	s	object:contain
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "methods for emulating a numeric type"$/;"	s	object:numeric
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "methods implementing descriptors"$/;"	s	object:desc
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "methods implementing rich comparison"$/;"	s	object:cmp
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "methods implementing string representation"$/;"	s	object:repr
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "pocoo style module doc string"$/;"	s	object:pmdoc
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "pyunit testcase"$/;"	s	object:testcase
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "self."$/;"	s	object:/(^|(?<=\\\\W))\\\\./
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "static method with docstrings"$/;"	s	object:defs
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "triple quoted string (double quotes)"$/;"	s	object:\\"
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "triple quoted string (single quotes)"$/;"	s	object:'
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "with"$/;"	s	object:with
+description	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "description": "宣告類別"$/;"	s	object:myClass
+description	/home/alanjui/.config/nvim/my-snippets/html.json	/^    "description": "My form for myango Template"$/;"	s	object:myform
+description	/home/alanjui/.config/nvim/my-snippets/html.json	/^    "description": "block comment"$/;"	s	object:myComment
+description	/home/alanjui/.config/nvim/my-snippets/html.json	/^    "description": "block content"$/;"	s	object:myFormGroup
+description	/home/alanjui/.config/nvim/my-snippets/html.json	/^    "description": "block title"$/;"	s	object:myTitle
+description	/home/alanjui/.config/nvim/my-snippets/html.json	/^    "description": "comment out single line"$/;"	s	object:myCommentLine
+description	/home/alanjui/.config/nvim/my-snippets/html.json	/^    "description": "div with ID"$/;"	s	object:myDivID
+description	/home/alanjui/.config/nvim/my-snippets/html.json	/^    "description": "div with class"$/;"	s	object:myDivClass
+description	/home/alanjui/.config/nvim/my-snippets/html.json	/^    "description": "extends layout"$/;"	s	object:myExtends
+description	/home/alanjui/.config/nvim/my-snippets/html.json	/^    "description": "script source"$/;"	s	object:myScriptSrc
+description	/home/alanjui/.config/nvim/my-snippets/html.json	/^    "description": "stylesheet link ref"$/;"	s	object:myLinkHref
+description	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "description": "<div> tag for content"$/;"	s	object:dj_div
+description	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "description": "Block of content with <div> tag"$/;"	s	object:dj_blk_div
+description	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "description": "Boilerplate template that extends layout.html"$/;"	s	object:djextlayout
+description	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "description": "Django: Block Script src"$/;"	s	object:dj_blk_src
+description	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "description": "Django: Block Styles"$/;"	s	object:dj_blk_styles
+description	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "description": "Django: HTML tags for View"$/;"	s	object:dj_view
+description	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "description": "Django: a href"$/;"	s	object:dj_a_href
+description	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "description": "Django: base.html"$/;"	s	object:dj_base
+description	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "description": "Django: block "$/;"	s	object:dj_block
+description	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "description": "Django: block content"$/;"	s	object:dj_blkc
+description	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "description": "Django: block script source"$/;"	s	object:dj_blksrc
+description	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "description": "Django: block title"$/;"	s	object:dj_blkt
+description	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "description": "Django: else"$/;"	s	object:dj_else
+description	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "description": "Django: extends"$/;"	s	object:dj_extends
+description	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "description": "Django: for loop"$/;"	s	object:dj_for
+description	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "description": "Django: form as_p"$/;"	s	object:dj_form_asp
+description	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "description": "Django: if"$/;"	s	object:dj_if
+description	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "description": "Django: img src"$/;"	s	object:dj_img_src
+description	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "description": "Django: include"$/;"	s	object:dj_include
+description	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "description": "Django: input field #1"$/;"	s	object:dj_fld-01
+description	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "description": "Django: input field with label"$/;"	s	object:dj_fld
+description	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "description": "Django: load "$/;"	s	object:dj_load
+description	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "description": "Django: load static files"$/;"	s	object:dj_load_static
+description	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "description": "Django: load static files"$/;"	s	object:dj_loads
+description	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "description": "Django: new form"$/;"	s	object:dj_form_new
+description	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "description": "Django: script src "$/;"	s	object:dj_script_src
+description	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "description": "Django: source of style file"$/;"	s	object:dj_link_href
+description	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "description": "One line block "$/;"	s	object:dj_blk
+description	/home/alanjui/.config/nvim/my-snippets/python.json	/^    "description": "宣告類別"$/;"	s	object:myClass
+detailview	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "detailview": {$/;"	o
+dispatch	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "dispatch": {$/;"	o
+dj-listview	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "dj-listview": {$/;"	o
+dj_a_href	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^  "dj_a_href": {$/;"	o
+dj_base	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^  "dj_base": {$/;"	o
+dj_blk	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^  "dj_blk": {$/;"	o
+dj_blk_div	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^  "dj_blk_div": {$/;"	o
+dj_blk_src	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^  "dj_blk_src": {$/;"	o
+dj_blk_styles	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^  "dj_blk_styles": {$/;"	o
+dj_blkc	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^  "dj_blkc": {$/;"	o
+dj_blksrc	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^  "dj_blksrc": {$/;"	o
+dj_blkt	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^  "dj_blkt": {$/;"	o
+dj_block	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^  "dj_block": {$/;"	o
+dj_div	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^  "dj_div": {$/;"	o
+dj_else	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^  "dj_else": {$/;"	o
+dj_extends	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^  "dj_extends": {$/;"	o
+dj_fld	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^  "dj_fld": {$/;"	o
+dj_fld-01	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^  "dj_fld-01": {$/;"	o
+dj_for	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^  "dj_for": {$/;"	o
+dj_form_asp	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^  "dj_form_asp": {$/;"	o
+dj_form_new	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^  "dj_form_new": {$/;"	o
+dj_if	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^  "dj_if": {$/;"	o
+dj_img_src	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^  "dj_img_src": {$/;"	o
+dj_include	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^  "dj_include": {$/;"	o
+dj_label	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^  "dj_label": {$/;"	o
+dj_link_href	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^  "dj_link_href": {$/;"	o
+dj_load	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^  "dj_load": {$/;"	o
+dj_load_static	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^  "dj_load_static": {$/;"	o
+dj_loads	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^  "dj_loads": {$/;"	o
+dj_script_src	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^  "dj_script_src": {$/;"	o
+dj_view	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^  "dj_view": {$/;"	o
+djextlayout	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^  "djextlayout": {$/;"	o
+doc	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "doc": {$/;"	o
+engines	/home/alanjui/.config/nvim/my-snippets/package.json	/^  "engines": {$/;"	o
+error_msg	/home/alanjui/.config/nvim/plugin/packer_compiled.lua	/^local no_errors, error_msg = pcall(function()$/;"	f
+expand	/home/alanjui/.config/nvim/_archived/nvim-cmp.lua	/^		expand = function (args)$/;"	f
+expand	/home/alanjui/.config/nvim/lua/lsp/LuaSnip.lua	/^    expand = function(args)$/;"	f
+expand	/home/alanjui/.config/nvim/lua/lsp/vim-vsnip.lua	/^  	expand = function(args)$/;"	f
+f	/home/alanjui/.config/nvim/_archived/LuaSnip.lua	/^local f = ls.function_node$/;"	f
+f	/home/alanjui/.config/nvim/lua/lsp/test_snippets.lua	/^local f = ls.function_node$/;"	f
+fbool	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "fbool": {$/;"	o
+fchar	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "fchar": {$/;"	o
+fchoice	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "fchoice": {$/;"	o
+fcombo	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "fcombo": {$/;"	o
+fdate	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "fdate": {$/;"	o
+fdatetime	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "fdatetime": {$/;"	o
+fdecimal	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "fdecimal": {$/;"	o
+feedkey	/home/alanjui/.config/nvim/lua/lsp/vim-vsnip.lua	/^local feedkey = function (key, mode)$/;"	f
+ffile	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "ffile": {$/;"	o
+ffilepath	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "ffilepath": {$/;"	o
+ffloat	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "ffloat": {$/;"	o
+fimg	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "fimg": {$/;"	o
+fint	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "fint": {$/;"	o
+fip	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "fip": {$/;"	o
+fk	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "fk": {$/;"	o
+fmail	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "fmail": {$/;"	o
+fmochoice	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "fmochoice": {$/;"	o
+fmomuchoice	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "fmomuchoice": {$/;"	o
+fmuchoice	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "fmuchoice": {$/;"	o
+fmuval	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "fmuval": {$/;"	o
+fnullbool	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "fnullbool": {$/;"	o
+for	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "for": {$/;"	o
+form	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "form": {$/;"	o
+freg	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "freg": {$/;"	o
+from	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "from": {$/;"	o
+fsdatetime	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "fsdatetime": {$/;"	o
+fslug	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "fslug": {$/;"	o
+ftchoice	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "ftchoice": {$/;"	o
+ftime	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "ftime": {$/;"	o
+ftmuchoice	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "ftmuchoice": {$/;"	o
+furl	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "furl": {$/;"	o
+g:AutoPairs	/home/alanjui/.config/nvim/after/plugin/auto-pairs.rc.vim	/^let g:AutoPairs = {$/;"	v
+g:ale_completion_enabled	/home/alanjui/.config/nvim/after/plugin/ale.rc.vim	/^let g:ale_completion_enabled = 0$/;"	v
+g:ale_echo_msg_error_str	/home/alanjui/.config/nvim/after/plugin/ale.rc.vim	/^let g:ale_echo_msg_error_str = 'E'$/;"	v
+g:ale_echo_msg_format	/home/alanjui/.config/nvim/after/plugin/ale.rc.vim	/^let g:ale_echo_msg_format = '[%linter%] [%severity%] %code: %%s'$/;"	v
+g:ale_echo_msg_warning_str	/home/alanjui/.config/nvim/after/plugin/ale.rc.vim	/^let g:ale_echo_msg_warning_str = 'W'$/;"	v
+g:ale_fix_on_save	/home/alanjui/.config/nvim/after/plugin/ale.rc.vim	/^let g:ale_fix_on_save = 1$/;"	v
+g:ale_fixers	/home/alanjui/.config/nvim/after/plugin/ale.rc.vim	/^let g:ale_fixers = {$/;"	v
+g:ale_go_gofmt_options	/home/alanjui/.config/nvim/after/plugin/ale.rc.vim	/^let g:ale_go_gofmt_options = '-s'$/;"	v
+g:ale_go_gometalinter_options	/home/alanjui/.config/nvim/after/plugin/ale.rc.vim	/^let g:ale_go_gometalinter_options = '— enable=gosimple — enable=staticcheck'$/;"	v
+g:ale_linters	/home/alanjui/.config/nvim/after/plugin/ale.rc.vim	/^let g:ale_linters = {$/;"	v
+g:ale_lsp_suggestions	/home/alanjui/.config/nvim/after/plugin/ale.rc.vim	/^let g:ale_lsp_suggestions = 1$/;"	v
+g:better_whitespace_enabled	/home/alanjui/.config/nvim/after/plugin/vim-better-whitespace.rc.vim	/^let g:better_whitespace_enabled=1$/;"	v
+g:better_whitespace_filetypes_blacklist	/home/alanjui/.config/nvim/after/plugin/vim-better-whitespace.rc.vim	/^let g:better_whitespace_filetypes_blacklist = [ 'diff', 'gitcommit', 'qf', 'help', 'markdown', '/;"	v
+g:colors_name	/home/alanjui/.config/nvim/colors/OceanicNext.vim	/^  let g:colors_name="OceanicNext"$/;"	v
+g:colors_name	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let g:colors_name='gruvbox'$/;"	v
+g:gist_clip_command	/home/alanjui/.config/nvim/after/plugin/gist.rc.vim	/^      let g:gist_clip_command = 'pbcopy'$/;"	v
+g:gist_clip_command	/home/alanjui/.config/nvim/after/plugin/gist.rc.vim	/^      let g:gist_clip_command = 'xclip -selection clipboard'$/;"	v
+g:gist_token	/home/alanjui/.config/nvim/after/plugin/gist.rc.vim	/^let g:gist_token = "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"$/;"	v
+g:gitgutter_override_sign_column_highlight	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let g:gitgutter_override_sign_column_highlight = 0$/;"	v
+g:github_user	/home/alanjui/.config/nvim/after/plugin/gist.rc.vim	/^let g:github_user = "AlanJui"$/;"	v
+g:gruvbox_bold	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let g:gruvbox_bold=1$/;"	v
+g:gruvbox_contrast_dark	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let g:gruvbox_contrast_dark='medium'$/;"	v
+g:gruvbox_contrast_light	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let g:gruvbox_contrast_light='medium'$/;"	v
+g:gruvbox_guisp_fallback	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let g:gruvbox_guisp_fallback='NONE'$/;"	v
+g:gruvbox_improved_strings	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let g:gruvbox_improved_strings=0$/;"	v
+g:gruvbox_improved_warnings	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let g:gruvbox_improved_warnings=0$/;"	v
+g:gruvbox_inverse	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let g:gruvbox_inverse=1$/;"	v
+g:gruvbox_invert_indent_guides	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let g:gruvbox_invert_indent_guides=0$/;"	v
+g:gruvbox_italic	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^    let g:gruvbox_italic=0$/;"	v
+g:gruvbox_italic	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^    let g:gruvbox_italic=1$/;"	v
+g:gruvbox_termcolors	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let g:gruvbox_termcolors=256$/;"	v
+g:gruvbox_undercurl	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let g:gruvbox_undercurl=1$/;"	v
+g:gruvbox_underline	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let g:gruvbox_underline=1$/;"	v
+g:indentLine_color_gui	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let g:indentLine_color_gui = s:bg2[0]$/;"	v
+g:indentLine_color_term	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let g:indentLine_color_term = s:bg2[1]$/;"	v
+g:indent_guides_auto_colors	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let g:indent_guides_auto_colors = 0$/;"	v
+g:instant_markdown_port	/home/alanjui/.config/nvim/after/plugin/vim-instant-markdown.rc.vim	/^let g:instant_markdown_port = 8888$/;"	v
+g:lightline	/home/alanjui/.config/nvim/after/plugin/vista.rc.vim	/^let g:lightline = {$/;"	v
+g:neosolarized_bold	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^let g:neosolarized_bold = get(g:, "neosolarized_bold", 1)$/;"	v
+g:neosolarized_bold	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^let g:neosolarized_bold = get(g:, "neosolarized_bold", 1)$/;"	v
+g:neosolarized_contrast	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^let g:neosolarized_contrast = get(g:, "neosolarized_contrast", "normal")$/;"	v
+g:neosolarized_contrast	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^let g:neosolarized_contrast = get(g:, "neosolarized_contrast", "normal")$/;"	v
+g:neosolarized_diffmode	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^let g:neosolarized_diffmode = get(g:, "neosolarized_diffmode", "normal")$/;"	v
+g:neosolarized_diffmode	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^let g:neosolarized_diffmode = get(g:, "neosolarized_diffmode", "normal")$/;"	v
+g:neosolarized_italic	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^let g:neosolarized_italic = get(g:, "neosolarized_italic", 0)$/;"	v
+g:neosolarized_italic	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^let g:neosolarized_italic = get(g:, "neosolarized_italic", 0)$/;"	v
+g:neosolarized_termBoldAsBright	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^let g:neosolarized_termBoldAsBright = get(g:, "neosolarized_termBoldAsBright", 1)$/;"	v
+g:neosolarized_termtrans	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^let g:neosolarized_termtrans = get(g:, "neosolarized_termtrans", 0)$/;"	v
+g:neosolarized_termtrans	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^let g:neosolarized_termtrans = get(g:, "neosolarized_termtrans", 0)$/;"	v
+g:neosolarized_underline	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^let g:neosolarized_underline = get(g:, "neosolarized_underline", 1)$/;"	v
+g:neosolarized_underline	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^let g:neosolarized_underline = get(g:, "neosolarized_underline", 1)$/;"	v
+g:neosolarized_vertSplitBgTrans	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^let g:neosolarized_vertSplitBgTrans = get(g:, "neosolarized_vertSplitBgTrans", 1)$/;"	v
+g:neosolarized_vertSplitBgTrans	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^let g:neosolarized_vertSplitBgTrans = get(g:, "neosolarized_vertSplitBgTrans", 1)$/;"	v
+g:neosolarized_visibility	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^let g:neosolarized_visibility = get(g:, "neosolarized_visibility", "normal")$/;"	v
+g:neosolarized_visibility	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^let g:neosolarized_visibility = get(g:, "neosolarized_visibility", "normal")$/;"	v
+g:niji_dark_colours	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let g:niji_dark_colours = g:rbpt_colorpairs$/;"	v
+g:niji_light_colours	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let g:niji_light_colours = g:rbpt_colorpairs$/;"	v
+g:oceanic_next_terminal_bold	/home/alanjui/.config/nvim/colors/OceanicNext.vim	/^  let g:oceanic_next_terminal_bold = get(g:, 'oceanic_next_terminal_bold', 0)$/;"	v
+g:oceanic_next_terminal_italic	/home/alanjui/.config/nvim/colors/OceanicNext.vim	/^  let g:oceanic_next_terminal_italic = get(g:, 'oceanic_next_terminal_italic', 0)$/;"	v
+g:plantuml_previewer#save_format	/home/alanjui/.config/nvim/after/plugin/plantuml-previewer-vim.rc.vim	/^let g:plantuml_previewer#save_format = 'png'$/;"	v
+g:plantuml_previewer#viewer_path	/home/alanjui/.config/nvim/after/plugin/plantuml-previewer-vim.rc.vim	/^let g:plantuml_previewer#viewer_path = '~\/.vim\/plugged\/plantuml-previewer.vim\/viewer\/dist'$/;"	v
+g:rainbow_conf	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^   let g:rainbow_conf = {}$/;"	v
+g:rainbow_conf	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^   let g:rainbow_conf['ctermfgs'] = g:rainbow_ctermfgs$/;"	v
+g:rainbow_conf	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^   let g:rainbow_conf['guifgs'] = g:rainbow_guifgs$/;"	v
+g:rainbow_ctermfgs	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let g:rainbow_ctermfgs = [ '166', 'red', 'magenta', 'blue' ]$/;"	v
+g:rainbow_guifgs	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let g:rainbow_guifgs = [ '#d65d0e', '#cc241d', '#b16286', '#458588' ]$/;"	v
+g:rbpt_colorpairs	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let g:rbpt_colorpairs =$/;"	v
+g:strip_whitespace_confirm	/home/alanjui/.config/nvim/after/plugin/vim-better-whitespace.rc.vim	/^let g:strip_whitespace_confirm = 0$/;"	v
+g:strip_whitespace_on_save	/home/alanjui/.config/nvim/after/plugin/vim-better-whitespace.rc.vim	/^let g:strip_whitespace_on_save=1$/;"	v
+g:tagalong_filetypes	/home/alanjui/.config/nvim/after/plugin/tagalong-vim.rc.vim	/^let g:tagalong_filetypes = [ 'html', 'htmldjango', 'xml', 'javascriptreact', 'typescriptreact' ]$/;"	v
+g:terminal_ansi_colors	/home/alanjui/.config/nvim/colors/OceanicNext.vim	/^  let g:terminal_ansi_colors = [$/;"	v
+g:terminal_color_0	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^let g:terminal_color_0 = s:gui_base03$/;"	v
+g:terminal_color_0	/home/alanjui/.config/nvim/colors/OceanicNext.vim	/^  let g:terminal_color_0=s:base00[0]$/;"	v
+g:terminal_color_0	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let g:terminal_color_0 = s:bg0[0]$/;"	v
+g:terminal_color_0	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^let g:terminal_color_0 = s:gui_base03$/;"	v
+g:terminal_color_1	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^let g:terminal_color_1 = s:gui_red$/;"	v
+g:terminal_color_1	/home/alanjui/.config/nvim/colors/OceanicNext.vim	/^  let g:terminal_color_1=s:red[0]$/;"	v
+g:terminal_color_1	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let g:terminal_color_1 = s:gb.neutral_red[0]$/;"	v
+g:terminal_color_1	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^let g:terminal_color_1 = s:gui_red$/;"	v
+g:terminal_color_10	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^  let g:terminal_color_10 = g:terminal_color_2$/;"	v
+g:terminal_color_10	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^  let g:terminal_color_10 = s:gui_base01$/;"	v
+g:terminal_color_10	/home/alanjui/.config/nvim/colors/OceanicNext.vim	/^  let g:terminal_color_10=s:green[0]$/;"	v
+g:terminal_color_10	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let g:terminal_color_10 = s:green[0]$/;"	v
+g:terminal_color_10	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^let g:terminal_color_10 = s:gui_base01$/;"	v
+g:terminal_color_11	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^  let g:terminal_color_11 = g:terminal_color_3$/;"	v
+g:terminal_color_11	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^  let g:terminal_color_11 = s:gui_base00$/;"	v
+g:terminal_color_11	/home/alanjui/.config/nvim/colors/OceanicNext.vim	/^  let g:terminal_color_11=s:yellow[0]$/;"	v
+g:terminal_color_11	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let g:terminal_color_11 = s:yellow[0]$/;"	v
+g:terminal_color_11	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^let g:terminal_color_11 = s:gui_base00$/;"	v
+g:terminal_color_12	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^  let g:terminal_color_12 = g:terminal_color_4$/;"	v
+g:terminal_color_12	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^  let g:terminal_color_12 = s:gui_base0$/;"	v
+g:terminal_color_12	/home/alanjui/.config/nvim/colors/OceanicNext.vim	/^  let g:terminal_color_12=s:blue[0]$/;"	v
+g:terminal_color_12	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let g:terminal_color_12 = s:blue[0]$/;"	v
+g:terminal_color_12	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^let g:terminal_color_12 = s:gui_base0$/;"	v
+g:terminal_color_13	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^  let g:terminal_color_13 = g:terminal_color_5$/;"	v
+g:terminal_color_13	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^  let g:terminal_color_13 = s:gui_violet$/;"	v
+g:terminal_color_13	/home/alanjui/.config/nvim/colors/OceanicNext.vim	/^  let g:terminal_color_13=s:purple[0]$/;"	v
+g:terminal_color_13	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let g:terminal_color_13 = s:purple[0]$/;"	v
+g:terminal_color_13	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^let g:terminal_color_13 = s:gui_violet$/;"	v
+g:terminal_color_14	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^  let g:terminal_color_14 = g:terminal_color_6$/;"	v
+g:terminal_color_14	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^  let g:terminal_color_14 = s:gui_base1$/;"	v
+g:terminal_color_14	/home/alanjui/.config/nvim/colors/OceanicNext.vim	/^  let g:terminal_color_14=s:cyan[0]$/;"	v
+g:terminal_color_14	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let g:terminal_color_14 = s:aqua[0]$/;"	v
+g:terminal_color_14	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^let g:terminal_color_14 = s:gui_base1$/;"	v
+g:terminal_color_15	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^  let g:terminal_color_15 = g:terminal_color_7$/;"	v
+g:terminal_color_15	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^  let g:terminal_color_15 = s:gui_base3$/;"	v
+g:terminal_color_15	/home/alanjui/.config/nvim/colors/OceanicNext.vim	/^  let g:terminal_color_15=s:base05[0]$/;"	v
+g:terminal_color_15	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let g:terminal_color_15 = s:fg1[0]$/;"	v
+g:terminal_color_15	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^let g:terminal_color_15 = s:gui_base3$/;"	v
+g:terminal_color_2	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^let g:terminal_color_2 = s:gui_green$/;"	v
+g:terminal_color_2	/home/alanjui/.config/nvim/colors/OceanicNext.vim	/^  let g:terminal_color_2=s:green[0]$/;"	v
+g:terminal_color_2	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let g:terminal_color_2 = s:gb.neutral_green[0]$/;"	v
+g:terminal_color_2	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^let g:terminal_color_2 = s:gui_green$/;"	v
+g:terminal_color_3	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^let g:terminal_color_3 = s:gui_yellow$/;"	v
+g:terminal_color_3	/home/alanjui/.config/nvim/colors/OceanicNext.vim	/^  let g:terminal_color_3=s:yellow[0]$/;"	v
+g:terminal_color_3	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let g:terminal_color_3 = s:gb.neutral_yellow[0]$/;"	v
+g:terminal_color_3	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^let g:terminal_color_3 = s:gui_yellow$/;"	v
+g:terminal_color_4	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^let g:terminal_color_4 = s:gui_blue$/;"	v
+g:terminal_color_4	/home/alanjui/.config/nvim/colors/OceanicNext.vim	/^  let g:terminal_color_4=s:blue[0]$/;"	v
+g:terminal_color_4	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let g:terminal_color_4 = s:gb.neutral_blue[0]$/;"	v
+g:terminal_color_4	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^let g:terminal_color_4 = s:gui_blue$/;"	v
+g:terminal_color_5	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^let g:terminal_color_5 = s:gui_magenta$/;"	v
+g:terminal_color_5	/home/alanjui/.config/nvim/colors/OceanicNext.vim	/^  let g:terminal_color_5=s:purple[0]$/;"	v
+g:terminal_color_5	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let g:terminal_color_5 = s:gb.neutral_purple[0]$/;"	v
+g:terminal_color_5	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^let g:terminal_color_5 = s:gui_magenta$/;"	v
+g:terminal_color_6	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^let g:terminal_color_6 = s:gui_cyan$/;"	v
+g:terminal_color_6	/home/alanjui/.config/nvim/colors/OceanicNext.vim	/^  let g:terminal_color_6=s:cyan[0]$/;"	v
+g:terminal_color_6	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let g:terminal_color_6 = s:gb.neutral_aqua[0]$/;"	v
+g:terminal_color_6	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^let g:terminal_color_6 = s:gui_cyan$/;"	v
+g:terminal_color_7	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^let g:terminal_color_7 = s:gui_base2$/;"	v
+g:terminal_color_7	/home/alanjui/.config/nvim/colors/OceanicNext.vim	/^  let g:terminal_color_7=s:base05[0]$/;"	v
+g:terminal_color_7	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let g:terminal_color_7 = s:fg4[0]$/;"	v
+g:terminal_color_7	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^let g:terminal_color_7 = s:gui_base2$/;"	v
+g:terminal_color_8	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^  let g:terminal_color_8 = g:terminal_color_0$/;"	v
+g:terminal_color_8	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^  let g:terminal_color_8 = s:gui_base02$/;"	v
+g:terminal_color_8	/home/alanjui/.config/nvim/colors/OceanicNext.vim	/^  let g:terminal_color_8=s:base03[0]$/;"	v
+g:terminal_color_8	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let g:terminal_color_8 = s:gray[0]$/;"	v
+g:terminal_color_8	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^let g:terminal_color_8 = s:gui_base02$/;"	v
+g:terminal_color_9	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^  let g:terminal_color_9 = g:terminal_color_1$/;"	v
+g:terminal_color_9	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^  let g:terminal_color_9 = s:gui_orange$/;"	v
+g:terminal_color_9	/home/alanjui/.config/nvim/colors/OceanicNext.vim	/^  let g:terminal_color_9=s:red[0]$/;"	v
+g:terminal_color_9	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let g:terminal_color_9 = s:red[0]$/;"	v
+g:terminal_color_9	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^let g:terminal_color_9 = s:gui_orange$/;"	v
+g:terminal_color_background	/home/alanjui/.config/nvim/colors/OceanicNext.vim	/^  let g:terminal_color_background=s:base00[0]$/;"	v
+g:terminal_color_foreground	/home/alanjui/.config/nvim/colors/OceanicNext.vim	/^  let g:terminal_color_foreground=s:white[0]$/;"	v
+g:vimshell_escape_colors	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let g:vimshell_escape_colors = [$/;"	v
+g:vista#renderer#enable_icon	/home/alanjui/.config/nvim/after/plugin/vista.rc.vim	/^let g:vista#renderer#enable_icon = 1$/;"	v
+g:vista#renderer#icons	/home/alanjui/.config/nvim/after/plugin/vista.rc.vim	/^let g:vista#renderer#icons = {$/;"	v
+g:vista_ctags_cmd	/home/alanjui/.config/nvim/after/plugin/vista.rc.vim	/^let g:vista_ctags_cmd = {$/;"	v
+g:vista_default_executive	/home/alanjui/.config/nvim/after/plugin/vista.rc.vim	/^let g:vista_default_executive = 'ctags'$/;"	v
+g:vista_executive_for	/home/alanjui/.config/nvim/after/plugin/vista.rc.vim	/^let g:vista_executive_for = {$/;"	v
+g:vista_fzf_preview	/home/alanjui/.config/nvim/after/plugin/vista.rc.vim	/^let g:vista_fzf_preview = ['right:50%']$/;"	v
+g:vista_icon_indent	/home/alanjui/.config/nvim/after/plugin/vista.rc.vim	/^let g:vista_icon_indent = ["╰─▸ ", "├─▸ "]$/;"	v
+g:vsnip_filetypes	/home/alanjui/.config/nvim/after/plugin/vim-vsnip.rc.vim	/^let g:vsnip_filetypes = {}$/;"	v
+g:vsnip_filetypes	/home/alanjui/.config/nvim/after/plugin/vim-vsnip.rc.vim	/^let g:vsnip_filetypes.htmldjango = ['html']$/;"	v
+g:vsnip_filetypes	/home/alanjui/.config/nvim/after/plugin/vim-vsnip.rc.vim	/^let g:vsnip_filetypes.javascriptreact = ['javascript']$/;"	v
+g:vsnip_filetypes	/home/alanjui/.config/nvim/after/plugin/vim-vsnip.rc.vim	/^let g:vsnip_filetypes.typescriptreact = ['typescript']$/;"	v
+g:vsnip_snippet_dir	/home/alanjui/.config/nvim/after/plugin/vim-vsnip.rc.vim	/^let g:vsnip_snippet_dir = "\/home\/alanjui\/.config\/nvim\/my-snippets"$/;"	v
+has_words_before	/home/alanjui/.config/nvim/_archived/nvim-cmp.lua	/^local has_words_before = function ()$/;"	f
+has_words_before	/home/alanjui/.config/nvim/lua/lsp/LuaSnip.lua	/^local has_words_before = function ()$/;"	f
+has_words_before	/home/alanjui/.config/nvim/lua/lsp/vim-vsnip.lua	/^local has_words_before = function ()$/;"	f
+hs_highlight_boolean	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^let hs_highlight_boolean=1$/;"	v
+hs_highlight_boolean	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^let hs_highlight_boolean=1$/;"	v
+hs_highlight_delimiters	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^let hs_highlight_delimiters=1$/;"	v
+hs_highlight_delimiters	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^let hs_highlight_delimiters=1$/;"	v
+if	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "if": {$/;"	o
+ife	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "ife": {$/;"	o
+ifee	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "ifee": {$/;"	o
+ifmain	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "ifmain": {$/;"	o
+jdocsnip	/home/alanjui/.config/nvim/_archived/LuaSnip.lua	/^local function jdocsnip(args, old_state)$/;"	f
+jdocsnip	/home/alanjui/.config/nvim/lua/lsp/test_snippets.lua	/^local function jdocsnip(args, _, old_state)$/;"	f
+language	/home/alanjui/.config/nvim/my-snippets/package.json	/^				"language": [$/;"	a	object:contributes.snippets.2
+language	/home/alanjui/.config/nvim/my-snippets/package.json	/^        "language": "html",$/;"	s	object:contributes.snippets.1
+language	/home/alanjui/.config/nvim/my-snippets/package.json	/^        "language": "python",$/;"	s	object:contributes.snippets.4
+language	/home/alanjui/.config/nvim/my-snippets/package.json	/^        "language": "python",$/;"	s	object:contributes.snippets.5
+language	/home/alanjui/.config/nvim/my-snippets/package.json	/^        "language": [$/;"	a	object:contributes.snippets.0
+language	/home/alanjui/.config/nvim/my-snippets/package.json	/^        "language": [$/;"	a	object:contributes.snippets.3
+listview	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "listview": {$/;"	o
+load_plugins	/home/alanjui/.config/nvim/docs/nvim-lspconfig_minimal_configuration.lua	/^local function load_plugins()$/;"	f
+m2m	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "m2m": {$/;"	o
+map	/home/alanjui/.config/nvim/lua/lsp/lspsaga.lua	/^local function map(mode, lhs, rhs, opts)$/;"	f
+mauto	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "mauto": {$/;"	o
+mbigint	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "mbigint": {$/;"	o
+mbool	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "mbool": {$/;"	o
+mchar	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "mchar": {$/;"	o
+mcoseint	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "mcoseint": {$/;"	o
+mdate	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "mdate": {$/;"	o
+mdatetime	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "mdatetime": {$/;"	o
+mdecimal	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "mdecimal": {$/;"	o
+memail	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "memail": {$/;"	o
+mfile	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "mfile": {$/;"	o
+mfilepath	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "mfilepath": {$/;"	o
+mfloat	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "mfloat": {$/;"	o
+mimg	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "mimg": {$/;"	o
+mint	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "mint": {$/;"	o
+mip	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "mip": {$/;"	o
+mnullbool	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "mnullbool": {$/;"	o
+model	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "model": {$/;"	o
+modelform	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "modelform": {$/;"	o
+modelfull	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "modelfull": {$/;"	o
+mphone	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "mphone": {$/;"	o
+mposint	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "mposint": {$/;"	o
+mpossmallint	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "mpossmallint": {$/;"	o
+mslug	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "mslug": {$/;"	o
+msmallint	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "msmallint": {$/;"	o
+mtext	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "mtext": {$/;"	o
+mtime	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "mtime": {$/;"	o
+multiply	/home/alanjui/.config/nvim/test/flake8.py	/^def multiply  (a,b):$/;"	f
+murl	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "murl": {$/;"	o
+musstate	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "musstate": {$/;"	o
+mxml	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "mxml": {$/;"	o
+myClass	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "myClass": {$/;"	o
+myClass	/home/alanjui/.config/nvim/my-snippets/python.json	/^  "myClass": {$/;"	o
+myComment	/home/alanjui/.config/nvim/my-snippets/ccc_html.json	/^  "myComment": {$/;"	o
+myComment	/home/alanjui/.config/nvim/my-snippets/html.json	/^  "myComment": {$/;"	o
+myCommentLine	/home/alanjui/.config/nvim/my-snippets/ccc_html.json	/^  "myCommentLine": {$/;"	o
+myCommentLine	/home/alanjui/.config/nvim/my-snippets/html.json	/^  "myCommentLine": {$/;"	o
+myDivClass	/home/alanjui/.config/nvim/my-snippets/ccc_html.json	/^  "myDivClass": {$/;"	o
+myDivClass	/home/alanjui/.config/nvim/my-snippets/html.json	/^  "myDivClass": {$/;"	o
+myDivID	/home/alanjui/.config/nvim/my-snippets/ccc_html.json	/^  "myDivID": {$/;"	o
+myDivID	/home/alanjui/.config/nvim/my-snippets/html.json	/^  "myDivID": {$/;"	o
+myExtends	/home/alanjui/.config/nvim/my-snippets/ccc_html.json	/^  "myExtends": {$/;"	o
+myExtends	/home/alanjui/.config/nvim/my-snippets/html.json	/^  "myExtends": {$/;"	o
+myFormGroup	/home/alanjui/.config/nvim/my-snippets/ccc_html.json	/^  "myFormGroup": {$/;"	o
+myFormGroup	/home/alanjui/.config/nvim/my-snippets/html.json	/^  "myFormGroup": {$/;"	o
+myLabel	/home/alanjui/.config/nvim/my-snippets/ccc_html.json	/^  "myLabel": {$/;"	o
+myLabel	/home/alanjui/.config/nvim/my-snippets/html.json	/^  "myLabel": {$/;"	o
+myLinkHref	/home/alanjui/.config/nvim/my-snippets/ccc_html.json	/^  "myLinkHref": {$/;"	o
+myLinkHref	/home/alanjui/.config/nvim/my-snippets/html.json	/^  "myLinkHref": {$/;"	o
+myScriptSrc	/home/alanjui/.config/nvim/my-snippets/ccc_html.json	/^  "myScriptSrc": {$/;"	o
+myScriptSrc	/home/alanjui/.config/nvim/my-snippets/html.json	/^  "myScriptSrc": {$/;"	o
+myTitle	/home/alanjui/.config/nvim/my-snippets/ccc_html.json	/^  "myTitle": {$/;"	o
+myTitle	/home/alanjui/.config/nvim/my-snippets/html.json	/^  "myTitle": {$/;"	o
+my_car	/home/alanjui/.config/nvim/test/pylint.py	/^my_car = car('blue')$/;"	v
+myform	/home/alanjui/.config/nvim/my-snippets/ccc_html.json	/^  "myform": {$/;"	o
+myform	/home/alanjui/.config/nvim/my-snippets/html.json	/^  "myform": {$/;"	o
+myfunc	/home/alanjui/.config/nvim/test/flake8.py	/^def myfunc():$/;"	f
+name	/home/alanjui/.config/nvim/my-snippets/package.json	/^  "name": "ccc-snippets",$/;"	s
+numeric	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "numeric": {$/;"	o
+o2o	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "o2o": {$/;"	o
+on_attach	/home/alanjui/.config/nvim/docs/nvim-lspconfig_minimal_configuration.lua	/^  local on_attach = function(_, bufnr)$/;"	f
+on_attach	/home/alanjui/.config/nvim/docs/pyright.lua	/^  local on_attach = function(_, bufnr)$/;"	f
+on_attach	/home/alanjui/.config/nvim/lua/lsp/on_attach.lua	/^function on_attach(client, bufnr)$/;"	f
+on_attach	/home/alanjui/.config/nvim/lua/lsp/typescript-ls.lua	/^local function on_attach(client, bufnr)$/;"	f
+path	/home/alanjui/.config/nvim/my-snippets/package.json	/^        "path": ".\/ccc_html.json"$/;"	s	object:contributes.snippets.1
+path	/home/alanjui/.config/nvim/my-snippets/package.json	/^        "path": ".\/django.json"$/;"	s	object:contributes.snippets.4
+path	/home/alanjui/.config/nvim/my-snippets/package.json	/^        "path": ".\/global.json"$/;"	s	object:contributes.snippets.0
+path	/home/alanjui/.config/nvim/my-snippets/package.json	/^        "path": ".\/htmldjango.json"$/;"	s	object:contributes.snippets.2
+path	/home/alanjui/.config/nvim/my-snippets/package.json	/^        "path": ".\/javascript.json"$/;"	s	object:contributes.snippets.3
+path	/home/alanjui/.config/nvim/my-snippets/package.json	/^        "path": ".\/python.json"$/;"	s	object:contributes.snippets.5
+pmdoc	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "pmdoc": {$/;"	o
+prefix	/home/alanjui/.config/nvim/my-snippets/ccc_html.json	/^    "prefix": "myComment",$/;"	s	object:myComment
+prefix	/home/alanjui/.config/nvim/my-snippets/ccc_html.json	/^    "prefix": "myComment",$/;"	s	object:myCommentLine
+prefix	/home/alanjui/.config/nvim/my-snippets/ccc_html.json	/^    "prefix": "myDivClass",$/;"	s	object:myDivClass
+prefix	/home/alanjui/.config/nvim/my-snippets/ccc_html.json	/^    "prefix": "myDivID",$/;"	s	object:myDivID
+prefix	/home/alanjui/.config/nvim/my-snippets/ccc_html.json	/^    "prefix": "myExtends",$/;"	s	object:myExtends
+prefix	/home/alanjui/.config/nvim/my-snippets/ccc_html.json	/^    "prefix": "myFormGroup",$/;"	s	object:myFormGroup
+prefix	/home/alanjui/.config/nvim/my-snippets/ccc_html.json	/^    "prefix": "myLabel",$/;"	s	object:myLabel
+prefix	/home/alanjui/.config/nvim/my-snippets/ccc_html.json	/^    "prefix": "myLinkHref",$/;"	s	object:myLinkHref
+prefix	/home/alanjui/.config/nvim/my-snippets/ccc_html.json	/^    "prefix": "myScriptSrc",$/;"	s	object:myScriptSrc
+prefix	/home/alanjui/.config/nvim/my-snippets/ccc_html.json	/^    "prefix": "myTitle",$/;"	s	object:myTitle
+prefix	/home/alanjui/.config/nvim/my-snippets/ccc_html.json	/^    "prefix": "myform",$/;"	s	object:myform
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "#!",$/;"	s	object:#!
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "'",$/;"	s	object:'
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "\/(^|(?<=\\\\W))\\\\.\/",$/;"	s	object:/(^|(?<=\\\\W))\\\\./
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "\\"",$/;"	s	object:\\"
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "aae",$/;"	s	object:aae
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "adminview",$/;"	s	object:adminview
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "ae",$/;"	s	object:ae
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "af",$/;"	s	object:af
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "an",$/;"	s	object:an
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "ann",$/;"	s	object:ann
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "ar",$/;"	s	object:ar
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "at",$/;"	s	object:at
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "attr",$/;"	s	object:attr
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "class",$/;"	s	object:class
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "cmp",$/;"	s	object:cmp
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "contain",$/;"	s	object:contain
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "context",$/;"	s	object:context
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "createview",$/;"	s	object:createview
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "def",$/;"	s	object:def
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "defc",$/;"	s	object:defc
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "deff",$/;"	s	object:deff
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "defs",$/;"	s	object:defs
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "deleteview",$/;"	s	object:deleteview
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "desc",$/;"	s	object:desc
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "detailview",$/;"	s	object:detailview
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "dispatch",$/;"	s	object:dispatch
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "dj-listview",$/;"	s	object:dj-listview
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "doc",$/;"	s	object:doc
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "fbool",$/;"	s	object:fbool
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "fchar",$/;"	s	object:fchar
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "fchoice",$/;"	s	object:fchoice
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "fcombo",$/;"	s	object:fcombo
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "fdate",$/;"	s	object:fdate
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "fdatetime",$/;"	s	object:fdatetime
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "fdecimal",$/;"	s	object:fdecimal
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "ffile",$/;"	s	object:ffile
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "ffilepath",$/;"	s	object:ffilepath
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "ffloat",$/;"	s	object:ffloat
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "fimg",$/;"	s	object:fimg
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "fint",$/;"	s	object:fint
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "fip",$/;"	s	object:fip
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "fk",$/;"	s	object:fk
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "fmail",$/;"	s	object:fmail
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "fmochoice",$/;"	s	object:fmochoice
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "fmomuchoice",$/;"	s	object:fmomuchoice
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "fmuchoice",$/;"	s	object:fmuchoice
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "fmuval",$/;"	s	object:fmuval
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "fnullbool",$/;"	s	object:fnullbool
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "for",$/;"	s	object:for
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "form",$/;"	s	object:form
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "freg",$/;"	s	object:freg
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "from",$/;"	s	object:from
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "fsdatetime",$/;"	s	object:fsdatetime
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "fslug",$/;"	s	object:fslug
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "ftchoice",$/;"	s	object:ftchoice
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "ftime",$/;"	s	object:ftime
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "ftmuchoice",$/;"	s	object:ftmuchoice
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "furl",$/;"	s	object:furl
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "if",$/;"	s	object:if
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "ife",$/;"	s	object:ife
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "ifee",$/;"	s	object:ifee
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "ifmain",$/;"	s	object:ifmain
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "listview",$/;"	s	object:listview
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "m2m",$/;"	s	object:m2m
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "mauto",$/;"	s	object:mauto
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "mbigint",$/;"	s	object:mbigint
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "mbool",$/;"	s	object:mbool
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "mchar",$/;"	s	object:mchar
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "mcoseint",$/;"	s	object:mcoseint
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "mdate",$/;"	s	object:mdate
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "mdatetime",$/;"	s	object:mdatetime
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "mdecimal",$/;"	s	object:mdecimal
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "memail",$/;"	s	object:memail
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "mfile",$/;"	s	object:mfile
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "mfilepath",$/;"	s	object:mfilepath
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "mfloat",$/;"	s	object:mfloat
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "mimg",$/;"	s	object:mimg
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "mint",$/;"	s	object:mint
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "mip",$/;"	s	object:mip
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "mnullbool",$/;"	s	object:mnullbool
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "model",$/;"	s	object:model
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "modelform",$/;"	s	object:modelform
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "modelfull",$/;"	s	object:modelfull
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "mphone",$/;"	s	object:mphone
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "mposint",$/;"	s	object:mposint
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "mpossmallint",$/;"	s	object:mpossmallint
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "mslug",$/;"	s	object:mslug
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "msmallint",$/;"	s	object:msmallint
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "mtext",$/;"	s	object:mtext
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "mtime",$/;"	s	object:mtime
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "murl",$/;"	s	object:murl
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "musstate",$/;"	s	object:musstate
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "mxml",$/;"	s	object:mxml
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "myClass",$/;"	s	object:myClass
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "numeric",$/;"	s	object:numeric
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "o2o",$/;"	s	object:o2o
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "pmdoc",$/;"	s	object:pmdoc
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "repr",$/;"	s	object:repr
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "roprop",$/;"	s	object:roprop
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "rwprop",$/;"	s	object:rwprop
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "slotclass",$/;"	s	object:slotclass
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "stackedinline",$/;"	s	object:stackedinline
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "tabularinline",$/;"	s	object:tabularinline
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "templateview",$/;"	s	object:templateview
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "testcase",$/;"	s	object:testcase
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "try",$/;"	s	object:try
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "trye",$/;"	s	object:trye
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "tryef",$/;"	s	object:tryef
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "tryf",$/;"	s	object:tryf
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "updateview",$/;"	s	object:updateview
+prefix	/home/alanjui/.config/nvim/my-snippets/django.json	/^    "prefix": "with",$/;"	s	object:with
+prefix	/home/alanjui/.config/nvim/my-snippets/html.json	/^    "prefix": "myComment",$/;"	s	object:myComment
+prefix	/home/alanjui/.config/nvim/my-snippets/html.json	/^    "prefix": "myComment",$/;"	s	object:myCommentLine
+prefix	/home/alanjui/.config/nvim/my-snippets/html.json	/^    "prefix": "myDivClass",$/;"	s	object:myDivClass
+prefix	/home/alanjui/.config/nvim/my-snippets/html.json	/^    "prefix": "myDivID",$/;"	s	object:myDivID
+prefix	/home/alanjui/.config/nvim/my-snippets/html.json	/^    "prefix": "myExtends",$/;"	s	object:myExtends
+prefix	/home/alanjui/.config/nvim/my-snippets/html.json	/^    "prefix": "myFormGroup",$/;"	s	object:myFormGroup
+prefix	/home/alanjui/.config/nvim/my-snippets/html.json	/^    "prefix": "myLabel",$/;"	s	object:myLabel
+prefix	/home/alanjui/.config/nvim/my-snippets/html.json	/^    "prefix": "myLinkHref",$/;"	s	object:myLinkHref
+prefix	/home/alanjui/.config/nvim/my-snippets/html.json	/^    "prefix": "myScriptSrc",$/;"	s	object:myScriptSrc
+prefix	/home/alanjui/.config/nvim/my-snippets/html.json	/^    "prefix": "myTitle",$/;"	s	object:myTitle
+prefix	/home/alanjui/.config/nvim/my-snippets/html.json	/^    "prefix": "myform",$/;"	s	object:myform
+prefix	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "prefix": "dj_a_href",$/;"	s	object:dj_a_href
+prefix	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "prefix": "dj_base",$/;"	s	object:dj_base
+prefix	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "prefix": "dj_blk",$/;"	s	object:dj_blk
+prefix	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "prefix": "dj_blk_div",$/;"	s	object:dj_blk_div
+prefix	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "prefix": "dj_blk_src",$/;"	s	object:dj_blk_src
+prefix	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "prefix": "dj_blk_styles",$/;"	s	object:dj_blk_styles
+prefix	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "prefix": "dj_blkc",$/;"	s	object:dj_blkc
+prefix	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "prefix": "dj_blksrc",$/;"	s	object:dj_blksrc
+prefix	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "prefix": "dj_blkt",$/;"	s	object:dj_blkt
+prefix	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "prefix": "dj_block",$/;"	s	object:dj_block
+prefix	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "prefix": "dj_div",$/;"	s	object:dj_div
+prefix	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "prefix": "dj_else",$/;"	s	object:dj_else
+prefix	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "prefix": "dj_extends",$/;"	s	object:dj_extends
+prefix	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "prefix": "dj_fld",$/;"	s	object:dj_fld
+prefix	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "prefix": "dj_fld-01",$/;"	s	object:dj_fld-01
+prefix	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "prefix": "dj_for",$/;"	s	object:dj_for
+prefix	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "prefix": "dj_form_asp",$/;"	s	object:dj_form_asp
+prefix	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "prefix": "dj_form_new",$/;"	s	object:dj_form_new
+prefix	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "prefix": "dj_if",$/;"	s	object:dj_if
+prefix	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "prefix": "dj_img_src",$/;"	s	object:dj_img_src
+prefix	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "prefix": "dj_include",$/;"	s	object:dj_include
+prefix	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "prefix": "dj_label",$/;"	s	object:dj_label
+prefix	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "prefix": "dj_link_href",$/;"	s	object:dj_link_href
+prefix	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "prefix": "dj_load",$/;"	s	object:dj_load
+prefix	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "prefix": "dj_load_static",$/;"	s	object:dj_load_static
+prefix	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "prefix": "dj_loads",$/;"	s	object:dj_loads
+prefix	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "prefix": "dj_script_src",$/;"	s	object:dj_script_src
+prefix	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "prefix": "dj_view",$/;"	s	object:dj_view
+prefix	/home/alanjui/.config/nvim/my-snippets/htmldjango.json	/^    "prefix": "djextlayout",$/;"	s	object:djextlayout
+prefix	/home/alanjui/.config/nvim/my-snippets/javascript.json	/^		"prefix": ["class"],$/;"	a	object:Class
+prefix	/home/alanjui/.config/nvim/my-snippets/python.json	/^    "prefix": "myClass",$/;"	s	object:myClass
+pylint log format	/home/alanjui/.config/nvim/README.md	/^# pylint log format$/;"	c
+rec_ls	/home/alanjui/.config/nvim/_archived/LuaSnip.lua	/^rec_ls = function()$/;"	f
+rec_ls	/home/alanjui/.config/nvim/lua/lsp/test_snippets.lua	/^rec_ls = function()$/;"	f
+repr	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "repr": {$/;"	o
+root_dir	/home/alanjui/.config/nvim/after/plugin/emment-ls.lua	/^			root_dir = function (fname)$/;"	f
+root_dir	/home/alanjui/.config/nvim/lua/lsp/pyright-ls.lua	/^	root_dir = function (fname)$/;"	f
+roprop	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "roprop": {$/;"	o
+rwprop	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "rwprop": {$/;"	o
+s	/home/alanjui/.config/nvim/after/plugin/vim-vsnip.rc.vim	/^nmap        s   <Plug>(vsnip-select-text)$/;"	m
+s	/home/alanjui/.config/nvim/after/plugin/vim-vsnip.rc.vim	/^xmap        s   <Plug>(vsnip-select-text)$/;"	m
+s:HL	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^function! s:HL(group, fg, ...)$/;"	f
+s:aqua	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let s:aqua   = s:gb.bright_aqua$/;"	v
+s:aqua	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let s:aqua   = s:gb.faded_aqua$/;"	v
+s:aqua	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let s:aqua[1]   = 14$/;"	v
+s:b	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:b           = ""$/;"	v
+s:b	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:b           = ",bold"$/;"	v
+s:b	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:b           = ""$/;"	v
+s:b	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:b           = ",bold"$/;"	v
+s:base00	/home/alanjui/.config/nvim/colors/OceanicNext.vim	/^  let s:base00 = ['#1b2b34', '235']$/;"	v
+s:base01	/home/alanjui/.config/nvim/colors/OceanicNext.vim	/^  let s:base01 = ['#343d46', '237']$/;"	v
+s:base02	/home/alanjui/.config/nvim/colors/OceanicNext.vim	/^  let s:base02 = ['#4f5b66', '240']$/;"	v
+s:base03	/home/alanjui/.config/nvim/colors/OceanicNext.vim	/^  let s:base03 = ['#65737e', '243']$/;"	v
+s:base04	/home/alanjui/.config/nvim/colors/OceanicNext.vim	/^  let s:base04 = ['#a7adba', '145']$/;"	v
+s:base05	/home/alanjui/.config/nvim/colors/OceanicNext.vim	/^  let s:base05 = ['#c0c5ce', '251']$/;"	v
+s:base06	/home/alanjui/.config/nvim/colors/OceanicNext.vim	/^  let s:base06 = ['#cdd3de', '252']$/;"	v
+s:base07	/home/alanjui/.config/nvim/colors/OceanicNext.vim	/^  let s:base07 = ['#d8dee9', '253']$/;"	v
+s:bb	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:bb          = ""$/;"	v
+s:bb	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:bb          = ",bold"$/;"	v
+s:bb	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:bb          = ""$/;"	v
+s:bb	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:bb          = ",bold"$/;"	v
+s:bg0	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^    let s:bg0  = s:gb.dark0_hard$/;"	v
+s:bg0	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^    let s:bg0  = s:gb.dark0_soft$/;"	v
+s:bg0	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^    let s:bg0  = s:gb.light0_hard$/;"	v
+s:bg0	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^    let s:bg0  = s:gb.light0_soft$/;"	v
+s:bg0	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let s:bg0  = s:gb.dark0$/;"	v
+s:bg0	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let s:bg0  = s:gb.light0$/;"	v
+s:bg0	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let s:bg0[1]    = 0$/;"	v
+s:bg1	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let s:bg1  = s:gb.dark1$/;"	v
+s:bg1	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let s:bg1  = s:gb.light1$/;"	v
+s:bg2	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let s:bg2  = s:gb.dark2$/;"	v
+s:bg2	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let s:bg2  = s:gb.light2$/;"	v
+s:bg3	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let s:bg3  = s:gb.dark3$/;"	v
+s:bg3	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let s:bg3  = s:gb.light3$/;"	v
+s:bg4	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let s:bg4  = s:gb.dark4$/;"	v
+s:bg4	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let s:bg4  = s:gb.light4$/;"	v
+s:blue	/home/alanjui/.config/nvim/colors/OceanicNext.vim	/^  let s:blue   = ['#6699cc', '68']$/;"	v
+s:blue	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let s:blue   = s:gb.bright_blue$/;"	v
+s:blue	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let s:blue   = s:gb.faded_blue$/;"	v
+s:blue	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let s:blue[1]   = 12$/;"	v
+s:bold	/home/alanjui/.config/nvim/colors/OceanicNext.vim	/^   let s:bold = "bold"$/;"	v
+s:bold	/home/alanjui/.config/nvim/colors/OceanicNext.vim	/^  let s:bold = ""$/;"	v
+s:bold	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let s:bold = ''$/;"	v
+s:bold	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:bold = 'bold,'$/;"	v
+s:brown	/home/alanjui/.config/nvim/colors/OceanicNext.vim	/^  let s:brown  = ['#ab7967', '137']$/;"	v
+s:c	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:c               = ",undercurl"$/;"	v
+s:c	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:c               = ",undercurl"$/;"	v
+s:color_column	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let s:color_column = get(s:gb, g:gruvbox_color_column)$/;"	v
+s:color_column	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:color_column = s:bg1$/;"	v
+s:cyan	/home/alanjui/.config/nvim/colors/OceanicNext.vim	/^  let s:cyan   = ['#62b3b2', '73']$/;"	v
+s:fg0	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let s:fg0 = s:gb.dark0$/;"	v
+s:fg0	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let s:fg0 = s:gb.light0$/;"	v
+s:fg1	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let s:fg1 = s:gb.dark1$/;"	v
+s:fg1	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let s:fg1 = s:gb.light1$/;"	v
+s:fg1	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let s:fg1[1]    = 15$/;"	v
+s:fg2	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let s:fg2 = s:gb.dark2$/;"	v
+s:fg2	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let s:fg2 = s:gb.light2$/;"	v
+s:fg3	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let s:fg3 = s:gb.dark3$/;"	v
+s:fg3	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let s:fg3 = s:gb.light3$/;"	v
+s:fg4	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let s:fg4 = s:gb.dark4$/;"	v
+s:fg4	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let s:fg4 = s:gb.light4$/;"	v
+s:fg4	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let s:fg4[1]    = 7$/;"	v
+s:fg4_256	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let s:fg4_256 = s:gb.dark4_256$/;"	v
+s:fg4_256	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let s:fg4_256 = s:gb.light4_256$/;"	v
+s:fg_pdef	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^let s:fg_pdef = s:fg_violet$/;"	v
+s:fg_pdef	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^let s:fg_pdef = s:fg_violet$/;"	v
+s:fg_phead	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^let s:fg_phead = s:fg_orange$/;"	v
+s:fg_phead	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^let s:fg_phead = s:fg_orange$/;"	v
+s:fg_ptable	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^let s:fg_ptable = s:fg_blue$/;"	v
+s:fg_ptable	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^let s:fg_ptable = s:fg_blue$/;"	v
+s:gb	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:gb = {}$/;"	v
+s:gb	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:gb.aqua   = s:aqua$/;"	v
+s:gb	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:gb.bg0 = s:bg0$/;"	v
+s:gb	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:gb.bg1 = s:bg1$/;"	v
+s:gb	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:gb.bg2 = s:bg2$/;"	v
+s:gb	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:gb.bg3 = s:bg3$/;"	v
+s:gb	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:gb.bg4 = s:bg4$/;"	v
+s:gb	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:gb.blue   = s:blue$/;"	v
+s:gb	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:gb.bright_aqua    = ['#8ec07c', 108]     " 142-192-124$/;"	v
+s:gb	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:gb.bright_blue    = ['#83a598', 109]     " 131-165-152$/;"	v
+s:gb	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:gb.bright_green   = ['#b8bb26', 142]     " 184-187-38$/;"	v
+s:gb	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:gb.bright_orange  = ['#fe8019', 208]     " 254-128-25$/;"	v
+s:gb	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:gb.bright_purple  = ['#d3869b', 175]     " 211-134-155$/;"	v
+s:gb	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:gb.bright_red     = ['#fb4934', 167]     " 251-73-52$/;"	v
+s:gb	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:gb.bright_yellow  = ['#fabd2f', 214]     " 250-189-47$/;"	v
+s:gb	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:gb.dark0       = ['#282828', 235]     " 40-40-40$/;"	v
+s:gb	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:gb.dark0_hard  = ['#1d2021', 234]     " 29-32-33$/;"	v
+s:gb	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:gb.dark0_soft  = ['#32302f', 236]     " 50-48-47$/;"	v
+s:gb	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:gb.dark1       = ['#3c3836', 237]     " 60-56-54$/;"	v
+s:gb	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:gb.dark2       = ['#504945', 239]     " 80-73-69$/;"	v
+s:gb	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:gb.dark3       = ['#665c54', 241]     " 102-92-84$/;"	v
+s:gb	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:gb.dark4       = ['#7c6f64', 243]     " 124-111-100$/;"	v
+s:gb	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:gb.dark4_256   = ['#7c6f64', 243]     " 124-111-100$/;"	v
+s:gb	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:gb.faded_aqua     = ['#427b58', 66]      " 66-123-88$/;"	v
+s:gb	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:gb.faded_blue     = ['#076678', 24]      " 7-102-120$/;"	v
+s:gb	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:gb.faded_green    = ['#79740e', 100]     " 121-116-14$/;"	v
+s:gb	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:gb.faded_orange   = ['#af3a03', 130]     " 175-58-3$/;"	v
+s:gb	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:gb.faded_purple   = ['#8f3f71', 96]      " 143-63-113$/;"	v
+s:gb	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:gb.faded_red      = ['#9d0006', 88]      " 157-0-6$/;"	v
+s:gb	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:gb.faded_yellow   = ['#b57614', 136]     " 181-118-20$/;"	v
+s:gb	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:gb.fg0 = s:fg0$/;"	v
+s:gb	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:gb.fg1 = s:fg1$/;"	v
+s:gb	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:gb.fg2 = s:fg2$/;"	v
+s:gb	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:gb.fg3 = s:fg3$/;"	v
+s:gb	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:gb.fg4 = s:fg4$/;"	v
+s:gb	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:gb.fg4_256 = s:fg4_256$/;"	v
+s:gb	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:gb.gray = s:gray$/;"	v
+s:gb	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:gb.gray_244    = ['#928374', 244]     " 146-131-116$/;"	v
+s:gb	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:gb.gray_245    = ['#928374', 245]     " 146-131-116$/;"	v
+s:gb	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:gb.green  = s:green$/;"	v
+s:gb	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:gb.light0      = ['#fbf1c7', 229]     " 253-244-193$/;"	v
+s:gb	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:gb.light0_hard = ['#f9f5d7', 230]     " 249-245-215$/;"	v
+s:gb	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:gb.light0_soft = ['#f2e5bc', 228]     " 242-229-188$/;"	v
+s:gb	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:gb.light1      = ['#ebdbb2', 223]     " 235-219-178$/;"	v
+s:gb	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:gb.light2      = ['#d5c4a1', 250]     " 213-196-161$/;"	v
+s:gb	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:gb.light3      = ['#bdae93', 248]     " 189-174-147$/;"	v
+s:gb	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:gb.light4      = ['#a89984', 246]     " 168-153-132$/;"	v
+s:gb	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:gb.light4_256  = ['#a89984', 246]     " 168-153-132$/;"	v
+s:gb	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:gb.neutral_aqua   = ['#689d6a', 72]      " 104-157-106$/;"	v
+s:gb	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:gb.neutral_blue   = ['#458588', 66]      " 69-133-136$/;"	v
+s:gb	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:gb.neutral_green  = ['#98971a', 106]     " 152-151-26$/;"	v
+s:gb	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:gb.neutral_orange = ['#d65d0e', 166]     " 214-93-14$/;"	v
+s:gb	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:gb.neutral_purple = ['#b16286', 132]     " 177-98-134$/;"	v
+s:gb	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:gb.neutral_red    = ['#cc241d', 124]     " 204-36-29$/;"	v
+s:gb	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:gb.neutral_yellow = ['#d79921', 172]     " 215-153-33$/;"	v
+s:gb	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:gb.orange = s:orange$/;"	v
+s:gb	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:gb.purple = s:purple$/;"	v
+s:gb	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:gb.red    = s:red$/;"	v
+s:gb	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:gb.yellow = s:yellow$/;"	v
+s:gray	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let s:gray = s:gb.gray_244$/;"	v
+s:gray	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let s:gray = s:gb.gray_245$/;"	v
+s:gray	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let s:gray[1]   = 8$/;"	v
+s:green	/home/alanjui/.config/nvim/colors/OceanicNext.vim	/^  let s:green  = ['#99c794', '114']$/;"	v
+s:green	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let s:green  = s:gb.bright_green$/;"	v
+s:green	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let s:green  = s:gb.faded_green$/;"	v
+s:green	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let s:green[1]  = 10$/;"	v
+s:gui_back	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^        let s:gui_back  =   s:gui_base03$/;"	v
+s:gui_back	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_back        = "NONE"$/;"	v
+s:gui_back	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_back        = s:gui_back$/;"	v
+s:gui_back	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_back        = s:gui_base02$/;"	v
+s:gui_back	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_back        = s:gui_base03$/;"	v
+s:gui_back	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^        let s:gui_back  =   s:gui_base03$/;"	v
+s:gui_back	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:gui_back        = "NONE"$/;"	v
+s:gui_back	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:gui_back        = s:gui_back$/;"	v
+s:gui_back	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:gui_back        = s:gui_base02$/;"	v
+s:gui_back	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:gui_back        = s:gui_base03$/;"	v
+s:gui_base0	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_base0       = "#839496"$/;"	v
+s:gui_base0	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_base0       = s:gui_base1$/;"	v
+s:gui_base0	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_base0     =   s:gui_temp00$/;"	v
+s:gui_base0	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:gui_base0       = "#839496"$/;"	v
+s:gui_base0	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:gui_base0       = s:gui_base1$/;"	v
+s:gui_base0	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:gui_base0     =   s:gui_temp00$/;"	v
+s:gui_base00	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_base00      = "#657b83"$/;"	v
+s:gui_base00	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_base00      = s:gui_base0$/;"	v
+s:gui_base00	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_base00    =   s:gui_base0$/;"	v
+s:gui_base00	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:gui_base00      = "#657b83"$/;"	v
+s:gui_base00	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:gui_base00      = s:gui_base0$/;"	v
+s:gui_base00	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:gui_base00    =   s:gui_base0$/;"	v
+s:gui_base01	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_base01      = "#586e75"$/;"	v
+s:gui_base01	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_base01      = s:gui_base00$/;"	v
+s:gui_base01	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_base01    =   s:gui_base1$/;"	v
+s:gui_base01	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:gui_base01      = "#586e75"$/;"	v
+s:gui_base01	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:gui_base01      = s:gui_base00$/;"	v
+s:gui_base01	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:gui_base01    =   s:gui_base1$/;"	v
+s:gui_base02	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_base02      = "#073642"$/;"	v
+s:gui_base02	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_base02    =   s:gui_base2$/;"	v
+s:gui_base02	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:gui_base02      = "#073642"$/;"	v
+s:gui_base02	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:gui_base02    =   s:gui_base2$/;"	v
+s:gui_base03	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_base03      = "#002b36"$/;"	v
+s:gui_base03	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_base03    =   s:gui_base3$/;"	v
+s:gui_base03	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:gui_base03      = "#002b36"$/;"	v
+s:gui_base03	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:gui_base03    =   s:gui_base3$/;"	v
+s:gui_base1	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_base1       = "#93a1a1"$/;"	v
+s:gui_base1	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_base1       = s:gui_base2$/;"	v
+s:gui_base1	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_base1     =   s:gui_temp01$/;"	v
+s:gui_base1	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:gui_base1       = "#93a1a1"$/;"	v
+s:gui_base1	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:gui_base1       = s:gui_base2$/;"	v
+s:gui_base1	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:gui_base1     =   s:gui_temp01$/;"	v
+s:gui_base2	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_base2       = "#eee8d5"$/;"	v
+s:gui_base2	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_base2       = s:gui_base3$/;"	v
+s:gui_base2	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_base2     =   s:gui_temp02$/;"	v
+s:gui_base2	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:gui_base2       = "#eee8d5"$/;"	v
+s:gui_base2	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:gui_base2       = s:gui_base3$/;"	v
+s:gui_base2	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:gui_base2     =   s:gui_temp02$/;"	v
+s:gui_base3	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_base3       = "#fdf6e3"$/;"	v
+s:gui_base3	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_base3     =   s:gui_temp03$/;"	v
+s:gui_base3	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:gui_base3       = "#fdf6e3"$/;"	v
+s:gui_base3	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:gui_base3     =   s:gui_temp03$/;"	v
+s:gui_blue	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_blue        = "#268bd2"$/;"	v
+s:gui_blue	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:gui_blue        = "#268bd2"$/;"	v
+s:gui_cyan	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_cyan        = "#2aa198"$/;"	v
+s:gui_cyan	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:gui_cyan        = "#2aa198"$/;"	v
+s:gui_green	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_green       = "#719e07" "experimental$/;"	v
+s:gui_green	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:gui_green       = "#719e07" "experimental$/;"	v
+s:gui_magenta	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_magenta     = "#d33682"$/;"	v
+s:gui_magenta	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:gui_magenta     = "#d33682"$/;"	v
+s:gui_mode	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_mode       = "gui"$/;"	v
+s:gui_mode	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:gui_mode       = "gui"$/;"	v
+s:gui_none	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_none        = "NONE"$/;"	v
+s:gui_none	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:gui_none        = "NONE"$/;"	v
+s:gui_orange	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_orange      = "#cb4b16"$/;"	v
+s:gui_orange	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:gui_orange      = "#cb4b16"$/;"	v
+s:gui_red	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_red         = "#dc322f"$/;"	v
+s:gui_red	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:gui_red         = "#dc322f"$/;"	v
+s:gui_temp00	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_temp00    =   s:gui_base00$/;"	v
+s:gui_temp00	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:gui_temp00    =   s:gui_base00$/;"	v
+s:gui_temp01	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_temp01    =   s:gui_base01$/;"	v
+s:gui_temp01	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:gui_temp01    =   s:gui_base01$/;"	v
+s:gui_temp02	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_temp02    =   s:gui_base02$/;"	v
+s:gui_temp02	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:gui_temp02    =   s:gui_base02$/;"	v
+s:gui_temp03	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_temp03    =   s:gui_base03$/;"	v
+s:gui_temp03	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:gui_temp03    =   s:gui_base03$/;"	v
+s:gui_violet	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_violet      = "#6c71c4"$/;"	v
+s:gui_violet	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:gui_violet      = "#6c71c4"$/;"	v
+s:gui_yellow	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_yellow      = "#b58900"$/;"	v
+s:gui_yellow	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:gui_yellow      = "#b58900"$/;"	v
+s:hi	/home/alanjui/.config/nvim/colors/OceanicNext.vim	/^function! s:hi(group, fg, bg, attr, attrsp)$/;"	f
+s:hls_cursor	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let s:hls_cursor = get(s:gb, g:gruvbox_hls_cursor)$/;"	v
+s:hls_cursor	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:hls_cursor = s:orange$/;"	v
+s:i	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:i           = ""$/;"	v
+s:i	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:i           = ",italic"$/;"	v
+s:i	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:i           = ""$/;"	v
+s:i	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:i           = ",italic"$/;"	v
+s:inverse	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let s:inverse = ''$/;"	v
+s:inverse	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:inverse = 'inverse,'$/;"	v
+s:invert_selection	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^    let s:invert_selection = ''$/;"	v
+s:invert_selection	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:invert_selection = s:inverse$/;"	v
+s:invert_signs	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^    let s:invert_signs = s:inverse$/;"	v
+s:invert_signs	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:invert_signs = ''$/;"	v
+s:invert_tabline	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^    let s:invert_tabline = s:inverse$/;"	v
+s:invert_tabline	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:invert_tabline = ''$/;"	v
+s:is_dark	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:is_dark=(&background == 'dark')$/;"	v
+s:italic	/home/alanjui/.config/nvim/colors/OceanicNext.vim	/^    let s:italic = "italic"$/;"	v
+s:italic	/home/alanjui/.config/nvim/colors/OceanicNext.vim	/^  let s:italic = ""$/;"	v
+s:italic	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let s:italic = ''$/;"	v
+s:italic	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:italic = 'italic,'$/;"	v
+s:italicize_comments	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^    let s:italicize_comments = ''$/;"	v
+s:italicize_comments	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:italicize_comments = s:italic$/;"	v
+s:italicize_strings	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^    let s:italicize_strings = s:italic$/;"	v
+s:italicize_strings	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:italicize_strings = ''$/;"	v
+s:n	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:n               = "NONE"$/;"	v
+s:n	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:n               = "NONE"$/;"	v
+s:none	/home/alanjui/.config/nvim/colors/OceanicNext.vim	/^  let s:none   = ['NONE',    'NONE']$/;"	v
+s:none	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:none = ['NONE', 'NONE']$/;"	v
+s:number_column	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let s:number_column = get(s:gb, g:gruvbox_number_column)$/;"	v
+s:number_column	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:number_column = s:none$/;"	v
+s:ob	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:ob              = ""$/;"	v
+s:ob	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:ob              = ""$/;"	v
+s:orange	/home/alanjui/.config/nvim/colors/OceanicNext.vim	/^  let s:orange = ['#f99157', '209']$/;"	v
+s:orange	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let s:orange = s:gb.bright_orange$/;"	v
+s:orange	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let s:orange = s:gb.faded_orange$/;"	v
+s:ou	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:ou              = ""$/;"	v
+s:ou	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:ou          = ",underline"$/;"	v
+s:ou	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:ou              = ""$/;"	v
+s:ou	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:ou          = ",underline"$/;"	v
+s:purple	/home/alanjui/.config/nvim/colors/OceanicNext.vim	/^  let s:purple = ['#c594c5', '176']$/;"	v
+s:purple	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let s:purple = s:gb.bright_purple$/;"	v
+s:purple	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let s:purple = s:gb.faded_purple$/;"	v
+s:purple	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let s:purple[1] = 13$/;"	v
+s:r	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:r               = ",reverse"$/;"	v
+s:r	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:r               = ",reverse"$/;"	v
+s:red	/home/alanjui/.config/nvim/colors/OceanicNext.vim	/^  let s:red    = ['#ec5f67', '203']$/;"	v
+s:red	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let s:red    = s:gb.bright_red$/;"	v
+s:red	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let s:red    = s:gb.faded_red$/;"	v
+s:red	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let s:red[1]    = 9$/;"	v
+s:s	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:s               = ",standout"$/;"	v
+s:s	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:s               = ",standout"$/;"	v
+s:sign_column	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^    let s:sign_column = get(s:gb, g:gruvbox_sign_column)$/;"	v
+s:sign_column	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let s:sign_column = s:number_column$/;"	v
+s:sign_column	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:sign_column = s:bg1$/;"	v
+s:sp_back	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:sp_back           =   ""$/;"	v
+s:sp_back	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:sp_back           =   ""$/;"	v
+s:sp_base0	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:sp_base0          =   ""$/;"	v
+s:sp_base0	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:sp_base0          =   ""$/;"	v
+s:sp_base00	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:sp_base00         =   ""$/;"	v
+s:sp_base00	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:sp_base00         =   ""$/;"	v
+s:sp_base01	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:sp_base01         =   ""$/;"	v
+s:sp_base01	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:sp_base01         =   ""$/;"	v
+s:sp_base02	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:sp_base02         =   ""$/;"	v
+s:sp_base02	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:sp_base02         =   ""$/;"	v
+s:sp_base03	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:sp_base03         =   ""$/;"	v
+s:sp_base03	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:sp_base03         =   ""$/;"	v
+s:sp_base1	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:sp_base1          =   ""$/;"	v
+s:sp_base1	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:sp_base1          =   ""$/;"	v
+s:sp_base2	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:sp_base2          =   ""$/;"	v
+s:sp_base2	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:sp_base2          =   ""$/;"	v
+s:sp_base3	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:sp_base3          =   ""$/;"	v
+s:sp_base3	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:sp_base3          =   ""$/;"	v
+s:sp_blue	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:sp_blue           =   ""$/;"	v
+s:sp_blue	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:sp_blue           =   ""$/;"	v
+s:sp_cyan	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:sp_cyan           =   ""$/;"	v
+s:sp_cyan	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:sp_cyan           =   ""$/;"	v
+s:sp_green	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:sp_green          =   ""$/;"	v
+s:sp_green	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:sp_green          =   ""$/;"	v
+s:sp_magenta	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:sp_magenta        =   ""$/;"	v
+s:sp_magenta	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:sp_magenta        =   ""$/;"	v
+s:sp_none	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:sp_none           =   ""$/;"	v
+s:sp_none	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:sp_none           =   ""$/;"	v
+s:sp_orange	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:sp_orange         =   ""$/;"	v
+s:sp_orange	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:sp_orange         =   ""$/;"	v
+s:sp_red	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:sp_red            =   ""$/;"	v
+s:sp_red	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:sp_red            =   ""$/;"	v
+s:sp_violet	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:sp_violet         =   ""$/;"	v
+s:sp_violet	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:sp_violet         =   ""$/;"	v
+s:sp_yellow	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:sp_yellow         =   ""$/;"	v
+s:sp_yellow	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:sp_yellow         =   ""$/;"	v
+s:term_back	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^        let s:term_back =   s:term_base03$/;"	v
+s:term_back	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:term_back        = "NONE"$/;"	v
+s:term_back	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:term_back        = s:term_back$/;"	v
+s:term_back	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:term_back        = s:term_base02$/;"	v
+s:term_back	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:term_back        = s:term_base03$/;"	v
+s:term_back	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^        let s:term_back =   s:term_base03$/;"	v
+s:term_back	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:term_back        = "NONE"$/;"	v
+s:term_back	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:term_back        = s:term_back$/;"	v
+s:term_back	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:term_back        = s:term_base02$/;"	v
+s:term_back	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:term_back        = s:term_base03$/;"	v
+s:term_base0	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:term_base0       = "12"$/;"	v
+s:term_base0	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:term_base0       = s:term_base1$/;"	v
+s:term_base0	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:term_base0    =   s:term_temp00$/;"	v
+s:term_base0	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:term_base0       = "12"$/;"	v
+s:term_base0	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:term_base0       = s:term_base1$/;"	v
+s:term_base0	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:term_base0    =   s:term_temp00$/;"	v
+s:term_base00	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:term_base00      = "11"$/;"	v
+s:term_base00	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:term_base00      = s:term_base0$/;"	v
+s:term_base00	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:term_base00   =   s:term_base0$/;"	v
+s:term_base00	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:term_base00      = "11"$/;"	v
+s:term_base00	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:term_base00      = s:term_base0$/;"	v
+s:term_base00	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:term_base00   =   s:term_base0$/;"	v
+s:term_base01	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:term_base01      = "10"$/;"	v
+s:term_base01	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:term_base01      = s:term_base00$/;"	v
+s:term_base01	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:term_base01   =   s:term_base1$/;"	v
+s:term_base01	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:term_base01      = "10"$/;"	v
+s:term_base01	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:term_base01      = s:term_base00$/;"	v
+s:term_base01	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:term_base01   =   s:term_base1$/;"	v
+s:term_base02	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:term_base02      = "0"$/;"	v
+s:term_base02	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:term_base02   =   s:term_base2$/;"	v
+s:term_base02	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:term_base02      = "0"$/;"	v
+s:term_base02	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:term_base02   =   s:term_base2$/;"	v
+s:term_base03	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:term_base03      = "8"$/;"	v
+s:term_base03	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:term_base03   =   s:term_base3$/;"	v
+s:term_base03	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:term_base03      = "8"$/;"	v
+s:term_base03	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:term_base03   =   s:term_base3$/;"	v
+s:term_base1	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:term_base1       = "14"$/;"	v
+s:term_base1	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:term_base1       = s:term_base2$/;"	v
+s:term_base1	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:term_base1    =   s:term_temp01$/;"	v
+s:term_base1	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:term_base1       = "14"$/;"	v
+s:term_base1	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:term_base1       = s:term_base2$/;"	v
+s:term_base1	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:term_base1    =   s:term_temp01$/;"	v
+s:term_base2	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:term_base2       = "7"$/;"	v
+s:term_base2	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:term_base2       = s:term_base3$/;"	v
+s:term_base2	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:term_base2    =   s:term_temp02$/;"	v
+s:term_base2	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:term_base2       = "7"$/;"	v
+s:term_base2	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:term_base2       = s:term_base3$/;"	v
+s:term_base2	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:term_base2    =   s:term_temp02$/;"	v
+s:term_base3	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:term_base3       = "15"$/;"	v
+s:term_base3	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:term_base3    =   s:term_temp03$/;"	v
+s:term_base3	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:term_base3       = "15"$/;"	v
+s:term_base3	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:term_base3    =   s:term_temp03$/;"	v
+s:term_blue	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:term_blue        = "4"$/;"	v
+s:term_blue	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:term_blue        = "4"$/;"	v
+s:term_cyan	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:term_cyan        = "6"$/;"	v
+s:term_cyan	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:term_cyan        = "6"$/;"	v
+s:term_green	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:term_green       = "2"$/;"	v
+s:term_green	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:term_green       = "2"$/;"	v
+s:term_magenta	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:term_magenta     = "5"$/;"	v
+s:term_magenta	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:term_magenta     = "5"$/;"	v
+s:term_mode	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:term_mode       = "cterm"$/;"	v
+s:term_mode	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:term_mode       = "cterm"$/;"	v
+s:term_none	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:term_none       = "NONE"$/;"	v
+s:term_none	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:term_none       = "NONE"$/;"	v
+s:term_orange	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:term_orange      = "9"$/;"	v
+s:term_orange	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:term_orange      = "9"$/;"	v
+s:term_red	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:term_red         = "1"$/;"	v
+s:term_red	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:term_red         = "1"$/;"	v
+s:term_temp00	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:term_temp00   =   s:term_base00$/;"	v
+s:term_temp00	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:term_temp00   =   s:term_base00$/;"	v
+s:term_temp01	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:term_temp01   =   s:term_base01$/;"	v
+s:term_temp01	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:term_temp01   =   s:term_base01$/;"	v
+s:term_temp02	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:term_temp02   =   s:term_base02$/;"	v
+s:term_temp02	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:term_temp02   =   s:term_base02$/;"	v
+s:term_temp03	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:term_temp03   =   s:term_base03$/;"	v
+s:term_temp03	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:term_temp03   =   s:term_base03$/;"	v
+s:term_violet	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:term_violet      = "13"$/;"	v
+s:term_violet	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:term_violet      = "13"$/;"	v
+s:term_yellow	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:term_yellow      = "3"$/;"	v
+s:term_yellow	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:term_yellow      = "3"$/;"	v
+s:u	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:u           = ""$/;"	v
+s:u	/home/alanjui/.config/nvim/colors/NeoSolarized.vim	/^    let s:u           = ",underline"$/;"	v
+s:u	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:u           = ""$/;"	v
+s:u	/home/alanjui/.config/nvim/colors/solarized_true.vim	/^    let s:u           = ",underline"$/;"	v
+s:uname	/home/alanjui/.config/nvim/after/plugin/gist.rc.vim	/^  let s:uname = system("uname -s")$/;"	v
+s:undercurl	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let s:undercurl = ''$/;"	v
+s:undercurl	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:undercurl = 'undercurl,'$/;"	v
+s:underline	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let s:underline = ''$/;"	v
+s:underline	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:underline = 'underline,'$/;"	v
+s:vert_split	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let s:vert_split = get(s:gb, g:gruvbox_vert_split)$/;"	v
+s:vert_split	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:vert_split = s:bg0$/;"	v
+s:vim_bg	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:vim_bg = ['bg', 'bg']$/;"	v
+s:vim_fg	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^let s:vim_fg = ['fg', 'fg']$/;"	v
+s:white	/home/alanjui/.config/nvim/colors/OceanicNext.vim	/^  let s:white  = ['#ffffff', '15']$/;"	v
+s:yellow	/home/alanjui/.config/nvim/colors/OceanicNext.vim	/^  let s:yellow = ['#fac863', '221']$/;"	v
+s:yellow	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let s:yellow = s:gb.bright_yellow$/;"	v
+s:yellow	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let s:yellow = s:gb.faded_yellow$/;"	v
+s:yellow	/home/alanjui/.config/nvim/colors/gruvbox.vim	/^  let s:yellow[1] = 11$/;"	v
+save_profiles	/home/alanjui/.config/nvim/plugin/packer_compiled.lua	/^local function save_profiles(threshold)$/;"	f
+set_keymap	/home/alanjui/.config/nvim/lua/utils/set_keymap.lua	/^function set_keymap(mode, lhs, rhs, opts)$/;"	f
+setup_servers	/home/alanjui/.config/nvim/lua/lsp/misc-ls.lua	/^local function setup_servers()$/;"	f
+slotclass	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "slotclass": {$/;"	o
+snippets	/home/alanjui/.config/nvim/my-snippets/package.json	/^    "snippets": [$/;"	a	object:contributes
+stackedinline	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "stackedinline": {$/;"	o
+t	/home/alanjui/.config/nvim/lua/config/LuaSnip/init.lua	/^local t = function(str)$/;"	f
+t	/home/alanjui/.config/nvim/lua/config/vim-vsnip/init.lua	/^local t = function(str)$/;"	f
+tabularinline	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "tabularinline": {$/;"	o
+templateview	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "templateview": {$/;"	o
+testcase	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "testcase": {$/;"	o
+time	/home/alanjui/.config/nvim/plugin/packer_compiled.lua	/^    time = function(chunk, start) end$/;"	f
+time	/home/alanjui/.config/nvim/plugin/packer_compiled.lua	/^    time = function(chunk, start)$/;"	f
+try	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "try": {$/;"	o
+try_loadstring	/home/alanjui/.config/nvim/plugin/packer_compiled.lua	/^local function try_loadstring(s, component, name)$/;"	f
+trye	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "trye": {$/;"	o
+tryef	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "tryef": {$/;"	o
+tryf	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "tryf": {$/;"	o
+updateview	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "updateview": {$/;"	o
+vscode	/home/alanjui/.config/nvim/my-snippets/package.json	/^    "vscode": "^1.11.0"$/;"	s	object:engines
+with	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "with": {$/;"	o
+專案指引	/home/alanjui/.config/nvim/README.md	/^# 專案指引$/;"	c
+目前問題	/home/alanjui/.config/nvim/lua/lsp/README.md	/^# 目前問題$/;"	c
+需安裝之 Language Server	/home/alanjui/.config/nvim/README.md	/^# 需安裝之 Language Server$/;"	c
+需安裝之開發工具	/home/alanjui/.config/nvim/README.md	/^# 需安裝之開發工具$/;"	c
