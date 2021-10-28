@@ -93,10 +93,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/alanjui/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp"
   },
-  ["cmp-vsnip"] = {
-    loaded = true,
-    path = "/home/alanjui/.local/share/nvim/site/pack/packer/start/cmp-vsnip"
-  },
   cmp_luasnip = {
     loaded = true,
     path = "/home/alanjui/.local/share/nvim/site/pack/packer/start/cmp_luasnip"
@@ -262,14 +258,6 @@ _G.packer_plugins = {
   ["vim-visual-multi"] = {
     loaded = true,
     path = "/home/alanjui/.local/share/nvim/site/pack/packer/start/vim-visual-multi"
-  },
-  ["vim-vsnip"] = {
-    loaded = true,
-    path = "/home/alanjui/.local/share/nvim/site/pack/packer/start/vim-vsnip"
-  },
-  ["vim-vsnip-integ"] = {
-    loaded = true,
-    path = "/home/alanjui/.local/share/nvim/site/pack/packer/start/vim-vsnip-integ"
   },
   ["vim-which-key"] = {
     loaded = true,

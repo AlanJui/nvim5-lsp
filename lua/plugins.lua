@@ -48,9 +48,9 @@ require('packer').startup(function()
   use 'L3MON4D3/LuaSnip'
   use 'saadparwaiz1/cmp_luasnip'
 	-- Snippet for vim-vsnip
-  use 'hrsh7th/vim-vsnip'
-	use 'hrsh7th/vim-vsnip-integ'
-  use 'hrsh7th/cmp-vsnip'
+	-- use 'hrsh7th/vim-vsnip'
+	-- use 'hrsh7th/vim-vsnip-integ'
+	-- use 'hrsh7th/cmp-vsnip'
 
 	-- Editting Tools
 	---------------------------------------------------------------
@@ -87,16 +87,6 @@ require('packer').startup(function()
     config = function() require'nvim-tree'.setup {} end
   }
 
-	-- HTML
-	---------------------------------------------------------------
-  -- Auto change html tags
-  use 'AndrewRadev/tagalong.vim'
-  --use 'alvan/vim-closetag'
-  use 'windwp/nvim-ts-autotag'
-  -- provides support for expanding abbreviations similar to emmet
-  -- use 'mattn/emmet-vim'
-  use 'aca/emmet-ls'
-
 	-- Python
 	---------------------------------------------------------------
   -- ALE (Asynchronous Lint Engine) is a plugin providing linting (syntax
@@ -110,6 +100,16 @@ require('packer').startup(function()
   use 'jeetsukumaran/vim-pythonsense'
   -- View and search LSP symbols, tags in NeoVim
   use 'liuchengxu/vista.vim'
+
+	-- HTML
+	---------------------------------------------------------------
+  -- Auto change html tags
+  use 'AndrewRadev/tagalong.vim'
+  --use 'alvan/vim-closetag'
+  use 'windwp/nvim-ts-autotag'
+  -- provides support for expanding abbreviations similar to emmet
+  -- use 'mattn/emmet-vim'
+  use 'aca/emmet-ls'
 
   -- ===========================================================
   -- Git Tools

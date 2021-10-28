@@ -6,30 +6,30 @@
 -- Language Server Setup
 --------------------------------------------------------------------------
 
--- Setup LS for Python / TypeScript / C && C++
-require('lsp.misc-ls')
-
 -- Setup Language Server for Bash
 require('lspconfig').bashls.setup{}
 
 -- Setup Language Server for Lua
-require('lsp.lua')
+require('lsp.lsp-lua')
+
+-- Setup LS for Python / TypeScript / C && C++
+require('lsp.lsp-misc')
 
 -- TypeScript
--- require('lsp.typescript-ls')
+-- require('lsp.lsp-typescript')
 
 -- Python
--- require('lsp.python-diagnostic-ls')
+-- require('lsp.lsp-python')
 
 -- Diagnostic Language Server
--- require('lsp.diagnostic-languageserver')
--- Javascript, JavaScriptReact
-require('lsp.dls-javascript')
+require('lsp.diagnostic-language-server')
+-- require('lsp.dls-javascript')
+-- require('lsp.dls-python')
 
 -- Snippets
 --------------------------------------------------------------------------
--- require('lsp/vim-vsnip')
-require('lsp/LuaSnip')
+-- require('lsp.snippets.vim-vsnip')
+require('lsp.snippets.LuaSnip')
 
 -- UI Tools
 --------------------------------------------------------------------------
