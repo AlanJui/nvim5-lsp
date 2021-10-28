@@ -30,6 +30,10 @@ require('packer').startup(function()
   use 'neovim/nvim-lspconfig'
 	use 'kabouzeid/nvim-lspinstall'
 	use 'onsails/lspkind-nvim'
+  use {
+    'creativenull/diagnosticls-configs-nvim',
+    requires = { 'neovim/nvim-lspconfig'}
+  }
 	use 'onsails/diaglist.nvim'
 	-- LSP UI Tools
 	use 'glepnir/lspsaga.nvim'
@@ -90,7 +94,8 @@ require('packer').startup(function()
   --use 'alvan/vim-closetag'
   use 'windwp/nvim-ts-autotag'
   -- provides support for expanding abbreviations similar to emmet
-  use 'mattn/emmet-vim'
+  -- use 'mattn/emmet-vim'
+  use 'aca/emmet-ls'
 
 	-- Python
 	---------------------------------------------------------------

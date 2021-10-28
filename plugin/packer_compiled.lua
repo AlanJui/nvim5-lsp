@@ -105,9 +105,13 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/alanjui/.local/share/nvim/site/pack/packer/start/diaglist.nvim"
   },
-  ["emmet-vim"] = {
+  ["diagnosticls-configs-nvim"] = {
     loaded = true,
-    path = "/home/alanjui/.local/share/nvim/site/pack/packer/start/emmet-vim"
+    path = "/home/alanjui/.local/share/nvim/site/pack/packer/start/diagnosticls-configs-nvim"
+  },
+  ["emmet-ls"] = {
+    loaded = true,
+    path = "/home/alanjui/.local/share/nvim/site/pack/packer/start/emmet-ls"
   },
   ["friendly-snippets"] = {
     loaded = true,

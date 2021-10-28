@@ -23,6 +23,8 @@ require('lsp.lua')
 
 -- Diagnostic Language Server
 -- require('lsp.diagnostic-languageserver')
+-- Javascript, JavaScriptReact
+require('lsp.dls-javascript')
 
 -- Snippets
 --------------------------------------------------------------------------
@@ -32,5 +34,3 @@ require('lsp/LuaSnip')
 -- UI Tools
 --------------------------------------------------------------------------
 require('lsp/lspsaga')
-
-

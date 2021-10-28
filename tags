@@ -939,6 +939,7 @@ myfunc	/home/alanjui/.config/nvim/test/flake8.py	/^def myfunc():$/;"	f
 name	/home/alanjui/.config/nvim/my-snippets/package.json	/^  "name": "ccc-snippets",$/;"	s
 numeric	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "numeric": {$/;"	o
 o2o	/home/alanjui/.config/nvim/my-snippets/django.json	/^  "o2o": {$/;"	o
+on_attach	/home/alanjui/.config/nvim/after/plugin/diagnosticls-configs-nvim.lua	/^local function on_attach(client)$/;"	f
 on_attach	/home/alanjui/.config/nvim/docs/nvim-lspconfig_minimal_configuration.lua	/^  local on_attach = function(_, bufnr)$/;"	f
 on_attach	/home/alanjui/.config/nvim/docs/pyright.lua	/^  local on_attach = function(_, bufnr)$/;"	f
 on_attach	/home/alanjui/.config/nvim/lua/lsp/on_attach.lua	/^function on_attach(client, bufnr)$/;"	f
