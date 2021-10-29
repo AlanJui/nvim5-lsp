@@ -14,9 +14,9 @@ end
 cmp.setup {
   formatting = {
     format = lspkind.cmp_format({
-  			with_text = true,
-  			maxwidth = 50
-  		})
+  		with_text = true,
+  		maxwidth = 50
+  	})
   },
   snippet = {
     expand = function(args)
@@ -57,11 +57,35 @@ cmp.setup {
 			end
 		end, { 'i', 's' }),
   },
-  sources = {
-    { name = 'nvim_lsp' },
-    { name = 'luasnip' },
-  },
+	sources = cmp.config.sources(
+		{
+			{ name = 'nvim_lsp' },
+			{ name = 'luasnip' },
+		},
+		{
+			{ name = 'buffer' },
+		}
+	)
 }
+
+-- Use buffer source for `\`
+cmp.setup.cmdline('/', {
+	sources = {
+		{ name = 'buffer' }
+	}
+})
+
+-- Use cmdline & path source for ':'.
+cmp.setup.cmdline(':', {
+	sources = cmp.config.sources(
+		{
+			{ name = 'path' }
+		},
+		{
+			{ name = 'cmdline' }
+		}
+	)
+})
 
 -- Setup lspconfig
 -- require('lspconfig')[%YOUR_LSP_SERVER%].setup {

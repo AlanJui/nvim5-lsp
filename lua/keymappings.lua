@@ -304,20 +304,14 @@ vim.g.which_key_leader = {
     ['p']    = {':BookmarkPrev', 'Prev. bookmark'},
   },
 
-  -- Session
-  ['s'] = {
-    ['name'] = '+session',
-    ['l']    = 'Load session',
-    ['s']    = 'Save session'
-  },
-
-  ['t'] = {
-    ['name'] = '+text',
+  ['l'] = {
+    ['name'] = '+language',
     ['c']    = {
-      ['name'] = '+align comments',
-      ['l']    = {":call v:lua.require('utils/align_comment').align_comments('l')", 'To the left'},
-      ['c']    = {":call v:lua.require('utils/align_comment').align_comments('c')", 'To the center'},
-      ['r']    = {":call v:lua.require('utils/align_comment').align_comments('r')", 'To the right'},
+      ['name'] = '+Comments',
+			['r']    = {":call v:lua.vim.lsp.buf.rename()", 'Rename'},
+			['f']    = {":call v:lua.vim.lsp.buf.formatting()", 'Formatting'},
+			['d']    = {":call v:lua.vim.lsp.buf.declaration()", 'Go to declaration'},
+			['D']    = {":call v:lua.vim.lsp.buf.definition()", 'Go to definition'},
       ['.']    = {
         ['name'] = '+with dot',
         ['l']    = {":call v:lua.require('utils/align_comment').align_comments_with_char('.', 'l')", 'To the left'},
@@ -325,31 +319,49 @@ vim.g.which_key_leader = {
         ['r']    = {":call v:lua.require('utils/align_comment').align_comments_with_char('.', 'r')", 'To the right'},
       },
     },
-    ['f']    = {
-      ['name'] = '+fill',
-      ['f']    = {":call v:lua.require('utils/fill_text').fill_with_cursor_character()", 'Fill with cursor char'},
-      ['p']    = {":call v:lua.require('utils/fill_text').fill_with_input()", 'Fill with input pattern'}
+    ['d']    = {
+      ['name'] = '+DiagList',
+			['a']    = {":call v:lua.require('diaglist').open_all_diagnostics()", 'All diagnostics'},
+			['b']    = {":call v:lua.require('diaglist').open_buffer_diagnostics()", 'Buffer diagnostics'},
+    },
+    ['p']    = {
+      ['name'] = '+Python',
+			['d']    = {':FloatermNew python manage.py shell', 'Django-admin Shell'},
+			['p']    = {':FloatermNew python', 'Python shell'},
+    	['v']    = {':Vista!!', 'toogle vista view window'},
     }
   },
 
   -- utilities
   ['u'] = {
     ['name'] = '+utility',
-    [';']    = {':FloatermNew --wintype=normal --height=6', 'Terminal pane'},
+    ['t']    = {
+      ['name'] = '+Terminal',
+    	[';']    = {':FloatermNew --wintype=normal --height=6', 'Terminal pane'},
+			['d']    = {':FloatermNew python manage.py shell', 'Django-admin Shell'},
+			['p']    = {':FloatermNew python', 'Python shell'},
+			['n']    = {':FloatermNew node', 'Node.js shell'},
+    },
+    ['l']    = {
+      ['name'] = '+LiveServer',
+			['l']    = {':Bracey', 'start live server'},
+			['L']    = {':BraceyStop', 'stop live server'},
+			['r']    = {':BraceyReload', 'web page to be reloaded'},
+		},
+    ['m']    = {
+      ['name'] = '+Markdown',
+			['m']    = {':MarkdownPreview', 'start markdown preview'},
+			['M']    = {':MarkdownPreviewStop', 'stop markdown preview'},
+		},
+    ['u']    = {
+      ['name'] = '+UML',
+			['v']    = {':PlantumlOpen', 'start PlantUML preview'},
+			['o']    = {':PlantumlSave docs/diagrams/out.png', 'export PlantUML diagram'},
+		},
+		['f']    = {':FloatermNew vifm', 'ViFm'},
     ['g']    = {':FloatermNew lazygit', 'Lazygit'},
+    ['p']    = {':FloatermNew ranger', 'Picture Viewer'},
     ['t']    = {':FloatermNew', 'Terminal window'},
-    ['d']    = {':FloatermNew python manage.py shell', 'Django-admin Shell'},
-    ['p']    = {':FloatermNew python', 'Python shell'},
-    ['n']    = {':FloatermNew node', 'Node.js shell'},
-    ['f']    = {':FloatermNew vifm', 'ViFm'},
-    ['l']    = {':Bracey', 'start live server'},
-    ['L']    = {':BraceyStop', 'stop live server'},
-    ['r']    = {':BraceyReload', 'web page to be reloaded'},
-    ['m']    = {':MarkdownPreview', 'start markdown preview'},
-    ['M']    = {':MarkdownPreviewStop', 'stop markdown preview'},
-    ['u']    = {':PlantumlOpen', 'start PlantUML preview'},
-    ['U']    = {':PlantumlSave docs/diagrams/out.png', 'export PlantUML diagram'},
-    ['v']    = {':Vista!!', 'toogle vista view window'},
   },
 
   -- Window
