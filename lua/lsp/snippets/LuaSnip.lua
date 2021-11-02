@@ -18,6 +18,7 @@ cmp.setup {
   		maxwidth = 50
   	})
   },
+	-- REQUIRED: must specify a snippet engine
   snippet = {
     expand = function(args)
       require('luasnip').lsp_expand(args.body)
@@ -57,15 +58,12 @@ cmp.setup {
 			end
 		end, { 'i', 's' }),
   },
-	sources = cmp.config.sources(
-		{
-			{ name = 'nvim_lsp' },
-			{ name = 'luasnip' },
-		},
-		{
-			{ name = 'buffer' },
-		}
-	)
+	sources = cmp.config.sources({
+		{ name = 'nvim_lsp' },
+		{ name = 'luasnip' },
+	}, {
+		{ name = 'buffer' },
+	})
 }
 
 -- Use buffer source for `\`
@@ -77,14 +75,11 @@ cmp.setup.cmdline('/', {
 
 -- Use cmdline & path source for ':'.
 cmp.setup.cmdline(':', {
-	sources = cmp.config.sources(
-		{
-			{ name = 'path' }
-		},
-		{
-			{ name = 'cmdline' }
-		}
-	)
+	sources = cmp.config.sources({
+		{ name = 'path' }
+	}, {
+		{ name = 'cmdline' }
+	})
 })
 
 -- Setup lspconfig
@@ -93,14 +88,13 @@ cmp.setup.cmdline(':', {
 -- 		vim.lsp.protocol.make_client_capabilities()
 -- 	)
 -- }
+local capabilities = require('cmp_nvim_lsp').update_capabilities(vim.lsp.protocol.make_client_capabilities())
 local servers = {
 	'clangd', 'rust_analyzer', 'pyright', 'tsserver', 'emmet_ls', 'jsonls'
 }
 for _, lsp in ipairs(servers) do
   nvim_lsp[lsp].setup {
-		capabilities = require('cmp_nvim_lsp').update_capabilities(
-			vim.lsp.protocol.make_client_capabilities()
-		)
+		capabilities = capabilities
   }
 end
 
@@ -127,11 +121,16 @@ end
 -- })
 
 -- [Method 4]
+-- require("luasnip/loaders/from_vscode").load({
+--   include = {"python", "html", "htmldjango", "javascript", "typescript"},
+--   paths = {
+-- 		"~/.config/nvim/my-snippets",
+-- 		"~/.local/share/nvim/site/pack/packer/start/friendly-snippets",
+--   }
+-- })
 require("luasnip/loaders/from_vscode").load({
-  include = {"python", "django", "html", "htmldjango", "javascript", "typescript"},
   paths = {
-		"~/.config/nvim/my-snippets",
-		"~/.local/share/nvim/site/pack/packer/start/friendly-snippets",
+ 		"/home/alanjui/.config/nvim/my-snippets",
   }
 })
 

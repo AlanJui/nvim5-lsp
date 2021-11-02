@@ -48,9 +48,9 @@ require('packer').startup(function()
   use 'L3MON4D3/LuaSnip'
   use 'saadparwaiz1/cmp_luasnip'
 	-- Snippet for vim-vsnip
-	-- use 'hrsh7th/vim-vsnip'
-	-- use 'hrsh7th/vim-vsnip-integ'
-	-- use 'hrsh7th/cmp-vsnip'
+	use 'hrsh7th/vim-vsnip'
+	use 'hrsh7th/vim-vsnip-integ'
+	use 'hrsh7th/cmp-vsnip'
 
 	-- Editting Tools
 	---------------------------------------------------------------

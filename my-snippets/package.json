@@ -7,24 +7,21 @@
     "snippets": [
       {
         "language": [
-          "plaintext",
-          "django",
-          "htmldjango",
           "html",
-          "global"
+          "htmldjango"
+				],
+        "path": "./html.json"
+      },
+      {
+        "language": [
+          "html",
+          "htmldjango"
         ],
-        "path": "./global.json"
-      },
-      {
-        "language": "html",
-        "path": "./ccc_html.json"
-      },
-      {
-				"language": [
-					"html",
-					"htmldjango"
-				] ,
         "path": "./htmldjango.json"
+      },
+      {
+        "language": "python",
+        "path": "./python.json"
       },
       {
         "language": [
@@ -34,14 +31,6 @@
           "typescriptreact"
         ],
         "path": "./javascript.json"
-      },
-      {
-        "language": "python",
-        "path": "./django.json"
-      },
-      {
-        "language": "python",
-        "path": "./python.json"
       }
     ]
   }

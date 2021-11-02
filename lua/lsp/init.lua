@@ -28,8 +28,8 @@ require('lsp.diagnostic-language-server')
 
 -- Snippets
 --------------------------------------------------------------------------
--- require('lsp.snippets.vim-vsnip')
 require('lsp.snippets.LuaSnip')
+-- require('lsp.snippets.vim-vsnip')
 
 -- UI Tools
 --------------------------------------------------------------------------
