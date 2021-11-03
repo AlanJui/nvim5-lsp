@@ -1,8 +1,21 @@
 -- =======================================================================
 -- Default Setting
 -- =======================================================================
+USER = vim.fn.expand('$USER')
+local python3_binary = ''
+local pyenv_path = '/.pyenv/versions/venv-397/bin/python3'
+
+if vim.fn.has('mac') == 1 then
+	python3_binary = '/Users/' .. USER ..	 pyenv_path
+elseif vim.fn.has('unix') == 1 then
+	python3_binary = '/home/' .. USER ..	 pyenv_path
+else
+	print('Unsupported system for Neovim')
+end
+
+
 local g = vim.g -- a table to access global variables
-g.python3_host_prog = "/home/alanjui/.pyenv/versions/venv-397/bin/python3"
+g.python3_host_prog = python3_binary
 g.loaded_python_provider = 0
 g.loaded_ruby_provider = 0
 g.loaded_perl_provider = 0
@@ -45,3 +58,29 @@ vim.cmd([[ set number relativenumber ]])
 vim.opt.textwidth=0
 vim.opt.wrapmargin=0
 vim.wo.wrap = false
+
+--[[
+g.nvim_tree_icons = {
+  'default' =  '',
+  'symlink' =  '',
+  'git' =  {
+    'unstaged' =  "⁉",
+    'staged' =  "✓",
+    'unmerged' =  "",
+    'renamed' =  "➜",
+    'untracked' =  "★",
+    'deleted' =  "",
+    'ignored' =  "◌",
+  },
+  'folder' =  {
+    'arrow_open' =  "",
+    'arrow_closed' =  "",
+    'default' =  "",
+    'open' =  "",
+    'empty' =  "",
+    'empty_open' =  "",
+    'symlink' =  "",
+    'symlink_open' =  "",
+  }
+}
+--]]
