@@ -22,7 +22,7 @@ require('lsp.lsp-misc')
 -- require('lsp.lsp-python')
 
 -- Diagnostic Language Server
-require('lsp.diagnostic-language-server')
+-- require('lsp.diagnostic-language-server')
 -- require('lsp.dls-javascript')
 -- require('lsp.dls-python')
 

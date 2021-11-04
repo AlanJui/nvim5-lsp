@@ -1,21 +1,13 @@
 -- =======================================================================
 -- Default Setting
 -- =======================================================================
-USER = vim.fn.expand('$USER')
-local python3_binary = ''
-local pyenv_path = '/.pyenv/versions/venv-397/bin/python3'
-
-if vim.fn.has('mac') == 1 then
-	python3_binary = '/Users/' .. USER ..	 pyenv_path
-elseif vim.fn.has('unix') == 1 then
-	python3_binary = '/home/' .. USER ..	 pyenv_path
-else
-	print('Unsupported system for Neovim')
-end
-
+local USER_HOME_PATH = os.getenv('HOME')
+local PYENV_ROOT_PATH = USER_HOME_PATH .. '/.pyenv'
+local PYENV_GLOBAL_PATH = PYENV_ROOT_PATH .. '/versions/VENV-397'
+local PYTHON_BINARY = PYENV_GLOBAL_PATH .. '/bin/python3'
 
 local g = vim.g -- a table to access global variables
-g.python3_host_prog = python3_binary
+g.python3_host_prog = PYTHON_BINARY
 g.loaded_python_provider = 0
 g.loaded_ruby_provider = 0
 g.loaded_perl_provider = 0
