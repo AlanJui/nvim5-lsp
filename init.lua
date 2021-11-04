@@ -50,29 +50,3 @@ vim.cmd([[ set number relativenumber ]])
 vim.opt.textwidth=0
 vim.opt.wrapmargin=0
 vim.wo.wrap = false
-
---[[
-g.nvim_tree_icons = {
-  'default' =  '',
-  'symlink' =  '',
-  'git' =  {
-    'unstaged' =  "⁉",
-    'staged' =  "✓",
-    'unmerged' =  "",
-    'renamed' =  "➜",
-    'untracked' =  "★",
-    'deleted' =  "",
-    'ignored' =  "◌",
-  },
-  'folder' =  {
-    'arrow_open' =  "",
-    'arrow_closed' =  "",
-    'default' =  "",
-    'open' =  "",
-    'empty' =  "",
-    'empty_open' =  "",
-    'symlink' =  "",
-    'symlink_open' =  "",
-  }
-}
---]]
