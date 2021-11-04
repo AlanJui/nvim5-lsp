@@ -121,10 +121,10 @@
   "dj_form_asp": {
     "prefix": "dj_form_asp",
     "body": [
-      "<form method=\"post\" class=\"${1:form-horizontal}\">",
-      "  {% csrf_token %}",
-      "  {{ form.as_p }}",
-      "  <button type=\"submit\" class=\"btn btn-primary\">$2</button>",
+      "<form method=\"POST\" class=\"${2:form-horizontal}\">",
+      "\t{% csrf_token %}",
+      "\t{{ form.as_p }}",
+      "\t<button type=\"submit\" class=\"btn btn-primary\">$1</button>",
       "</form>"
     ],
     "description": "Django: form as_p"
@@ -133,10 +133,10 @@
   "dj_form_new": {
     "prefix": "dj_form_new",
     "body": [
-      "<form method=\"post\" class=\"${1:form-horizontal}\">",
-      "  {% csrf_token %}",
-      "  $3",
-      "  <button type=\"submit\" class=\"btn btn-primary\">$2</button>",
+      "<form method=\"POST\" class=\"${1:form-horizontal}\">",
+      "\t{% csrf_token %}",
+      "\t$3",
+      "\t<button type=\"submit\" class=\"btn btn-primary\">$2</button>",
       "</form>"
     ],
     "description": "Django: new form"
@@ -199,6 +199,12 @@
     "description": "Django: block title"
   },
 
+  "dj_blkt1": {
+    "prefix": "dj_blkt1",
+    "body": ["{% block title %}\n$1\n{% endblock %}"],
+    "description": "Django: block title"
+  },
+
   "dj_blksrc": {
     "prefix": "dj_blksrc",
     "body": [
@@ -206,7 +212,7 @@
       "<script src=\"$1\"></script>",
       "",
       "<script>",
-      "  $2",
+      "\t$2",
       "</script>",
       "{% endblock javascript %}",
       ""

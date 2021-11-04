@@ -139,7 +139,6 @@ require("luasnip/loaders/from_vscode").load({
 -- 	set completeopt=menu,menuone,noselect
 -- ]])
 -- vim.o.completeopt = 'menu,menuone,noselect'
-vim.o.completeopt = 'menuone,noselect'
 
 -- Tells LuaSnip that for a buffer with ft=filetype, snippets from extend_filetypes should be searched as well.
 -- filetype_extend(filetype, extend_filetypes)

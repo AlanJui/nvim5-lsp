@@ -21,7 +21,9 @@ end
 lspconfig.emmet_ls.setup{ capabilities = capabilities; }
 
 -- vim.g.completion_trigger_character = { '.' }
-vim.cmd([[ let g:completion_trigger_character = ['.'] ]])
+vim.cmd([[
+let g:completion_trigger_character = ['.']
+]])
 
 -- if not lspconfig.emmet_ls then
 --   configs.emmet_ls = {

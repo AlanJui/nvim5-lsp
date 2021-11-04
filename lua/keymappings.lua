@@ -42,6 +42,10 @@ vmap <A-k> :m '<-2<CR>
 -- 視窗操作
 --
 
+vim.cmd([[
+nmap <C-w>-  :split<CR>
+]])
+
 -- 視窗入焦 window Zoom-in/Zoon-out
 vim.cmd([[
 nmap <LocalLeader>wi <C-W>_ \| <c-w>\|
