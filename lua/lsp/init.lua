@@ -1,69 +1,60 @@
 -- =======================================================================
 -- Language Server Configuration
 -- =======================================================================
-local lspconfig = require('lspconfig')
-local lsp_installer = require('nvim-lsp-installer')
-local lsp_installer_servers = require('nvim-lsp-installer.servers')
-
--- Provide settings first!
-lsp_installer.settings({
-	ui = {
-		icons = {
-			server_installed = '✓',
-			server_pending = '⁉',
-      server_uninstalled = "✗"
-		}
-	}
-})
-
-lsp_installer.on_server_ready(function (server) server:setup {} end)
-
-lsp_installer.on_server_ready(function(server)
-    local opts = {}
-
-    -- (optional) Customize the options passed to the server
-    -- if server.name == "tsserver" then
-    --     opts.root_dir = function() ... end
-    -- end
-
-    -- This setup() function is exactly the same as lspconfig's setup function (:help lspconfig-quickstart)
-    server:setup(opts)
-    vim.cmd([[
-      " do User LspAttachBuffers
-    ]])
-end)
-
-local server_available, requested_server = lsp_installer_servers.get_server('sumneko_lua')
-if server_available then
-	requested_server:on_ready(function()
-		lspconfig.sumneko_lua.setup({
-			settings = {
-				Lua = {
-					diagnostics = {
-						globals = { 'vim' }
-					},
-				},
-			},
-		})
-	end)
-
-	if not requested_server:is_installed() then
-		-- Queue the server to be installed
-		requested_server:install()
-	end
+local system_name
+if vim.fn.has("mac") == 1 then
+  system_name = "macOS"
+elseif vim.fn.has("unix") == 1 then
+  system_name = "Linux"
+elseif vim.fn.has('win32') == 1 then
+  system_name = "Windows"
+else
+  print("Unsupported system for sumneko")
 end
 
--- Language Server Setup
---------------------------------------------------------------------------
-
--- Setup Language Server for Bash
--- require('lspconfig').bashls.setup{}
 
 -- Setup Language Server for Lua
+--------------------------------------------------------------------------
 -- require('lsp.lsp-lua')
 
--- Setup LS for Python / TypeScript / C && C++
--- require('lsp.lsp-misc')
+local USER_HOME_PATH = os.getenv('HOME')
+local LUA_INSTALL_PATH = USER_HOME_PATH .. '/.local/share/nvim/lsp_servers/sumneko_lua'
+local sumneko_root_path = ''
+local sumneko_binary = ''
+
+sumneko_root_path = LUA_INSTALL_PATH .. '/extension/server/bin/' .. system_name
+sumneko_binary = sumneko_root_path .. '/lua-language-server'
+
+local lspconfig = require('lspconfig')
+local runtime_path = vim.split(package.path, ';')
+table.insert(runtime_path, "lua/?.lua")
+table.insert(runtime_path, "lua/?/init.lua")
+
+lspconfig.sumneko_lua.setup({
+    cmd = {sumneko_binary, "-E", sumneko_root_path .. "/main.lua"},
+    settings = {
+        Lua = {
+            runtime = {
+                -- Tell the language server which version of Lua you're using (most likely LuaJIT in the case of Neovim)
+                version = 'LuaJIT',
+                -- Setup your lua path
+                path = runtime_path,
+            },
+            diagnostics = {
+                -- Get the language server to recognize the `vim` global
+                globals = {'vim'},
+            },
+            workspace = {
+                -- Make the server aware of Neovim runtime files
+        		library = vim.api.nvim_get_runtime_file("", true),
+			},
+			-- Do not send telemetry data containing a randomized but unique identifier
+			telemetry = {
+			  enable = false,
+			},
+        },
+    },
+})
 
 -- TypeScript
 -- require('lsp.lsp-typescript')
@@ -73,8 +64,6 @@ end
 
 -- Diagnostic Language Server
 -- require('lsp.diagnostic-language-server')
--- require('lsp.dls-javascript')
--- require('lsp.dls-python')
 
 -- Snippets
 --------------------------------------------------------------------------

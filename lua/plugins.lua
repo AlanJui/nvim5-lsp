@@ -18,35 +18,35 @@ vim.cmd([[
 
 local use = require('packer').use
 require('packer').startup(function()
-  -- ===========================================================
-  -- Essential
-  -- ===========================================================
-  -- Packer can manage itself
-  use 'wbthomason/packer.nvim'
+	-- ===========================================================
+	-- Essential
+	-- ===========================================================
+	-- Packer can manage itself
+	use 'wbthomason/packer.nvim'
 
 	-- Neovim Language Server Protocol
 	---------------------------------------------------------------
-  -- Collection of configurations for built-in LSP client
-  use 'neovim/nvim-lspconfig'
+	-- Collection of configurations for built-in LSP client
+	use 'neovim/nvim-lspconfig'
 	use 'williamboman/nvim-lsp-installer'
 	use 'onsails/lspkind-nvim'
-  use {
-    'creativenull/diagnosticls-configs-nvim',
-    requires = { 'neovim/nvim-lspconfig'}
-  }
+	use {
+		'creativenull/diagnosticls-configs-nvim',
+		requires = { 'neovim/nvim-lspconfig'}
+	}
 	-- use 'onsails/diaglist.nvim'
 	-- LSP UI Tools
 	use 'glepnir/lspsaga.nvim'
-  -- Autocompletion plugin
-  use 'hrsh7th/nvim-cmp'
-  use 'hrsh7th/cmp-buffer'
-  use 'hrsh7th/cmp-nvim-lsp'
+	-- Autocompletion plugin
+	use 'hrsh7th/nvim-cmp'
+	use 'hrsh7th/cmp-buffer'
+	use 'hrsh7th/cmp-nvim-lsp'
 
 	-- Snippets
 	use 'rafamadriz/friendly-snippets'
-  -- Snippet for LuaSnip
-  use 'L3MON4D3/LuaSnip'
-  use 'saadparwaiz1/cmp_luasnip'
+	-- Snippet for LuaSnip
+	use 'L3MON4D3/LuaSnip'
+	use 'saadparwaiz1/cmp_luasnip'
 	-- Snippet for vim-vsnip
 	use 'hrsh7th/vim-vsnip'
 	use 'hrsh7th/vim-vsnip-integ'
@@ -54,24 +54,24 @@ require('packer').startup(function()
 
 	-- Editting Tools
 	---------------------------------------------------------------
-  -- Highlight, edit, and navigate code using a fast incremental parsing library
-  use 'nvim-treesitter/nvim-treesitter'
-  -- Additional textobjects for treesitter
-  use 'nvim-treesitter/nvim-treesitter-textobjects'
-  -- Toggle comments in Neovim
-  use 'terrortylor/nvim-comment'
-  -- causes all trailing whitespace characters to be highlighted
-  use 'ntpeters/vim-better-whitespace'
+	-- Highlight, edit, and navigate code using a fast incremental parsing library
+	use 'nvim-treesitter/nvim-treesitter'
+	-- Additional textobjects for treesitter
+	use 'nvim-treesitter/nvim-treesitter-textobjects'
+	-- Toggle comments in Neovim
+	use 'terrortylor/nvim-comment'
+	-- causes all trailing whitespace characters to be highlighted
+	use 'ntpeters/vim-better-whitespace'
 	-- Add indentation quides even on blank lines
 	use 'lukas-reineke/indent-blankline.nvim'
-  -- Auto close parentheses and repeat by dot dot dot...
-  use 'jiangmiao/auto-pairs'
-  -- "surroundings": parentheses, brackets, quotes, XML tags, and more
-  use 'tpope/vim-surround'
-  -- Multiple cursor editting
-  use 'mg979/vim-visual-multi'
-  -- visualizes undo history and makes it easier to browse and switch between different undo branches
-  use 'mbbill/undotree'
+	-- Auto close parentheses and repeat by dot dot dot...
+	use 'jiangmiao/auto-pairs'
+	-- "surroundings": parentheses, brackets, quotes, XML tags, and more
+	use 'tpope/vim-surround'
+	-- Multiple cursor editting
+	use 'mg979/vim-visual-multi'
+	-- visualizes undo history and makes it easier to browse and switch between different undo branches
+	use 'mbbill/undotree'
 
 	-- Find files
 	---------------------------------------------------------------
@@ -80,57 +80,57 @@ require('packer').startup(function()
 		'nvim-telescope/telescope.nvim',
 		requires = { {'nvim-lua/plenary.nvim'} }
 	}
-  -- File/Flolders explorer:nvim-tree
-  use {
-    'kyazdani42/nvim-tree.lua',
-    requires = 'kyazdani42/nvim-web-devicons',
-    config = function() require'nvim-tree'.setup {} end
-  }
+	-- File/Flolders explorer:nvim-tree
+	use {
+		'kyazdani42/nvim-tree.lua',
+		requires = 'kyazdani42/nvim-web-devicons',
+		config = function() require'nvim-tree'.setup {} end
+	}
 
 	-- Python
 	---------------------------------------------------------------
-  -- ALE (Asynchronous Lint Engine) is a plugin providing linting (syntax
-  -- checking and semantic errors) in NeooVim while you edit your text files,
-  -- and acts as a Vim Language Server Protocol client.
-  use 'dense-analysis/ale'
-  --  Modifies Vim’s indentation behavior to comply with PEP8 and my aesthetic preferences.
-  use 'Vimjas/vim-python-pep8-indent'
-  -- Python: provides text objects and motions for Python classes, methods,
-  -- functions and doc strings
-  use 'jeetsukumaran/vim-pythonsense'
-  -- View and search LSP symbols, tags in NeoVim
-  use 'liuchengxu/vista.vim'
+	-- ALE (Asynchronous Lint Engine) is a plugin providing linting (syntax
+	-- checking and semantic errors) in NeooVim while you edit your text files,
+	-- and acts as a Vim Language Server Protocol client.
+	use 'dense-analysis/ale'
+	--  Modifies Vim’s indentation behavior to comply with PEP8 and my aesthetic preferences.
+	use 'Vimjas/vim-python-pep8-indent'
+	-- Python: provides text objects and motions for Python classes, methods,
+	-- functions and doc strings
+	use 'jeetsukumaran/vim-pythonsense'
+	-- View and search LSP symbols, tags in NeoVim
+	use 'liuchengxu/vista.vim'
 
 	-- HTML
 	---------------------------------------------------------------
-  -- Auto change html tags
-  use 'AndrewRadev/tagalong.vim'
-  --use 'alvan/vim-closetag'
-  use 'windwp/nvim-ts-autotag'
-  -- provides support for expanding abbreviations similar to emmet
-  -- use 'mattn/emmet-vim'
-  use 'aca/emmet-ls'
+	-- Auto change html tags
+	use 'AndrewRadev/tagalong.vim'
+	--use 'alvan/vim-closetag'
+	use 'windwp/nvim-ts-autotag'
+	-- provides support for expanding abbreviations similar to emmet
+	-- use 'mattn/emmet-vim'
+	use 'aca/emmet-ls'
 
-  -- ===========================================================
-  -- Git Tools
-  -- ===========================================================
-  -- Add git related info in the signs columns and popups
-  use { 'lewis6991/gitsigns.nvim', requires = { 'nvim-lua/plenary.nvim' } }
-  -- Git commands in nvim
-  use 'tpope/vim-fugitive'
-  -- Fugitive-companion to interact with github
-  use 'tpope/vim-rhubarb'
-  -- A work-in-progress Magit clone for Neovim that is geared toward the Vim philosophy.
-  use { 'TimUntersberger/neogit', requires = 'nvim-lua/plenary.nvim' }
-  -- for creating gist
-  use 'mattn/webapi-vim'
-  use 'mattn/vim-gist'
+	-- ===========================================================
+	-- Git Tools
+	-- ===========================================================
+	-- Add git related info in the signs columns and popups
+	use { 'lewis6991/gitsigns.nvim', requires = { 'nvim-lua/plenary.nvim' } }
+	-- Git commands in nvim
+	use 'tpope/vim-fugitive'
+	-- Fugitive-companion to interact with github
+	use 'tpope/vim-rhubarb'
+	-- A work-in-progress Magit clone for Neovim that is geared toward the Vim philosophy.
+	use { 'TimUntersberger/neogit', requires = 'nvim-lua/plenary.nvim' }
+	-- for creating gist
+	use 'mattn/webapi-vim'
+	use 'mattn/vim-gist'
 
-  -- ===========================================================
-  -- User Interface
-  -- ===========================================================
-  -- Status Line
-  -- use 'itchyny/lightline.vim' -- Fancier statusline
+	-- ===========================================================
+	-- User Interface
+	-- ===========================================================
+	-- Status Line
+	-- use 'itchyny/lightline.vim' -- Fancier statusline
 	use {
 		'nvim-lualine/lualine.nvim',
 		requires = {'kyazdani42/nvim-web-devicons', opt = true}
@@ -145,32 +145,32 @@ require('packer').startup(function()
 			'kyazdani42/nvim-web-devicons'
 		}
 	}
-  -- Screnn Navigation
-  -- use 'glepnir/dashboard-nvim'
-  use 'liuchengxu/vim-which-key'
+	-- Screnn Navigation
+	-- use 'glepnir/dashboard-nvim'
+	use 'liuchengxu/vim-which-key'
 
-  -- ===========================================================
-  -- Misc.
-  -- ===========================================================
-  -- Automatic tags management
-  use 'ludovicchabant/vim-gutentags'
-  -- Terminal
-  use 'voldikss/vim-floaterm'
-  -- highlight your todo comments in different styles
-  use 'folke/todo-comments.nvim'
-  -- Live server
-  use 'turbio/bracey.vim'
-  -- Markdown preview
-  use 'instant-markdown/vim-instant-markdown'
-  -- PlantUML
-  use 'weirongxu/plantuml-previewer.vim'
-  use 'tyru/open-browser.vim'
-  -- PlantUML syntax highlighting
-  use 'aklt/plantuml-syntax'
+	-- ===========================================================
+	-- Misc.
+	-- ===========================================================
+	-- Automatic tags management
+	use 'ludovicchabant/vim-gutentags'
+	-- Terminal
+	use 'voldikss/vim-floaterm'
+	-- highlight your todo comments in different styles
+	use 'folke/todo-comments.nvim'
+	-- Live server
+	use 'turbio/bracey.vim'
+	-- Markdown preview
+	use 'instant-markdown/vim-instant-markdown'
+	-- PlantUML
+	use 'weirongxu/plantuml-previewer.vim'
+	use 'tyru/open-browser.vim'
+	-- PlantUML syntax highlighting
+	use 'aklt/plantuml-syntax'
 
-  -- Automatically set up your configuration after cloning packer.nvim
-  -- Put this at the end after all plugins
-  if packer_bootstrap then
-    require('packer').sync()
-  end
+	-- Automatically set up your configuration after cloning packer.nvim
+	-- Put this at the end after all plugins
+	if packer_bootstrap then
+	  require('packer').sync()
+	end
 end)

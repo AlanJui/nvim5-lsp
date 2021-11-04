@@ -6,11 +6,10 @@ local PYENV_ROOT_PATH = USER_HOME_PATH .. '/.pyenv'
 local PYENV_GLOBAL_PATH = PYENV_ROOT_PATH .. '/versions/venv-397'
 local PYTHON_BINARY = PYENV_GLOBAL_PATH .. '/bin/python3'
 
-local g = vim.g -- a table to access global variables
-g.python3_host_prog = PYTHON_BINARY
-g.loaded_python_provider = 0
-g.loaded_ruby_provider = 0
-g.loaded_perl_provider = 0
+vim.g.python3_host_prog = PYTHON_BINARY
+vim.g.loaded_python_provider = 0
+vim.g.loaded_ruby_provider = 0
+vim.g.loaded_perl_provider = 0
 
 -- =======================================================================
 -- Plugins

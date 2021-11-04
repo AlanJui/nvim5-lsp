@@ -9,15 +9,6 @@
 		"scope": "source.python",
     "description": "宣告類別"
   },
-	"myDefStr": {
-		"prefix": "mydefstr",
-		"body": [
-			"def __str__(self):",
-			"\t\"\"\" Returns a sting representation of a message. \"\"\"",
-			"\treturn $1"
-		],
-		"description": "表述類別的描述文字"
-	},
   "#!": {
     "prefix": "#!",
     "body": "#!/usr/bin/env python\n$0",
