@@ -3,7 +3,7 @@
 -- =======================================================================
 local USER_HOME_PATH = os.getenv('HOME')
 local PYENV_ROOT_PATH = USER_HOME_PATH .. '/.pyenv'
-local PYENV_GLOBAL_PATH = PYENV_ROOT_PATH .. '/versions/venv-397'
+local PYENV_GLOBAL_PATH = PYENV_ROOT_PATH .. '/versions/venv-nvim'
 local PYTHON_BINARY = PYENV_GLOBAL_PATH .. '/bin/python3'
 
 vim.g.python3_host_prog = PYTHON_BINARY
