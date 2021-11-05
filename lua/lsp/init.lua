@@ -1,74 +1,40 @@
 -- =======================================================================
 -- Language Server Configuration
 -- =======================================================================
-local system_name
-if vim.fn.has("mac") == 1 then
-  system_name = "macOS"
-elseif vim.fn.has("unix") == 1 then
-  system_name = "Linux"
-elseif vim.fn.has('win32') == 1 then
-  system_name = "Windows"
-else
-  print("Unsupported system for sumneko")
-end
 
-
--- Setup Language Server for Lua
+-- Setup Language Server
 --------------------------------------------------------------------------
--- require('lsp.lsp-lua')
+-- Lua Language Server
+require('lsp.lsp-lua')
 
-local USER_HOME_PATH = os.getenv('HOME')
-local LUA_INSTALL_PATH = USER_HOME_PATH .. '/.local/share/nvim/lsp_servers/sumneko_lua'
-local sumneko_root_path = ''
-local sumneko_binary = ''
-
-sumneko_root_path = LUA_INSTALL_PATH .. '/extension/server/bin/' .. system_name
-sumneko_binary = sumneko_root_path .. '/lua-language-server'
-
-local lspconfig = require('lspconfig')
-local runtime_path = vim.split(package.path, ';')
-table.insert(runtime_path, "lua/?.lua")
-table.insert(runtime_path, "lua/?/init.lua")
-
-lspconfig.sumneko_lua.setup({
-    cmd = {sumneko_binary, "-E", sumneko_root_path .. "/main.lua"},
-    settings = {
-        Lua = {
-            runtime = {
-                -- Tell the language server which version of Lua you're using (most likely LuaJIT in the case of Neovim)
-                version = 'LuaJIT',
-                -- Setup your lua path
-                path = runtime_path,
-            },
-            diagnostics = {
-                -- Get the language server to recognize the `vim` global
-                globals = {'vim'},
-            },
-            workspace = {
-                -- Make the server aware of Neovim runtime files
-        		library = vim.api.nvim_get_runtime_file("", true),
-			},
-			-- Do not send telemetry data containing a randomized but unique identifier
-			telemetry = {
-			  enable = false,
-			},
-        },
+-- HTML Language Server
+local capabilities = vim.lsp.protocol.make_client_capabilities()
+capabilities.textDocument.completion.completionItem.snippetSupport = true
+require'lspconfig'.html.setup({
+    cmd = { "vscode-html-language-server", "--stdio" },
+	filetypes = {
+		"html",
+		"htmldjango",
+		"css",
+	},
+    init_options = {
+      configurationSection = { "html", "htmldjango", "css", "javascript" },
+      embeddedLanguages = {
+        css = true,
+        javascript = true
+      },
     },
+	--     root_dir = function(fname)
+	--   return util.root_pattern('package.json', '.git')(fname) or util.path.dirname(fname)
+	-- end,
+	capabilities = capabilities,
+    settings = {}
 })
 
--- TypeScript
--- require('lsp.lsp-typescript')
-
--- Python
--- require('lsp.lsp-python')
-
--- Diagnostic Language Server
--- require('lsp.diagnostic-language-server')
-
--- Snippets
+-- Snippets Engine
 --------------------------------------------------------------------------
--- require('lsp.snippets.LuaSnip')
-require('lsp.snippets.vim-vsnip')
+-- require('lsp.LuaSnip')
+require('lsp.vim-vsnip')
 
 -- UI Tools
 --------------------------------------------------------------------------

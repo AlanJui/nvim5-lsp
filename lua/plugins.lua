@@ -27,13 +27,15 @@ require('packer').startup(function()
 	-- Neovim Language Server Protocol
 	---------------------------------------------------------------
 	-- Collection of configurations for built-in LSP client
-	use 'neovim/nvim-lspconfig'
-	use 'williamboman/nvim-lsp-installer'
-	use 'onsails/lspkind-nvim'
+	use {
+		'neovim/nvim-lspconfig',
+		'williamboman/nvim-lsp-installer',
+	}
 	use {
 		'creativenull/diagnosticls-configs-nvim',
 		requires = { 'neovim/nvim-lspconfig'}
 	}
+	use 'onsails/lspkind-nvim'
 	-- use 'onsails/diaglist.nvim'
 	-- LSP UI Tools
 	use 'glepnir/lspsaga.nvim'
