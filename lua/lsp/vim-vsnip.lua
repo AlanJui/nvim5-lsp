@@ -1,5 +1,5 @@
 -- nvim-cmp
-local nvim_lsp = require('lspconfig')
+local lspcofnig = require('lspconfig')
 local cmp = require('cmp')
 local lspkind = require('lspkind')
 
@@ -18,19 +18,19 @@ cmp.setup {
 	},
 
 	snippet = {
-  	expand = function(args)
+		expand = function(args)
 			-- You must install `vim-vsnip` if you use the following as-is.
 			vim.fn['vsnip#anonymous'](args.body)
 		end,
 	},
 
 	mapping = {
-  	['<C-p>'] = cmp.mapping.select_prev_item(),
-  	['<C-n>'] = cmp.mapping.select_next_item(),
-  	['<C-d>'] = cmp.mapping.scroll_docs(-4),
-  	['<C-f>'] = cmp.mapping.scroll_docs(4),
-  	['<C-y>'] = cmp.mapping.complete(),
-  	['<C-e>'] = cmp.mapping.close(),
+		['<C-p>'] = cmp.mapping.select_prev_item(),
+		['<C-n>'] = cmp.mapping.select_next_item(),
+		['<C-d>'] = cmp.mapping.scroll_docs(-4),
+		['<C-f>'] = cmp.mapping.scroll_docs(4),
+		['<C-y>'] = cmp.mapping.complete(),
+		['<C-e>'] = cmp.mapping.close(),
 		['<CR>']  = cmp.mapping.confirm({ select = true }),
 		['<Tab>'] = cmp.mapping(function(fallback)
 			if cmp.visible() then
@@ -58,29 +58,29 @@ cmp.setup {
 
 	-- You should specify your *installed* sources.
 	sources = {
-		{ name = 'nvim_lsp' },
+		{ name = 'lspcofnig' },
 
 		-- For vsnip user
 		{ name = 'vsnip' },
 
-    { name = 'buffer ' },
+	    { name = 'buffer ' },
 	},
 }
 
 -- Setup lspconfig
 -- require('lspconfig')['pyright'].setup {
--- 	capabilities = require('cmp_nvim_lsp').update_capabilities(
+-- 	capabilities = require('cmp_lspcofnig').update_capabilities(
 -- 		vim.lsp.protocol.make_client_capabilities()
 -- 	)
 -- }
-local servers = { 'clangd', 'rust_analyzer', 'pyright', 'tsserver' }
-for _, lsp in ipairs(servers) do
-  nvim_lsp[lsp].setup {
-		capabilities = require('cmp_nvim_lsp').update_capabilities(
-			vim.lsp.protocol.make_client_capabilities()
-		)
-  }
-end
+-- local servers = { 'clangd', 'rust_analyzer', 'pyright', 'tsserver' }
+-- for _, lsp in ipairs(servers) do
+-- 	lspcofnig[lsp].setup({
+-- 		capabilities = require('cmp_lspcofnig').update_capabilities(
+-- 			vim.lsp.protocol.make_client_capabilities()
+-- 		)
+-- 	})
+-- end
 
 -- vim.g.vsnip_snippet_dir = "./my-snippets"
 -- vim.g.vsnip_snippet_dir = "~/.config/nvim/my-snippets"
@@ -95,13 +95,3 @@ vim.cmd([[
 	let g:vsnip_filetypes.javascriptreact = ['javascript']
 	let g:vsnip_filetypes.typescriptreact = ['typescript']
 ]])
-
--- vim.cmd([[
--- autocmd FileType lua lua require'cmp'.setup.buffer {
--- \ 	sources = {
--- \			{ name = 'buffer' },
--- \			{ name = 'nvim_lua' },
--- \		},
--- \}
--- ]])
-
