@@ -1,7 +1,10 @@
 -- nvim-cmp
-local lspcofnig = require('lspconfig')
+local lspconfig = require('lspconfig')
 local cmp = require('cmp')
 local lspkind = require('lspkind')
+local capabilities = vim.lsp.protocol.make_client_capabilities()
+capabilities = require('cmp_nvim_lsp').update_capabilities(capabilities)
+capabilities.textDocument.completion.completionItem.snippetSupport = true
 
 local has_words_before = function ()
 	local line, col = unpack(vim.api.nvim_win_get_cursor(0))
@@ -69,16 +72,12 @@ cmp.setup {
 
 -- Setup lspconfig
 -- require('lspconfig')['pyright'].setup {
--- 	capabilities = require('cmp_lspcofnig').update_capabilities(
--- 		vim.lsp.protocol.make_client_capabilities()
--- 	)
+-- 	capabilities = capabilities,
 -- }
 -- local servers = { 'clangd', 'rust_analyzer', 'pyright', 'tsserver' }
 -- for _, lsp in ipairs(servers) do
--- 	lspcofnig[lsp].setup({
--- 		capabilities = require('cmp_lspcofnig').update_capabilities(
--- 			vim.lsp.protocol.make_client_capabilities()
--- 		)
+-- 	lspconfig[lsp].setup({
+-- 		capabilities = capabilities,
 -- 	})
 -- end
 

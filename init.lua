@@ -49,3 +49,6 @@ vim.cmd([[ set number relativenumber ]])
 vim.opt.textwidth=0
 vim.opt.wrapmargin=0
 vim.wo.wrap = false
+function name()
+	-- code
+end

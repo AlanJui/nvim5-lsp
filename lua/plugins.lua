@@ -40,19 +40,20 @@ require('packer').startup(function()
 	-- LSP UI Tools
 	use 'glepnir/lspsaga.nvim'
 	-- Autocompletion plugin
-	use 'hrsh7th/nvim-cmp'
-	use 'hrsh7th/cmp-buffer'
 	use 'hrsh7th/cmp-nvim-lsp'
+	use 'hrsh7th/cmp-buffer'
+	use 'hrsh7th/cmp-path'
+	use 'hrsh7th/cmp-cmdline'
+	use 'hrsh7th/nvim-cmp'
 
-	-- Snippets
-	use 'rafamadriz/friendly-snippets'
+	-- Snippet for vim-vsnip
+	use 'hrsh7th/cmp-vsnip'
+	use 'hrsh7th/vim-vsnip'
 	-- Snippet for LuaSnip
 	use 'L3MON4D3/LuaSnip'
 	use 'saadparwaiz1/cmp_luasnip'
-	-- Snippet for vim-vsnip
-	use 'hrsh7th/vim-vsnip'
-	use 'hrsh7th/vim-vsnip-integ'
-	use 'hrsh7th/cmp-vsnip'
+	-- Snippets
+	use 'rafamadriz/friendly-snippets'
 
 	-- Editting Tools
 	---------------------------------------------------------------
