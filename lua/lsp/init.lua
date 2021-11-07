@@ -262,6 +262,13 @@ lsp_installer.on_server_ready(function (server)
 	server:setup(server_opts[server.name] and server_opts[server.name]() or default_opts)
 	vim.cmd([[
 		" do User LspAttachBuffers
+		let g:vsnip_snippet_dirs = [ '~/.config/nvim/my-snippets', '~/.local/share/nvim/site/pack/packer/start/friendly-snippets' ]
+
+		let g:vsnip_filetypes = {}
+		let g:vsnip_filetypes.html = ['htmldjango']
+		let g:vsnip_filetypes.htmldjango = ['html']
+		let g:vsnip_filetypes.javascriptreact = ['javascript']
+		let g:vsnip_filetypes.typescriptreact = ['typescript']
 	]])
 end)
 
