@@ -5,19 +5,44 @@
 -- | A | B | C                             X | Y | Z |
 -- +-------------------------------------------------+
 
+local function diff_source()
+	local gitsigns = vim.b.gitsigns_status_dict
+	if gitsigns then
+		return {
+			added    = gitsigns.added,
+			modified = gitsigns.changed,
+			removed  = gitsigns.removed
+		}
+	end
+end
+
 require('lualine').setup({
 	-- options = { theme = 'jellybeans' }
   options = {
     icons_enabled = true,
-		theme = 'material',
+	theme = 'material',
     -- section_separators = {'', ''},
     -- component_separators = {'', ''},
-    -- disabled_filetypes = {}
+	-- fmt = string.lower,
+ 	disabled_filetypes = { },
   },
   sections = {
-    lualine_a = {'mode'},
-    lualine_b = {'branch'},
-    lualine_c = {'filename'},
+    lualine_a = {
+		'mode',
+		-- fmt = function (str)
+		-- 	return str:sub(1,1)
+		-- end
+	},
+    lualine_b = {
+		'branch',
+	},
+    lualine_c = {
+		'filename',
+		{
+			'diff',
+			source = diff_source
+		},
+	},
     lualine_x = {
       {
 				'diagnostics',
@@ -70,4 +95,3 @@ require('lualine').setup({
 	},
   extensions = {'fugitive'}
 })
-

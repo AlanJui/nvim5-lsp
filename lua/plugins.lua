@@ -111,8 +111,8 @@ require('packer').startup(function()
 	--use 'alvan/vim-closetag'
 	use 'windwp/nvim-ts-autotag'
 	-- provides support for expanding abbreviations similar to emmet
-	-- use 'mattn/emmet-vim'
-	use 'aca/emmet-ls'
+	use 'mattn/emmet-vim'
+	-- use 'aca/emmet-ls'
 
 	-- ===========================================================
 	-- Git Tools
