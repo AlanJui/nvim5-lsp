@@ -118,7 +118,13 @@ require('packer').startup(function()
 	-- Git Tools
 	-- ===========================================================
 	-- Add git related info in the signs columns and popups
-	use { 'lewis6991/gitsigns.nvim', requires = { 'nvim-lua/plenary.nvim' } }
+	use {
+		'lewis6991/gitsigns.nvim',
+		requires = { 'nvim-lua/plenary.nvim' },
+		config = function ()
+			require('gitsigns').setup()
+		end
+	}
 	-- Git commands in nvim
 	use 'tpope/vim-fugitive'
 	-- Fugitive-companion to interact with github
