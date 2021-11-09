@@ -108,8 +108,8 @@ keymap('i', '<end>',  '<C-o>g<End>',  opts)
 
 -- Comment
 -- --------------------------------------------------------------
-keymap('n', '<C-\\>', ':CommentToggle<CR>', { noremap=true })
-keymap('v', '<C-\\>', ':CommentToggle<CR>', { noremap=true })
+keymap('n', '<C-_>', ':CommentToggle<CR>', { noremap=true })
+keymap('v', '<C-_>', ':CommentToggle<CR>', { noremap=true })
 
 -- Tab navigation
 keymap('n', '<C-S-tab>',  ':TablineBufferPrevious<CR>',  opts)
