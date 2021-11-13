@@ -1,8 +1,28 @@
 -- plugins.lua
 -- This file can be loaded by calling `lua require('plugin_name')
 local fn = vim.fn
-local install_path = fn.stdpath('data')..'/site/pack/packer/start/packer.nvim'
+-- local install_path = fn.stdpath('data')..'/site/pack/packer/start/packer.nvim'
 local packer_bootstrap
+local is_empty = require('utils.is_empty')
+local home_path = os.getenv('HOME')
+
+local my_nvim
+local nvim_config_path
+local package_root
+local compile_path
+local install_path
+
+my_nvim = os.getenv('MY_NVIM')
+if is_empty(my_nvim) then
+	my_nvim = 'nvim'
+	nvim_config_path = home_path .. '/.config/' .. my_nvim
+	package_root = home_path .. '/.local/share/' .. my_nvim .. '/site/pack'
+else
+	nvim_config_path = os.getenv('NVIM_CONFIG_DIR')
+	package_root = os.getenv('NVIM_RUNTIME_DIR') .. '/site/pack'
+end
+compile_path = nvim_config_path .. '/plugin/packer_compiled.lua'
+install_path = package_root .. '/packer/start/packer.nvim'
 
 if fn.empty(fn.glob(install_path)) > 0 then
   packer_bootstrap = fn.system({'git', 'clone', '--depth', '1', 'https://github.com/wbthomason/packer.nvim', install_path})
@@ -16,8 +36,15 @@ vim.cmd([[
   augroup end
 ]])
 
+-- Inital package root dir and compiled path
+require('packer').init({
+	package_root = package_root,
+	compile_path = compile_path,
+})
+
+-- Install Plugins
 local use = require('packer').use
-require('packer').startup(function()
+require('packer').startup({ function()
 	-- ===========================================================
 	-- Essential
 	-- ===========================================================
@@ -182,4 +209,4 @@ require('packer').startup(function()
 	if packer_bootstrap then
 	  require('packer').sync()
 	end
-end)
+end})

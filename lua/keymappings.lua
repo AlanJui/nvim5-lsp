@@ -26,31 +26,52 @@ keymap('n', '<C-q>',           ':q!<CR>', opts)
 keymap('n', '\\',              ':Explore<CR>', opts)
 keymap('n', '<LocalLeader>f',  ':!ls<CR>:e', opts)
 
+-- Cursor movement
+-- --------------------------------------------------------------
+keymap('n', '<up>',   'gk',           opts)
+keymap('n', '<down>', 'gj',           opts)
+keymap('n', '<home>', 'g<Home>',      opts)
+keymap('n', '<end>',  'g<End>',       opts)
+keymap('i', '<up>',   '<C-o>gk',      opts)
+keymap('i', '<down>', '<C-o>gj',      opts)
+keymap('i', '<home>', '<C-o>g<Home>', opts)
+keymap('i', '<end>',  '<C-o>g<End>',  opts)
+
+-- Tab navigation
+keymap('n', '<C-S-tab>',  ':TablineBufferPrevious<CR>',  opts)
+keymap('n', '<C-tab>',    ':TablineBufferNext<CR>',      opts)
+keymap('n', 'gT',  		  ':TablineBufferPrevious<CR>',  opts)
+keymap('n', 'gt',  		  ':TablineBufferNext<CR>',      opts)
+
 -- 搬移整行文字
--- keymap('n', '<A-j>', ':m .+1<CR>', { noremap=true })
--- keymap('n', '<A-k>', ':m .-2<CR>', { noremap=true })
-vim.cmd([[
-nmap <A-j> :m .+1<CR>
-nmap <A-k> :m .-2<CR>
-imap <A-j> <Esc>:m .+1<CR>
-imap <A-k> <Esc>:m .-2<CR>
-vmap <A-j> :m '>+1<CR>
-vmap <A-k> :m '<-2<CR>
-]])
+-- vim.cmd([[
+-- nmap <S-Down> :m .+1<CR>
+-- nmap <S-Up>   :m .-2<CR>
+-- imap <S-Down> <Esc>:m .+1<CR>
+-- imap <S-Up>   <Esc>:m .-2<CR>
+-- vmap <S-Down> :m '>+1<CR>
+-- vmap <S-Up>   :m '<-2<CR>
+-- ]])
+keymap('n', '<S-Down>', ':m .+1<CR>', opts)
+keymap('n', '<S-Up>',   ':m .-2<CR>', opts)
+keymap('i', '<S-Down>', '<Esc>:m .+1<CR>', opts)
+keymap('i', '<S-Up>',   '<Esc>:m .-2<CR>', opts)
+keymap('v', '<S-Down>', ":move '>+1<CR>gv-gv", opts)
+keymap('v', '<S-Up>',   ":move '<-2<CR>gv-gv", opts)
 
 --
 -- 視窗操作
 --
 
-vim.cmd([[
-nmap <C-w>-  :split<CR>
-]])
+-- 切割視窗
+keymap('n', '<C-w>-',  ':split<CR>',  opts)
+keymap('n', '<C-w>_',  ':vsplit<CR>', opts)
+keymap('n', '<C-w>|',  ':vsplit<CR>', opts)
 
 -- 視窗入焦 window Zoom-in/Zoon-out
-vim.cmd([[
-nmap <LocalLeader>wi <C-W>_ \| <c-w>\|
-nmap <LocalLeader>wo <C-W>=
-]])
+-- Window Zoom In/Out
+keymap('n', '<LocalLeader>wi', '<C-w>| <C-w>_', opts)
+keymap('n', '<LocalLeader>wo', '<C-w>=', opts)
 
 -- 視窗寬度／高度調增／減
 -- (1) 水平減小
@@ -89,33 +110,10 @@ nmap <A-m> zt
 nmap <C-m> zb
 ]])
 
--- 在 Tab 視窗移動
-vim.cmd([[
-nmap <LocalLeader>p <esc>:tabprevious<CR>
-nmap <LocalLeader>n <esc>:tabnext<CR>
-]])
-
--- Cursor movement
--- --------------------------------------------------------------
-keymap('n', '<up>',   'gk',           opts)
-keymap('n', '<down>', 'gj',           opts)
-keymap('n', '<home>', 'g<Home>',      opts)
-keymap('n', '<end>',  'g<End>',       opts)
-keymap('i', '<up>',   '<C-o>gk',      opts)
-keymap('i', '<down>', '<C-o>gj',      opts)
-keymap('i', '<home>', '<C-o>g<Home>', opts)
-keymap('i', '<end>',  '<C-o>g<End>',  opts)
-
 -- Comment
 -- --------------------------------------------------------------
 keymap('n', '<C-_>', ':CommentToggle<CR>', { noremap=true })
 keymap('v', '<C-_>', ':CommentToggle<CR>', { noremap=true })
-
--- Tab navigation
-keymap('n', '<C-S-tab>',  ':TablineBufferPrevious<CR>',  opts)
-keymap('n', '<C-tab>',  	':TablineBufferNext<CR>',      opts)
-keymap('n', 'gT',  				':TablineBufferPrevious<CR>',  opts)
-keymap('n', 'gt',  				':TablineBufferNext<CR>',      opts)
 
 -- lspsaga
 -- --------------------------------------------------------------
@@ -179,29 +177,8 @@ keymap('n', 'sw', ':HopWord<CR>',  {silent = true})
 -- Clear highlighting on escale in normal mode.
 keymap('n', '<Esc>', ':noh<CR><Esc>', {silent = true, noremap = true})
 
--- Insert mode
--- ------------------------------------------------------------------------
-
--- Call auto-complete with `<C-n>` and `<C-p>`.
-keymap('i', '<C-n>', 'compe#complete()', {noremap = true, expr = true})
-keymap('i', '<C-p>', 'compe#complete()', {noremap = true, expr = true})
-
--- Remap keys that open floaterm.
-keymap('i', '<F1>', '<ESC><F1>', {noremap = false})
-keymap('i', '<F2>', '<ESC><F2>', {noremap = false})
-keymap('i', '<F3>', '<ESC><F3>', {noremap = false})
-keymap('i', '<F4>', '<ESC><F4>', {noremap = false})
-
--- Visual mode
--- ------------------------------------------------------------------------
-
--- Move selected line / block of text in visual mode
-keymap('x', '<S-Up>',   ':move \'<-2<CR>gv-gv', {noremap = true, silent = true})
-keymap('x', '<S-Down>', ':move \'>+1<CR>gv-gv', {noremap = true, silent = true})
-
 -- Terminal mode
 -- ------------------------------------------------------------------------
-
 keymap('t', '<Esc>', '<C-\\><C-n>', {noremap = true, silent = true})
 
 -- WhichKey

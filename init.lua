@@ -42,10 +42,20 @@ vim.o.termguicolors = true
 vim.cmd([[ run time ./colors/NeoSolarized.vim ]])
 -- vim.cmd([[ run time ./colors/solarized_true.vim ]])
 
--- Display Line Number
-vim.cmd([[ set number relativenumber ]])
-
+-- Essential configuration on development init.lua
+-----------------------------------------------------------
+-- Display line number on side bar
+vim.wo.number = true
+vim.wo.relativenumber = true
 -- Disable line wrap
-vim.opt.textwidth=0
-vim.opt.wrapmargin=0
+vim.opt.textwidth = 0
+vim.opt.wrapmargin = 0
 vim.wo.wrap = false
+-- Tabs
+vim.bo.expandtab = true
+vim.bo.shiftwidth = 2
+vim.bo.softtabstop = 2
+vim.cmd([[ autocmd FileType lua setlocal expandtab shiftwidth=4 tabstop=4 smartindent ]])
+vim.cmd([[ autocmd BufEnter *.lua set autoindent sexpandtab hiftwidth=4 tabstop=4 ]])
+
+
