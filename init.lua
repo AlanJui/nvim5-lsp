@@ -56,6 +56,4 @@ vim.bo.expandtab = true
 vim.bo.shiftwidth = 2
 vim.bo.softtabstop = 2
 vim.cmd([[ autocmd FileType lua setlocal expandtab shiftwidth=4 tabstop=4 smartindent ]])
-vim.cmd([[ autocmd BufEnter *.lua set autoindent sexpandtab hiftwidth=4 tabstop=4 ]])
-
-
+vim.cmd([[ autocmd BufEnter *.lua set autoindent expandtab shiftwidth=4 tabstop=4 ]])
