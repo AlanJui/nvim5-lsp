@@ -44,7 +44,9 @@ require('keymappings')
 vim.o.termguicolors = true
 -- vim.cmd([[ run time ./colors/NeoSolarized.vim ]])
 -- vim.cmd([[ run time ./colors/solarized_true.vim ]])
-vim.cmd([[ colorscheme moonfly ]])
+-- vim.cmd([[ colorscheme moonfly ]])
+-- vim.cmd([[ colorscheme solarized8 ]])
+vim.cmd([[ colorscheme solarized8_flat ]])
 
 -- Essential configuration on development init.lua
 -----------------------------------------------------------
