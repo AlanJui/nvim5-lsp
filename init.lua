@@ -6,6 +6,9 @@ local PYENV_ROOT_PATH = USER_HOME_PATH .. '/.pyenv'
 local PYENV_GLOBAL_PATH = PYENV_ROOT_PATH .. '/versions/venv-nvim'
 local PYTHON_BINARY = PYENV_GLOBAL_PATH .. '/bin/python3'
 
+vim.opt.encoding = 'UTF-8'
+vim.guifont = 'DroidSansMono Nerd Font 18'
+
 vim.g.python3_host_prog = PYTHON_BINARY
 vim.g.loaded_python_provider = 0
 vim.g.loaded_ruby_provider = 0
@@ -39,8 +42,9 @@ require('keymappings')
 
 -- Themes
 vim.o.termguicolors = true
-vim.cmd([[ run time ./colors/NeoSolarized.vim ]])
+-- vim.cmd([[ run time ./colors/NeoSolarized.vim ]])
 -- vim.cmd([[ run time ./colors/solarized_true.vim ]])
+vim.cmd([[ colorscheme moonfly ]])
 
 -- Essential configuration on development init.lua
 -----------------------------------------------------------
@@ -56,6 +60,4 @@ vim.bo.expandtab = true
 vim.bo.shiftwidth = 2
 vim.bo.softtabstop = 2
 vim.cmd([[ autocmd FileType lua setlocal expandtab shiftwidth=4 tabstop=4 smartindent ]])
-vim.cmd([[ autocmd BufEnter *.lua set autoindent sexpandtab hiftwidth=4 tabstop=4 ]])
-
-
+vim.cmd([[ autocmd BufEnter *.lua set autoindent expandtab shiftwidth=4 tabstop=4 ]])
