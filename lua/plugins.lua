@@ -165,6 +165,7 @@ require('packer').startup({ function()
     -- ===========================================================
     -- User Interface
     -- ===========================================================
+
     -- Color scheme
     use {
         'bluz71/vim-moonfly-colors',
@@ -175,13 +176,13 @@ require('packer').startup({ function()
 
     -- Icon
     use { 'kyazdani42/nvim-web-devicons' }
+
     -- use {
     --     'yamatsum/nvim-web-nonicons',
     --     requires = {'kyazdani42/nvim-web-devicons'}
     -- }
 
     -- Status Line
-    -- use 'itchyny/lightline.vim' -- Fancier statusline
     use {
         'nvim-lualine/lualine.nvim',
         requires = {'kyazdani42/nvim-web-devicons', opt = true}
@@ -196,7 +197,9 @@ require('packer').startup({ function()
             'kyazdani42/nvim-web-devicons'
         }
     }
-    -- Screnn Navigation
+    -- use 'itchyny/lightline.vim' -- Fancier statusline
+
+    -- Screen Navigation
     -- use 'glepnir/dashboard-nvim'
     use 'liuchengxu/vim-which-key'
 
