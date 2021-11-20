@@ -1,8 +1,9 @@
 -- plugins.lua
 -- This file can be loaded by calling `lua require('plugin_name')
+local execute = vim.api.nvim_command
 local fn = vim.fn
+
 -- local install_path = fn.stdpath('data')..'/site/pack/packer/start/packer.nvim'
-local packer_bootstrap
 local is_empty = require('utils.is_empty')
 local home_path = os.getenv('HOME')
 
@@ -11,40 +12,49 @@ local nvim_config_path
 local package_root
 local compile_path
 local install_path
+local packer_bootstrap
 
 my_nvim = os.getenv('MY_NVIM')
 if is_empty(my_nvim) then
-    my_nvim = 'nvim'
-    nvim_config_path = home_path .. '/.config/' .. my_nvim
-    package_root = home_path .. '/.local/share/' .. my_nvim .. '/site/pack'
+  my_nvim = 'nvim'
+  package_root = home_path .. '/.local/share/' .. my_nvim .. '/site/pack'
+  nvim_config_path = home_path .. '/.config/' .. my_nvim .. '/nvim'
 else
-    nvim_config_path = os.getenv('NVIM_CONFIG_DIR')
-    package_root = os.getenv('NVIM_RUNTIME_DIR') .. '/site/pack'
+  package_root = os.getenv('NVIM_RUNTIME_DIR') .. '/site/pack'
+  nvim_config_path = os.getenv('NVIM_CONFIG_DIR')
 end
-compile_path = nvim_config_path .. '/plugin/packer_compiled.lua'
 install_path = package_root .. '/packer/start/packer.nvim'
+compile_path = nvim_config_path .. '/plugin/packer_compiled.lua'
 
+package_root = home_path .. '/.local/share/nvim/site/pack'
+install_path = home_path .. '/.local/share/nvim/site/pack/packer/start/packer.nvim'
+compile_path = home_path .. '/.config/my-nvim/nvim/plugin/packer_compiled.lua'
+
+-- ensure that packer is installed
 if fn.empty(fn.glob(install_path)) > 0 then
-    packer_bootstrap = fn.system({'git', 'clone', '--depth', '1', 'https://github.com/wbthomason/packer.nvim', install_path})
+  packer_bootstrap = fn.system({
+      'git',
+      'clone',
+      'https://github.com/wbthomason/packer.nvim',
+      install_path
+  })
+  execute 'packadd packer.nvim'
 end
-
--- Auto compile when there are changes in `plugins.lua`.
-vim.cmd([[
-augroup packer_user_config
-autocmd!
-autocmd BufWritePost plugins.lua source <afile> | PackerCompile
-augroup end
-]])
 
 -- Inital package root dir and compiled path
 require('packer').init({
-    package_root = package_root,
-    compile_path = compile_path,
+  package_root = package_root,
+  compile_path = compile_path,
 })
 
+Compile_path = compile_path
+Package_root = package_root
+Install_path = install_path
+Packer_bootstrap = packer_bootstrap
+
 -- Install Plugins
-local use = require('packer').use
-require('packer').startup({ function()
+return require('packer').startup({
+  function(use)
     -- ===========================================================
     -- Essential
     -- ===========================================================
@@ -55,12 +65,12 @@ require('packer').startup({ function()
     ---------------------------------------------------------------
     -- Collection of configurations for built-in LSP client
     use {
-        'neovim/nvim-lspconfig',
-        'williamboman/nvim-lsp-installer',
+      'neovim/nvim-lspconfig',
+      'williamboman/nvim-lsp-installer',
     }
     use {
-        'creativenull/diagnosticls-configs-nvim',
-        requires = { 'neovim/nvim-lspconfig'}
+      'creativenull/diagnosticls-configs-nvim',
+      requires = { 'neovim/nvim-lspconfig'}
     }
     use 'onsails/lspkind-nvim'
     -- use 'onsails/diaglist.nvim'
@@ -107,14 +117,14 @@ require('packer').startup({ function()
     ---------------------------------------------------------------
     -- Fuzzy file finder
     use {
-        'nvim-telescope/telescope.nvim',
-        requires = { {'nvim-lua/plenary.nvim'} }
+      'nvim-telescope/telescope.nvim',
+      requires = { {'nvim-lua/plenary.nvim'} }
     }
     -- File/Flolders explorer:nvim-tree
     use {
-        'kyazdani42/nvim-tree.lua',
-        requires = 'kyazdani42/nvim-web-devicons',
-        config = function() require'nvim-tree'.setup {} end
+      'kyazdani42/nvim-tree.lua',
+      requires = 'kyazdani42/nvim-web-devicons',
+      config = function() require'nvim-tree'.setup {} end
     }
 
     -- Python
@@ -146,11 +156,11 @@ require('packer').startup({ function()
     -- ===========================================================
     -- Add git related info in the signs columns and popups
     use {
-        'lewis6991/gitsigns.nvim',
-        requires = { 'nvim-lua/plenary.nvim' },
-        config = function ()
-            require('gitsigns').setup()
-        end
+      'lewis6991/gitsigns.nvim',
+      requires = { 'nvim-lua/plenary.nvim' },
+      config = function ()
+        require('gitsigns').setup()
+      end
     }
     -- Git commands in nvim
     use 'tpope/vim-fugitive'
@@ -168,10 +178,10 @@ require('packer').startup({ function()
 
     -- Color scheme
     use {
-        'bluz71/vim-moonfly-colors',
-        -- config = function ()
-        --     vim.cmd [[ colorscheme moonfly ]]
-        -- end
+      'bluz71/vim-moonfly-colors',
+      -- config = function ()
+      --     vim.cmd [[ colorscheme moonfly ]]
+      -- end
     }
 
     -- Icon
@@ -184,18 +194,18 @@ require('packer').startup({ function()
 
     -- Status Line
     use {
-        'nvim-lualine/lualine.nvim',
-        requires = {'kyazdani42/nvim-web-devicons', opt = true}
+      'nvim-lualine/lualine.nvim',
+      requires = {'kyazdani42/nvim-web-devicons', opt = true}
     }
     use {
-        'kdheepak/tabline.nvim',
-        config = function ()
-            require('tabline').setup({ enable = false })
-        end,
-        require = {
-            'hoob3rt/lualine.nvim',
-            'kyazdani42/nvim-web-devicons'
-        }
+      'kdheepak/tabline.nvim',
+      config = function ()
+        require('tabline').setup({ enable = false })
+      end,
+      require = {
+        'hoob3rt/lualine.nvim',
+        'kyazdani42/nvim-web-devicons'
+      }
     }
     -- use 'itchyny/lightline.vim' -- Fancier statusline
 
@@ -225,6 +235,22 @@ require('packer').startup({ function()
     -- Automatically set up your configuration after cloning packer.nvim
     -- Put this at the end after all plugins
     if packer_bootstrap then
-        require('packer').sync()
+      require('packer').sync()
     end
-end})
+  end,
+
+  config = {
+    -- Move to lua dir so impatient.nvim can cache it
+    -- compile_path = fn.stdpath('config') .. '/plugin/packer_compiled.lua'
+    compile_path = compile_path,
+  }
+})
+
+-- -- Auto compile when there are changes in `plugins.lua`.
+-- vim.cmd([[
+-- augroup packer_user_config
+-- autocmd!
+-- autocmd BufWritePost plugins.lua source <afile> | PackerCompile
+-- augroup end
+-- ]])
+
